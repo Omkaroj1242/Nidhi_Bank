@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="container mx-auto min-h-screen flex lg:justify-center md:items-center lg:flex-row flex-col">
+      <div className="container mx-auto flex lg:justify-center md:items-center lg:flex-row flex-col mb-16">
         <div className="lg:w-1/2">
           <div  className="pt-6">
             <h1 className="md:text-4xl px-2 text-xl font-myFont text-blue-600 mb-4">
@@ -34,6 +34,7 @@ const Hero = () => {
           <img src="/Svg/bank.svg" alt="bank" />
         </div>
       </div>
+      <hr className="border-indigo-200" />
     </>
   );
 };
