@@ -18,11 +18,12 @@ export default function Example() {
     <Disclosure as="nav" className="bg-white">
       {({ open }) => (
         <>
-          <div className="container mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="w-full bg-blue-500 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-blue-400 hover:text-blue-400 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -34,9 +35,15 @@ export default function Example() {
 
             {/* Laptop Navbar */}
               
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center md:w-1/2">
-                  <h1 className="hidden lg:block w-auto text-blue-600 text-xl font-bold font-myFont">Manmandir</h1>
+              <div className="flex-1 flex items-center justify-center">
+              
+                <div className="flex-shrink-0 flex items-center">
+                <img
+                className="block h-8 w-auto text-center"
+                src="/Images/bank.jpeg"
+                alt="Workflow"
+              />
+                  <h1 className="lg:block w-auto text-center text-black text-xl font-bold font-myFont">Manmandir</h1>
                 </div>
                 <div className="hidden lg:block sm:ml-6">
                   <div className="flex mx-4 space-x-4">
@@ -46,8 +53,8 @@ export default function Example() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-white text-base text-blue-400"
-                            : "text-blue-400 hover:bg-gray-300 hover:text-black",
+                            ? "bg-white text-base text-blue-700"
+                            : "text-blue-700 hover:bg-gray-300 hover:text-black",
                           "px-3 py-2 rounded-md text-base font-myFont"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -70,8 +77,8 @@ export default function Example() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-gray-500 text-black"
-                      : "text-blue-400 hover:bg-gray-5  00 hover:text-gray-600",
+                      ? "bg-blue-700-700 text-blue-700"
+                      : "text-blue-700 hover:bg-gray-5  00 hover:text-gray-600",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}

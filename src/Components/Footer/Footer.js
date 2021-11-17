@@ -7,15 +7,15 @@ const Footer = () => {
           <div class="container mx-auto px-4">
             <div class="flex flex-wrap text-left lg:text-left">
               <div class="w-full lg:w-6/12 px-4">
-                <h4 class="text-3xl fonat-semibold text-blue-700">Let's keep in touch!</h4>
-                <h5 class="text-lg mt-0 mb-2 text-blue-600">
+                <h4 class="text-3xl fonat-semibold text-blue-400">Let's keep in touch!</h4>
+                <h5 class="text-lg mt-0 mb-2 text-blue-700">
                   Find us on any of these platforms, we respond 1-2 business days.
                 </h5>
               </div>
               <div class="w-full lg:w-6/12 px-4">
                 <div class="flex flex-wrap items-top mb-6">
                   <div class="w-full lg:w-4/12 px-4 ml-auto">
-                    <span class="block uppercase text-blue-500 text-sm font-semibold mb-2">Useful Links</span>
+                    <span class="block uppercase text-blue-400 text-sm font-semibold mb-2">Useful Links</span>
                     <ul class="list-unstyled">
                       <li>
                         <a class="text-blue-600 hover:text-blue-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
@@ -29,7 +29,7 @@ const Footer = () => {
                     </ul>
                   </div>
                   <div class="w-full lg:w-4/12 px-4">
-                    <span class="block uppercase text-blue-500 text-sm font-semibold mb-2">Other Resources</span>
+                    <span class="block uppercase text-blue-400 text-sm font-semibold mb-2">Other Resources</span>
                     <ul class="list-unstyled">
                       <li>
                         <a class="text-blue-600 hover:text-blue-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>

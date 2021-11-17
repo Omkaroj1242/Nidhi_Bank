@@ -3,8 +3,8 @@ import React from "react";
 const Blog = () => {
   return (
     <div>
-      <section class="text-indigo-600 body-font py-4 my-8">
-      <h1 className="text-center text-6xl font-myFont">Our Latest Articles</h1>
+      <section class="text-blue-400 body-font py-4 my-8">
+      <h1 className="text-center text-6xl font-myFont text-blue-400">Our Latest Articles</h1>
         <div class="container px-5 py-12 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="p-4 md:w-1/3">
@@ -15,13 +15,13 @@ const Blog = () => {
                   alt="blog"
                 />
                 <div class="p-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-blue-700 mb-1">
                     CATEGORY
                   </h2>
-                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h1 class="title-font text-lg font-medium text-blue-700 mb-3">
                     The Catalyzer
                   </h1>
-                  <p class="leading-relaxed mb-3">
+                  <p class="leading-relaxed mb-3 text-blue-700">
                     Photo booth fam kinfolk cold-pressed sriracha leggings
                     jianbing microdosing tousled waistcoat.
                   </p>
@@ -82,13 +82,13 @@ const Blog = () => {
                   alt="blog"
                 />
                 <div class="p-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-blue-700 mb-1">
                     CATEGORY
                   </h2>
-                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h1 class="title-font text-lg font-medium text-blue-700 mb-3">
                     The 400 Blows
                   </h1>
-                  <p class="leading-relaxed mb-3">
+                  <p class="leading-relaxed mb-3 text-blue-700">
                     Photo booth fam kinfolk cold-pressed sriracha leggings
                     jianbing microdosing tousled waistcoat.
                   </p>
@@ -149,13 +149,13 @@ const Blog = () => {
                   alt="blog"
                 />
                 <div class="p-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-blue-700 mb-1">
                     CATEGORY
                   </h2>
-                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h1 class="title-font text-lg font-medium text-blue-700 mb-3">
                     Shooting Stars
                   </h1>
-                  <p class="leading-relaxed mb-3">
+                  <p class="leading-relaxed mb-3 text-blue-700">
                     Photo booth fam kinfolk cold-pressed sriracha leggings
                     jianbing microdosing tousled waistcoat.
                   </p>

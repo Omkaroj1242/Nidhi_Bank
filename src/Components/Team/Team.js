@@ -4,10 +4,10 @@ const Team = () => {
   return (
     <div>
       <div class="p-8 bg-white dark:bg-gray-800 rounded-lg shadow py-4 my-8">
-        <p class="text-center text-3xl font-bold text-indigo-600 dark:text-white">
+        <p class="text-center text-3xl font-bold text-blue-400">
           Professional team
         </p>
-        <p class="text-center mb-12 text-xl font-normal text-indigo-400 dark:text-gray-200">
+        <p class="text-center mb-12 text-xl font-normal text-blue-700">
           Meat the best team in wolrd
         </p>
         <div class="flex items-center flex-col md:flex-row justify-evenly">
@@ -28,12 +28,12 @@ const Team = () => {
               <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
                 Managing Director
               </p>
-              <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
+              <p class="text-md text-blue-500 max-w-xs py-4 font-light">
                 Patrick Sébastien, born November 14, 1953 in Brive-la-Gaillarde,
                 is an imitator.
               </p>
             </div>
-            <div class="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
+            <div class="pt-8 flex border-t border-gray-200 w-44 mx-auto text-blue-700 items-center justify-between">
               <a href="#">
                 <svg
                   width="30"
@@ -87,12 +87,12 @@ const Team = () => {
               <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
                 CEO
               </p>
-              <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
+              <p class="text-md text-blue-500 max-w-xs py-4 font-light">
                 Jean Castux is an imitator, humorist, actor, born November 14,
                 1953 in Pontivy.
               </p>
             </div>
-            <div class="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
+            <div class="pt-8 flex border-t border-gray-200 w-44 mx-auto text-blue-700 items-center justify-between">
               <a href="#">
                 <svg
                   width="30"
@@ -148,12 +148,12 @@ const Team = () => {
               <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
                 Manager
               </p>
-              <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
+              <p class="text-md text-blue-500 max-w-xs py-4 font-light">
                 Thierry Halliday, born November 4, 1993 in Saint hilaire de
                 riez, is css specialist.
               </p>
             </div>
-            <div class="pt-8 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-between">
+            <div class="pt-8 flex border-t border-gray-200 w-44 mx-auto text-blue-700 items-center justify-between">
               <a href="#">
                 <svg
                   width="30"
