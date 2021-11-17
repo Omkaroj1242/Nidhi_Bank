@@ -20,13 +20,13 @@ const Hero = () => {
           <div className="pt-10">
             <a
               href="#"
-              className="py-4 md:px-6 px-4 md:mx-4 mx-2 bg-blue-600 rounded-full font-myFont text-blue-300 hover:bg-blue-300 hover:text-blue-700 hover:border-black border transition-all"
+              className="py-4 md:px-6 px-4 md:mx-4 mx-2 bg-blue-500 rounded-full font-myFont text-blue-300 hover:bg-blue-300 hover:text-blue-700 hover:border-black border transition-all"
             >
               Open Account
             </a>
             <a
               href="#"
-              className="py-4 md:px-6 px-4 mx-2 bg-white border border-black rounded-full font-myFont text-blue-700 hover:bg-blue-600 hover:text-blue-300 hover:border-white transition"
+              className="py-4 md:px-6 px-4 mx-2 bg-white border border-black rounded-full font-myFont text-blue-700 hover:bg-blue-500 hover:text-blue-300 hover:border-white transition"
             >
               Get in touch
             </a>

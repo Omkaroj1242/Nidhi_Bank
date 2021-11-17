@@ -6,18 +6,18 @@ const Features = () => {
             
 <section>
 <div class="container max-w-7xl mx-auto mb-4 p-4 sm:p-6 lg:p-8 bg-white dark:bg-gray-800 my-8">
-        <h1 className="text-blue-400 font-myFont text-5xl text-center py-8">Financial Planning</h1>
+        <h1 className="text-blue-600 font-myFont text-5xl text-center py-8">Financial Planning</h1>
     <div class="flex flex-wrap -mx-8">
         <div class="w-full lg:w-1/2 px-8">
             <div class="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-                <h2 class="mb-4 text-3xl lg:text-5xl font-myFont text-blue-600">
+                <h2 class="mb-4 text-3xl lg:text-5xl font-myFont text-blue-400">
                 Let's plan your finances the right way
                 </h2>
                 <p class="mb-8 leading-loose text-blue-700 dark:text-gray-300">
                 Lending that doesn't weigh you down.We know how hard is it to start something new, that’s why we have the perfect plan for you.
                 </p>
                 <div class="w-full md:w-1/3">
-                    <button type="button" class="py-2 px-4 text-blue-300 bg-blue-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                    <button type="button" class="py-2 px-4 text-blue-300 bg-blue-500 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                         See more
                     </button>
                 </div>

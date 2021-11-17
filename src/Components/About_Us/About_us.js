@@ -11,7 +11,7 @@ const About_us = () => {
           <div className="w-1/2 mb-6">
               <a href="#" class="block">
                 <div class="shadow-lg rounded-xl md:w-1/2 mx-auto p-4 overflow-hidden">
-                  <p class="text-2xl text-center font-light py-4">
+                  <p class="text-2xl text-blue-400 text-center font-light py-4">
                     Bank Progress
                   </p>
                   <hr className="opacity-10 mb-4" />
@@ -47,7 +47,7 @@ const About_us = () => {
               </a>
           </div>
           <div className="md:w-1/2">
-          <h1 className="text-4xl mb-4 font-myFont px-4">Doing the right thing, at the right time.</h1>
+          <h1 className="text-4xl mb-4 font-myFont px-4 text-blue-400">Doing the right thing, at the right time.</h1>
             <p className="text-light text-sm font-myFont px-4">
               Welcome to the leading company on the market! Our success is
               driven by the highest quality customer service. We can meet the

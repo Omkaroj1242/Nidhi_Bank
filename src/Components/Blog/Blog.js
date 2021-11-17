@@ -3,8 +3,8 @@ import React from "react";
 const Blog = () => {
   return (
     <div>
-      <section class="text-blue-400 body-font py-4 my-8">
-      <h1 className="text-center text-6xl font-myFont text-blue-400">Our Latest Articles</h1>
+      <section class="text-blue-500 body-font py-4 my-8">
+      <h1 className="text-center text-6xl font-myFont text-blue-600">Our Latest Articles</h1>
         <div class="container px-5 py-12 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="p-4 md:w-1/3">
