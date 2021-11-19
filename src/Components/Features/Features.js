@@ -75,7 +75,7 @@ const Features = () => {
     </div>
 </div>
 </section>
-        <hr className="border-indigo-200" />
+        <hr />
         </div>
     )
 }
