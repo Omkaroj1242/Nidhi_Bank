@@ -2,8 +2,8 @@ import React from "react";
 
 const Team = () => {
   return (
-    <div>
-      <div class="p-8 bg-white dark:bg-gray-800 rounded-lg shadow py-4 my-8">
+    <div className="bg-blue-500 mb-8">
+      <div class="bg-white shadow py-4 my-8">
         <p class="text-center text-3xl font-bold text-blue-600">
           Professional team
         </p>
@@ -11,7 +11,7 @@ const Team = () => {
           Meat the best team in wolrd
         </p>
         <div class="flex items-center flex-col md:flex-row justify-evenly">
-          <div class="p-4">
+          <div class="p-4 shadow text-blue-300 rounded-lg mb-4">
             <div class="text-center mb-4 opacity-90">
               <a href="#" class="block relative">
                 <img
@@ -25,10 +25,10 @@ const Team = () => {
               <p class="text-2xl text-black dark:text-white">
                 Patrick Sebastien
               </p>
-              <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
+              <p class="text-xl text-blue-500 font-myFont">
                 Managing Director
               </p>
-              <p class="text-md text-blue-500 max-w-xs py-4 font-light">
+              <p class="text-md text-blue-700 max-w-xs py-4 font-myFont">
                 Patrick Sébastien, born November 14, 1953 in Brive-la-Gaillarde,
                 is an imitator.
               </p>
@@ -72,7 +72,7 @@ const Team = () => {
               </a>
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-4 shadow text-blue-300 rounded-lg mb-4">
             <div class="text-center mb-4 opacity-90">
               <a href="#" class="block relative">
                 <img
@@ -84,10 +84,10 @@ const Team = () => {
             </div>
             <div class="text-center">
               <p class="text-2xl text-black dark:text-white">Jean Castux</p>
-              <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
+              <p class="text-xl text-blue-500 font-myFont">
                 CEO
               </p>
-              <p class="text-md text-blue-500 max-w-xs py-4 font-light">
+              <p class="text-md text-blue-700 max-w-xs py-4 font-myFont">
                 Jean Castux is an imitator, humorist, actor, born November 14,
                 1953 in Pontivy.
               </p>
@@ -131,7 +131,7 @@ const Team = () => {
               </a>
             </div>
           </div>
-          <div class="p-4">
+          <div class="p-4 shadow text-blue-300 rounded-lg mb-4">
             <div class="text-center mb-4 opacity-90">
               <a href="#" class="block relative">
                 <img
@@ -145,10 +145,10 @@ const Team = () => {
               <p class="text-2xl text-black dark:text-white">
                 Thierry Halliday
               </p>
-              <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
+              <p class="text-xl text-blue-500 font-myFont">
                 Manager
               </p>
-              <p class="text-md text-blue-500 max-w-xs py-4 font-light">
+              <p class="text-md text-blue-700 max-w-xs py-4 font-myFont">
                 Thierry Halliday, born November 4, 1993 in Saint hilaire de
                 riez, is css specialist.
               </p>

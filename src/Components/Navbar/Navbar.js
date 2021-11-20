@@ -5,7 +5,8 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 const navigation = [
   { name: "About Us", href: "#", current: false },
   { name: "Services", href: "#", current: false },
-  { name: "Testimonials", href: "#", current: false },
+  { name: "Invest", href: "#", current: false },
+  { name: "FAQ", href: "#", current: false },
   { name: "Contact Us", href: "#", current: false },
 ];
 
@@ -53,26 +54,29 @@ export default function Example() {
                 </div>
                 <div className="hidden lg:block sm:ml-6">
                   <div className="flex mx-4 space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "bg-white text-base text-blue-700"
-                            : "text-blue-700 hover:bg-gray-300 hover:text-black",
-                          "px-3 py-2 rounded-md text-base font-myFont"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
+                  <ul className="flex">
+                  <li className="mx-3 my_li">
+                  <a href="">About Us</a>
+                  </li>
+                  <li className="mx-3 my_li">
+                  <a href="">Service</a>
+                  </li>
+                  <li className="mx-3 my_li">
+                  <a href="">Invest</a>
+                  </li>
+                  <li className="mx-3 my_li">
+                  <a href="">FAQ</a>
+                  </li>
+                  <li className="mx-3 my_li">
+                  <a href="">Contact Us</a>
+                  </li>
+                  </ul>
+                    
                   </div>
                 </div>
               </div>
               <div className="hidden lg:block">
-              <h1>8974562241</h1></div>
+              <h1 className="my_h1">8974562241</h1></div>
             </div>
           </div>
 

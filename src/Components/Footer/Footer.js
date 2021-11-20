@@ -45,10 +45,9 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <hr class="my-6 border-blue-300" />
             <div class="flex flex-wrap items-center md:justify-between justify-center">
-              <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-                <div class="text-sm text-blue-500 font-semibold py-1">
+              <div class="w-full md:w-4/12 mx-auto text-center">
+                <div class="text-sm text-blue-500 font-semibold mb-10">
                   Copyright © <span id="get-current-year">2021</span><a href="https://www.creative-tim.com/product/notus-js" class="text-blue-500 hover:text-gray-800" target="_blank" /> 5TechG by
                   <a href="https://www.creative-tim.com?ref=njs-profile" class="text-blue-500 hover:text-blue-800"> Creative Teams</a>.
                 </div>
