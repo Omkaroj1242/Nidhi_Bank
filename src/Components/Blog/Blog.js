@@ -211,7 +211,6 @@ const Blog = () => {
           </div>
         </div>
       </section>
-      <hr />
     </div>
   );
 };

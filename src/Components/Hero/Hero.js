@@ -36,7 +36,6 @@ const Hero = () => {
           <img src="/Svg/bank1.svg" alt="bank" />
         </div>
       </div>
-      <hr className="border-indigo-200" />
     </>
   );
 };

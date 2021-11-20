@@ -30,7 +30,6 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <hr className="border-indigo-200" />
     </div>
   );
 };

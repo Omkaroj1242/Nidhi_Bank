@@ -59,7 +59,6 @@ const About_us = () => {
           </div>
         </div>
       </div>
-      <hr />
     </>
   );
 };

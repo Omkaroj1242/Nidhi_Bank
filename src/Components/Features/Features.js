@@ -75,7 +75,6 @@ const Features = () => {
     </div>
 </div>
 </section>
-        <hr />
         </div>
     )
 }
