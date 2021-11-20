@@ -20,6 +20,12 @@ export default function Example() {
         <>
           <div className="w-full bg-blue-500 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
+            <div>
+            <img
+                className="hidden lg:block h-8 w-auto text-center"
+                src="/Images/bank.jpeg"
+                alt="Workflow"
+              /></div>
               <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -39,7 +45,7 @@ export default function Example() {
               
                 <div className="flex-shrink-0 flex items-center">
                 <img
-                className="block h-8 w-auto text-center"
+                className="lg:hidden block h-8 w-auto text-center"
                 src="/Images/bank.jpeg"
                 alt="Workflow"
               />
@@ -65,6 +71,8 @@ export default function Example() {
                   </div>
                 </div>
               </div>
+              <div className="hidden lg:block">
+              <h1>8974562241</h1></div>
             </div>
           </div>
 
