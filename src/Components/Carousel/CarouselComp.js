@@ -1,9 +1,11 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 const CarouselComp = () => {
   return (
-    <div>
+    <div className="py-10 bg-gray-300">
     <Carousel>
   <Carousel.Item className="w-full">
     <img
@@ -45,4 +47,4 @@ const CarouselComp = () => {
   )
 }
 
-export default CarouselComp
+export default CarouselComp;

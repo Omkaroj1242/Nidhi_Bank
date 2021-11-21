@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 const Contact = () => {
   return (
     <div className="min-h-screen">
-      <h1 className="text-center text-5xl my-10 text-blue-600">Contact Us</h1>
+      <h1 className="text-center text-5xl my-2 text-blue-600">Contact Us</h1>
       <div className="container flex flex-col md:flex-row mx-auto p-5 w-full border-2 border-blue-300 shadow mb-8">
         <div className="md:w-1/2 w-full mb-8">
           <iframe

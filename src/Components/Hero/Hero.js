@@ -1,4 +1,10 @@
 import React from "react";
+import CarouselComp from "../Carousel/CarouselComp";
+import Features from "../Features/Features";
+import Testimonials from "../Testimonials/Testimonials";
+import Team from "../Team/Team";
+import Footer from "../Footer/Footer";
+
 
 const Hero = () => {
   return (
@@ -26,7 +32,7 @@ const Hero = () => {
             </a>
             <a
               href="#"
-              className="py-4 md:px-6 px-4 mx-2 bg-white border border-black rounded-full font-myFont text-blue-700 hover:bg-blue-500 hover:text-blue-300 hover:border-white transition"
+              className="py-4 md:px-6 px-4 md:mx-4 mx-2 bg-blue-300 rounded-full font-myFont text-blue-700 hover:bg-blue-500 hover:text-blue-300 hover:border-black border transition-all"
             >
               Get in touch
             </a>
@@ -36,6 +42,11 @@ const Hero = () => {
           <img src="/Svg/bank1.svg" alt="bank" />
         </div>
       </div>
+      <CarouselComp />
+      <Features />
+      <Testimonials />
+      <Team />
+      <Footer />
     </>
   );
 };

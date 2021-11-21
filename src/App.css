@@ -37,3 +37,9 @@ a:hover {
   height: 400px;
   width: 100%;
 }
+
+.my_nav {
+  width: 100%;
+  background-color: #a2d2ff;
+  color: black;
+}
