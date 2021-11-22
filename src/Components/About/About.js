@@ -5,11 +5,11 @@ const About_us = () => {
   return (
     <div>
       <div className=" bg-blue-800 py-10">
-      <Carousel className="container mx-auto my-10 mb-12">
+      <Carousel className="my-10 mb-12">
   <Carousel.Item className="w-full ">
     <img
-      className="flex justify-center items-center mx-auto"
-      src="https://dummyimage.com/600x400/000/fff"
+      className="flex justify-center items-center mx-auto my_bg"
+      src="https://dummyimage.com/1800x600/000/fff"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -19,8 +19,8 @@ const About_us = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="flex justify-center items-center mx-auto"
-      src="https://dummyimage.com/600x400/000/fff"
+      className="flex justify-center items-center mx-auto my_bg"
+      src="https://dummyimage.com/1800x600/000/fff"
       alt="Second slide"
     />
 
@@ -31,8 +31,8 @@ const About_us = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="flex justify-center items-center mx-auto"
-      src="https://dummyimage.com/600x400/000/fff"
+      className="flex justify-center items-center mx-auto my_bg"
+      src="https://dummyimage.com/1800x600/000/fff"
       alt="Third slide"
     />
 
@@ -130,7 +130,70 @@ const About_us = () => {
     </div>
 </div>
 </div>
-
+<div class="bg-blue-800 shadow py-4 my-8 ">
+<p class="text-center text-3xl font-bold text-blue-600 py-6">
+  Founding Member
+</p>
+<div class="flex flex-col md:flex-row justify-evenly">
+  <div class="bg-white p-5 shadow text-blue-300 rounded-lg mb-4">
+    <div class="text-center mb-4 opacity-90">
+      <a href="#" class="block relative">
+        <img
+          alt="profile"
+          src="https://picsum.photos/200"
+          class="mx-auto object-cover rounded-full h-40 w-40 "
+        />
+      </a>
+    </div>
+    <div class="text-center">
+      <p class="text-2xl text-black">
+        Patrick Sebastien
+      </p>
+      <p class="text-xl text-blue-500 font-myFont">
+        Managing<br />Director
+      </p>
+    </div>
+    
+  </div>
+  <div class="bg-white p-5 shadow text-blue-300 rounded-lg mb-4">
+    <div class="text-center mb-4 opacity-90">
+      <a href="#" class="block relative">
+        <img
+          alt="profile"
+          src="https://picsum.photos/200"
+          class="mx-auto object-cover rounded-full h-40 w-40 "
+        />
+      </a>
+    </div>
+    <div class="text-center">
+      <p class="text-2xl text-black">Jean Castux</p>
+      <p class="text-xl text-blue-500 font-myFont">
+        CEO
+      </p>
+    </div>
+    
+  </div>
+  <div class="bg-white p-5 shadow text-blue-300 rounded-lg mb-4">
+    <div class="text-center mb-4 opacity-90">
+      <a href="#" class="block relative">
+        <img
+          alt="profile"
+          src="https://picsum.photos/200"
+          class="mx-auto object-cover rounded-full h-40 w-40 "
+        />
+      </a>
+    </div>
+    <div class="text-center">
+      <p class="text-2xl text-black">
+        Thierry Halliday
+      </p>
+      <p class="text-xl text-blue-500 font-myFont">
+        Manager
+      </p>
+    </div>
+  </div>
+</div>
+</div>
     </div>
     </div>
   );

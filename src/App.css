@@ -43,3 +43,8 @@ a:hover {
   background-color: #a2d2ff;
   color: black;
 }
+
+.my_bg {
+  width: 1800px;
+  height: 600px;
+}

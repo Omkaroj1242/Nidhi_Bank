@@ -9,8 +9,8 @@ const CarouselComp = () => {
     <Carousel>
   <Carousel.Item className="w-full">
     <img
-      className="flex justify-center items-center mx-auto"
-      src="https://dummyimage.com/600x400/000/fff"
+      className="flex justify-center items-center mx-auto my_bg"
+      src="https://dummyimage.com/1800x600/000/fff"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -20,8 +20,8 @@ const CarouselComp = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="flex justify-center items-center mx-auto"
-      src="https://dummyimage.com/600x400/000/fff"
+      className="flex justify-center items-center mx-auto my_bg"
+      src="https://dummyimage.com/1800x600/000/fff"
       alt="Second slide"
     />
 
@@ -32,8 +32,8 @@ const CarouselComp = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="flex justify-center items-center mx-auto"
-      src="https://dummyimage.com/600x400/000/fff"
+      className="flex justify-center items-center mx-auto my_bg"
+      src="https://dummyimage.com/1800x600/000/fff"
       alt="Third slide"
     />
 
