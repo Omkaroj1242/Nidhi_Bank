@@ -2,7 +2,7 @@
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Link } from "react-router-dom";
-
+import { FaPhoneAlt } from "react-icons/fa";
 
 export default function Example() {
   return (
@@ -68,8 +68,9 @@ export default function Example() {
                   </div>
                 </div>
               </div>
+              <FaPhoneAlt />
               <div className="hidden lg:block">
-                <h1 className="my_h1">8974562241</h1>
+               <h1 className="my_h1 px-2">8974562241</h1>
               </div>
             </div>
           </div>
@@ -77,25 +78,25 @@ export default function Example() {
           <Disclosure.Panel className="lg:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-blue-500 text-center">
               <Disclosure.Button>
-              <div className="flex">
-                    <ul className="flex-col">
-                      <li className="my_li">
-                        <Link to="/about">About Us</Link>
-                      </li>
-                      <li className="my_li">
-                        <Link to="/service">Service</Link>
-                      </li>
-                      <li className="my_li">
-                        <Link to="/invest">Invest</Link>
-                      </li>
-                      <li className="my_li">
-                        <Link to="/faq">FAQ</Link>
-                      </li>
-                      <li className="my_li">
-                        <Link to="/contact">Contact Us</Link>
-                      </li>
-                    </ul>
-                  </div>
+                <div className="flex">
+                  <ul className="flex-col">
+                    <li className="my_li">
+                      <Link to="/about">About Us</Link>
+                    </li>
+                    <li className="my_li">
+                      <Link to="/service">Service</Link>
+                    </li>
+                    <li className="my_li">
+                      <Link to="/invest">Invest</Link>
+                    </li>
+                    <li className="my_li">
+                      <Link to="/faq">FAQ</Link>
+                    </li>
+                    <li className="my_li">
+                      <Link to="/contact">Contact Us</Link>
+                    </li>
+                  </ul>
+                </div>
               </Disclosure.Button>
             </div>
           </Disclosure.Panel>
