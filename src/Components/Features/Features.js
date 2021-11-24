@@ -1,82 +1,86 @@
-import React from 'react'
+import React from "react";
 
 const Features = () => {
-    return (
-        <div>
-            
-<section>
-<div class="container max-w-7xl mx-auto mb-4 p-4 sm:p-6 lg:p-8 bg-white dark:bg-gray-800 my-8">
-        <h1 className="text-blue-600 font-myFont text-5xl text-center py-8">Financial Planning</h1>
-    <div class="flex flex-wrap -mx-8">
-        <div class="w-full lg:w-1/2 px-8">
-            <div class="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-                <h2 class="mb-4 text-3xl lg:text-5xl font-myFont text-blue-400">
-                Let's plan your finances the right way
-                </h2>
-                <p class="mb-8 leading-loose text-blue-700 dark:text-gray-300">
-                Lending that doesn't weigh you down.We know how hard is it to start something new, that’s why we have the perfect plan for you.
-                </p>
-                <div class="w-full md:w-1/3">
-                    <button type="button" class="py-2 px-4 text-blue-300 bg-blue-500 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                        See more
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="w-full lg:w-1/2 px-8">
-            <ul class="space-y-12">
-                <li class="flex -mx-4">
-                    <div class="px-4">
-                        <span class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-700">
-                            1
-                        </span>
-                    </div>
-                    <div class="px-4">
-                        <h3 class="my-4 text-xl font-semibold text-blue-400">
-                            Home Loans
-                        </h3>
-                        <p class="text-gray-500 dark:text-gray-300 leading-loose">
-                            All elements are responsive and provide the best display in all screen size. It&#x27;s magic !
-                        </p>
-                    </div>
-                </li>
-                <li class="flex -mx-4">
-                    <div class="px-4">
-                        <span class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-700">
-                            2
-                        </span>
-                    </div>
-                    <div class="px-4">
-                        <h3 class="my-4 text-xl font-semibold text-blue-400">
-                            Car Loans
-                        </h3>
-                        <p class="text-gray-500 dark:text-gray-300 leading-loose">
-                            Flexibility is the key. All team is available 24/24 and joinable every day on our hotline.
-                        </p>
-                    </div>
-                </li>
-                <li class="flex -mx-4">
-                    <div class="px-4">
-                        <span class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-700">
-                            3
-                        </span>
-                    </div>
-                    <div class="px-4">
-                        <h3 class="my-4 text-xl font-semibold text-blue-400">
-                            Education Loans
-                        </h3>
-                        <p class="text-gray-500 dark:text-gray-300 leading-loose">
-                            Our Software are ecologic and responsable. Green is not just a color, it&#x27;s a way of life.
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-</section>
-        </div>
-    )
-}
+  const bankFeatures = [
+    {
+      id: 1,
+      feature: "Deposit Insurance Cover",
+      desc: "Encompassing today’s website design technology to integrated and build solutions relevant to your business.",
+    },
+    {
+      id: 2,
+      feature: " Core Banking Facility",
+      desc: "Encompassing today’s website design technology to integrated and build solutions relevant to your business.",
+    },
+    {
+      id: 3,
+      feature: "RTGF And NEFT Facility",
+      desc: "Encompassing today’s website design technology to integrated and build solutions relevant to your business.",
+    },
+    {
+        id: 4,
+        feature: "SMS Facility",
+        desc: "Encompassing today’s website design technology to integrated and build solutions relevant to your business.",
+      },
+      {
+        id: 5,
+        feature: "CTS Clearing",
+        desc: "Encompassing today’s website design technology to integrated and build solutions relevant to your business.",
+      },
+      {
+        id: 6,
+        feature: "Bank's Own Data Center DR Site",
+        desc: "Encompassing today’s website design technology to integrated and build solutions relevant to your business.",
+      },
+      {
+        id: 7,
+        feature: "APBS & DBTL Service ATM Card Facility",
+        desc: "Encompassing today’s website design technology to integrated and build solutions relevant to your business.",
+      },
+      {
+        id: 8,
+        feature: "0.50% extra interest rate on Senior Citizen Deposits",
+        desc: "Encompassing today’s website design technology to integrated and build solutions relevant to your business.",
+      },
+      {
+        id: 9,
+        feature: "Facility to pay monthly quarterly interest on the deposit",
+        desc: "Encompassing today’s website design technology to integrated and build solutions relevant to your business.",
+      },
+      {
+        id: 10,
+        feature: "Attractive interest rates on deposit loans",
+        desc: "Encompassing today’s website design technology to integrated and build solutions relevant to your business.",
+      },
+      {
+        id: 10,
+        feature: "Locker facility in all branches",
+        desc: "Encompassing today’s website design technology to integrated and build solutions relevant to your business.",
+      },
+  ];
 
-export default Features
+  return (
+    <div className="my-8">
+      <h1 className="text-blue-600 text-center text-6xl">Features</h1>
+      <div className="sm:flex flex-wrap justify-center items-center text-center gap-8">
+        {bankFeatures.map((data, id) => {
+          return (
+            <div
+              key={id}
+              className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800"
+            >
+              <h3 className="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
+                {data.feature}
+              </h3>
+              <p className="text-md  text-gray-500 dark:text-gray-300 py-4">
+                {data.desc}
+              </p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default Features;
