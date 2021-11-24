@@ -97,17 +97,17 @@ const Branch = () => {
             className="card_wrapper w-full py-4 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 bg-blue-500 mt-6 border-border1  shadow-md rounded-lg"
           >
           <div>
-          <h1 className="text-blue-700 text-center">
+          <h1 className="text-blue-700 text-4xl text-center">
             {data.branchName}
           </h1>
           <hr className="text-white" />
-          <p className="text-black font-myFont text-center mx-4">
+          <p className="text-black text-base font-myFont text-center mx-4">
             {data.address}
           </p>
           <hr className="text-white" />
         </div>
-        <div class="text-center sm:py-3">
-          <p class="text-base text-black font-myFont mb-2">
+        <div class="text-center  sm:py-3">
+          <p class="text-lg text-black font-myFont mb-2">
             Phone NO :-
           </p>
           <p class="text-base text-black font-myFont font-normal">
@@ -117,9 +117,9 @@ const Branch = () => {
           <hr className="text-white" />
         </div>
         <div>
-          <p className="text-black font-myFont">IFSC Code : - {data.IFSCode}</p>
+          <p className="text-black text-lg font-myFont">IFSC Code : - {data.IFSCode}</p>
           <hr className="text-white" />
-          <p className="text-black font-myFont">MICR Code : - {data.MICRCode}</p>
+          <p className="text-black text-lg font-myFont">MICR Code : - {data.MICRCode}</p>
         </div>
           </div>
         );
