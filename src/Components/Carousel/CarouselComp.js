@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const CarouselComp = () => {
   return (
-    <div className="py-10 bg-gray-300">
+    <div>
     <Carousel>
   <Carousel.Item className="w-full">
     <img

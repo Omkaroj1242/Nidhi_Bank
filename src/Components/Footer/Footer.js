@@ -14,7 +14,7 @@ const Footer = () => {
               </div>
               <div class="w-full lg:w-6/12 px-4">
                 <div class="flex flex-wrap items-top mb-6">
-                  <div class="w-full lg:w-4/12 px-4 ml-auto">
+                  <div class="w-1/2 lg:w-4/12 px-4 ml-auto">
                     <span class="block uppercase text-blue-400 text-sm font-semibold mb-2">Useful Links</span>
                     <ul class="list-unstyled">
                       <li>
@@ -28,7 +28,7 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                  <div class="w-full lg:w-4/12 px-4">
+                  <div class="w-1/2 lg:w-4/12 px-4">
                     <span class="block uppercase text-blue-400 text-sm font-semibold mb-2">Other Resources</span>
                     <ul class="list-unstyled">
                       <li>

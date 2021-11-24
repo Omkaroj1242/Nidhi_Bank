@@ -45,6 +45,10 @@ a:hover {
 }
 
 .my_bg {
-  width: 1800px;
+  width: 2200px;
   height: 600px;
+}
+
+.card_wrapper {
+  height: 450px;
 }

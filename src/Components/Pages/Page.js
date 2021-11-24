@@ -6,6 +6,8 @@ import Blog from "../Blog/Blog";
 import About from "../About/About";
 import Faq from "../Faq/Faq";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer"
+import Plan from "../Plan/Plan";
 
 const Page = () => {
   return (
@@ -20,6 +22,7 @@ const Page = () => {
           <Route path="/service" element={<Blog />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/plan" element={<Plan />} />
         </Routes>
         
       </Router>

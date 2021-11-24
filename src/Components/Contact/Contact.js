@@ -2,12 +2,13 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { FaHome } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div className="min-h-screen">
-      <h1 className="text-center text-5xl my-2 text-blue-600">Contact Us</h1>
-      <div className="container flex flex-col md:flex-row mx-auto p-5 w-full border-2 border-blue-300 shadow mb-8">
+      <h1 className="text-center text-5xl my-2 font-myFont text-blue-400">Contact Us</h1>
+      <div className="container flex flex-col md:flex-row mx-auto p-5 w-full border-2 border-blue-300 shadow mb-8 text-justify">
         <div className="md:w-1/2 w-full mb-8">
           <iframe
             className="my_map"
@@ -15,34 +16,34 @@ const Contact = () => {
           ></iframe>
         </div>
         <div className="md:w-1/2 w-full">
-          <h1 className="text-center font-myFont mb-8">Get In Touch</h1>
-          <p className="mx-4 text-blue-200">
+          <h1 className="text-center text-blue-500 font-myFont mb-8">Get In Touch</h1>
+          <p className="mx-4 text-blue-700">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Accusantium voluptas nihil libero quo consequatur dolores fuga
             suscipit, tempore odit dignissimos!
           </p>
-          <p className="mx-4 text-blue-200">
+          <p className="mx-4 text-blue-700 inline-block">
             742 Evergreen Terrace,
             <br />
             Spingfield, Mumbai -12345.
           </p>
-          <p className="mx-4 text-blue-200">
+          <p className="mx-4 text-blue-700">
             Mon To Fri,
             <br />
             10Am - 5Pm.
           </p>
-          <p className="mx-4 text-blue-200">+92158563314</p>
-          <p className="mx-4 text-blue-200">support@123gmail.com</p>
+          <p className="mx-4 text-blue-700">+92158563314</p>
+          <p className="mx-4 text-blue-700">support@123gmail.com</p>
         </div>
       </div>
       <div className="w-full container mx-auto">
-        <h1 className="text-blue-600 font-myFont">Write To Us...</h1>
+        <h1 className="text-blue-400 font-myFont">Write To Us...</h1>
         <div>
           <Form>
             <Form>
               <Row className="mb-4">
                 <Col>
-                  <Form.Control type="text" placeholder="First name" />
+                  <Form.Control type="text" placeholder="Full name" />
                 </Col>
                 <Col>
                   <Form.Control type="number" placeholder="Phone No." />

@@ -4,7 +4,7 @@ const Team = () => {
   return (
     <div className="bg-blue-500 mb-8">
       <div class="bg-white shadow py-4 my-8">
-        <p class="text-center text-3xl font-bold text-blue-600">
+        <p class="text-center text-6xl font-bold text-blue-400">
           Professional team
         </p>
         <p class="text-center mb-12 text-xl font-normal text-blue-700">
