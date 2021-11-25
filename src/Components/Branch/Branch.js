@@ -88,7 +88,7 @@ const Branch = () => {
   return (
     <div>
     <div className="my-8 mb-10">
-    <h1 className="text-blue-400 text-center text-6xl">Our Branches Across Cities</h1>
+    <h1 className="text-blue-400 text-center text-6xl py-8">Our Branches Across Cities</h1>
     <div className="sm:flex flex-wrap justify-center items-center text-center mx-4 gap-8">
       {bankData.map((data, id) => {
         return (

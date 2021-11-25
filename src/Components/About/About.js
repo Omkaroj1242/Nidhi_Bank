@@ -4,8 +4,8 @@ import Carousel from "react-bootstrap/Carousel";
 const About = () => {
   return (
     <div>
-      <div className="">
-        <Carousel className="mb-12">
+      <div>
+        <Carousel >
           <Carousel.Item className="w-full ">
             <img
               className="flex justify-center items-center mx-auto my_bg"
@@ -46,8 +46,8 @@ const About = () => {
         </Carousel>
       </div>
 
-      <div className="History ">
-        <h1 className="text-center text-6xl text-blue-400 pt-10">History</h1>
+      <div className="History bg-gray-200">
+        <h1 className="text-center md:text-6xl text-4xl font-myFont text-blue-400 pt-10">History</h1>
 
         <div className="max-w-screen-xl p-4  mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
           <div className="relative">
@@ -241,7 +241,7 @@ const About = () => {
         <div>
           <div classNameName="mb-8">
             <div className="bg-white shadow py-4 my-8">
-              <p className="text-center text-6xl font-bold text-blue-400 my-12">
+              <p className="text-center md:text-6xl text-4xl font-bold text-blue-400 my-12 font-myFont">
                 Existing Board Of Directors
               </p>
               {/* 2 Cards In A Row */}

@@ -4,7 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 const Faq = () => {
   return (
     <div>
-      <div className="container mx-auto my-10 mb-32">
+      <div className="container mx-auto my-10 mb-40">
       <h1 className="text-center py-10 text-blue-600">Frequently Asked Questions...?</h1>
         <Accordion defaultActiveKey="0" className="w-10/12 mx-auto">
           <Accordion.Item eventKey="0">

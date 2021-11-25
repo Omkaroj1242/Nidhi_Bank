@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="bg-blue-500 pb-8">
+    <div className="bg-gray-100 pb-8">
     <div className="container mx-auto pt-8">
     <h1 className="text-6xl font-myFont text-center text-blue-400 my-8">Testimonials</h1>
     <div className="flex md:flex-row flex-col">
@@ -12,11 +12,11 @@ const Testimonials = () => {
           class="mx-auto mb-4 object-cover rounded-lg h-40 w-40"
           alt="profile"
         />
-        <p class="my_p mx-3 py-8 text-center text-white">
-          <span class="font-bold text-white">“</span>
+        <p class="my_p mx-3 py-8 text-center text-black">
+          <span class="font-bold text-black">“</span>
           To get social media testimonials like these, keep your customers
           engaged with your social media accounts by posting regularly yourself
-          <span class="font-bold text-white">”</span>
+          <span class="font-bold text-black">”</span>
         </p>
         <div class="flex items-center justify-center">
           <div class="flex ml-2 items-center justify-center text-blue-700">
@@ -32,11 +32,11 @@ const Testimonials = () => {
           class="mx-auto object-cover mb-4 rounded-lg h-40 w-40"
           alt="profile"
         />
-        <p class="my_p mx-3 py-8 text-center text-white">
-          <span class="font-bold text-white">“</span>
+        <p class="my_p mx-3 py-8 text-center text-black">
+          <span class="font-bold text-black">“</span>
           To get social media testimonials like these, keep your customers
           engaged with your social media accounts by posting regularly yourself
-          <span class="font-bold text-white">”</span>
+          <span class="font-bold text-black">”</span>
         </p>
         <div class="flex items-center justify-center mt-4">
           <div class="flex ml-2 items-center justify-center text-blue-700">
@@ -52,11 +52,11 @@ const Testimonials = () => {
           class="mx-auto mb-4 object-cover rounded-lg h-40 w-40"
           alt="profile"
         />
-        <p class="my_p mx-3 py-8 text-center text-white">
-          <span class="font-bold text-white">“</span>
+        <p class="my_p mx-3 py-8 text-center text-black">
+          <span class="font-bold text-black">“</span>
           To get social media testimonials like these, keep your customers
           engaged with your social media accounts by posting regularly yourself
-          <span class="font-bold text-white">”</span>
+          <span class="font-bold text-black">”</span>
         </p>
         <div class="flex items-center justify-center mt-8">
           <div class="flex ml-2 items-center justify-center text-blue-700">

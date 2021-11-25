@@ -3,9 +3,9 @@ import React from 'react'
 const Plan = () => {
     return (
         <div className="py-10 min-h-screen">
-        <h1 className="text-5xl font-myFont text-center text-blue-400 mb-8">Various Deposit Schemes Of The Bank</h1>
-        <div className="container mb-10">
-        <h1 className="text-center text-blue-500 text-3xl mb-4">Attractive interest rates on deposits</h1>
+        <h1 className="md:text-6xl text-4xl font-myFont text-center text-blue-400 mb-8">Various Deposit Schemes Of The Bank</h1>
+        <div className="container mb-10 text-center">
+        <h1 className="text-center text-blue-500 text-4xl mb-4 font-myFont">Attractive interest rates on deposits</h1>
         <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
         
         <thead>
@@ -60,8 +60,8 @@ const Plan = () => {
       </table>
       </div>
       <div className="container mx-auto w-full flex">
-      <div className="w-1/2 mx-4">
-      <h1 className="text-lg text-center text-blue-500">Manmandir Deposit Scheme (Term 5 Years)</h1>
+      <div className="w-1/2 mx-4 text-center">
+      <h1 className="text-3xl text-center text-blue-500 py-6 font-myFont">Manmandir Deposit Scheme <br/> (Term 5 Years)</h1>
       <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
       <thead>
         <tr>
@@ -119,9 +119,9 @@ const Plan = () => {
       </tbody>
     </table>
       </div>
-      <div className="w-1/2 mx-4">
-      <h1 className="text-lg text-center text-blue-500">Manmandir Recurring Deposit Scheme</h1>
-      <p className="text-center text-blue-500">Lakhpati Yojana (Term 5 Years)</p>
+      <div className="w-1/2 mx-4 text-center">
+      <h1 className="text-3xl text-center text-blue-500 font-myFont py-4">Manmandir Recurring Deposit Scheme</h1>
+      <p className="text-center text-2xl text-blue-500 font-myFont">Lakhpati Yojana (Term 5 Years)</p>
       <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
         <thead>
           <tr>
