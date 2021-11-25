@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-const About_us = () => {
+const About = () => {
   return (
     <div>
       <div className="">
@@ -49,27 +49,27 @@ const About_us = () => {
       <div className="History ">
         <h1 className="text-center text-6xl text-blue-400 pt-10">History</h1>
 
-        <div class="max-w-screen-xl p-4  mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
-          <div class="relative">
-            <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
-              <div class="lg:col-start-2 lg:max-w-2xl ml-auto">
-                <p class="text-base leading-6 font-semibold uppercase">
+        <div className="max-w-screen-xl p-4  mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
+          <div className="relative">
+            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+              <div className="lg:col-start-2 lg:max-w-2xl ml-auto">
+                <p className="text-base leading-6 font-semibold uppercase">
                   Interactive
                 </p>
-                <h4 class="mt-2 text-2xl leading-8 font-myFont text-blue-600 sm:text-3xl sm:leading-9">
+                <h4 className="mt-2 text-2xl leading-8 font-myFont text-blue-600 sm:text-3xl sm:leading-9">
                   Interactivity between team members is the key of the success.
                 </h4>
-                <p class="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
+                <p className="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
                   Build a simply and powered collaborative space for all your
                   team. Track, share, measure, you have a fully control,
                   it&#x27;s never be simply and efficient.
                 </p>
-                <ul class="mt-8 md:grid md:grid-cols-2 gap-6">
-                  <li class="mt-6 lg:mt-0">
-                    <div class="flex">
-                      <span class="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
+                <ul className="mt-8 md:grid md:grid-cols-2 gap-6">
+                  <li className="mt-6 lg:mt-0">
+                    <div className="flex">
+                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
                         <svg
-                          class="h-4 w-4"
+                          className="h-4 w-4"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -80,16 +80,16 @@ const About_us = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span class="ml-4 text-base leading-6 font-medium text-blue-700">
+                      <span className="ml-4 text-base leading-6 font-medium text-blue-700">
                         Live modifications
                       </span>
                     </div>
                   </li>
-                  <li class="mt-6 lg:mt-0">
-                    <div class="flex">
-                      <span class="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
+                  <li className="mt-6 lg:mt-0">
+                    <div className="flex">
+                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
                         <svg
-                          class="h-4 w-4"
+                          className="h-4 w-4"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -100,16 +100,16 @@ const About_us = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span class="ml-4 text-base leading-6 font-medium text-blue-700">
+                      <span className="ml-4 text-base leading-6 font-medium text-blue-700">
                         Data tracker
                       </span>
                     </div>
                   </li>
-                  <li class="mt-6 lg:mt-0">
-                    <div class="flex">
-                      <span class="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
+                  <li className="mt-6 lg:mt-0">
+                    <div className="flex">
+                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
                         <svg
-                          class="h-4 w-4"
+                          className="h-4 w-4"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -120,16 +120,16 @@ const About_us = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span class="ml-4 text-base leading-6 font-medium text-blue-700">
+                      <span className="ml-4 text-base leading-6 font-medium text-blue-700">
                         24/24 support
                       </span>
                     </div>
                   </li>
-                  <li class="mt-6 lg:mt-0">
-                    <div class="flex">
-                      <span class="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
+                  <li className="mt-6 lg:mt-0">
+                    <div className="flex">
+                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
                         <svg
-                          class="h-4 w-4"
+                          className="h-4 w-4"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -140,38 +140,38 @@ const About_us = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span class="ml-4 text-base leading-6 font-medium text-blue-700">
+                      <span className="ml-4 text-base leading-6 font-medium text-blue-700">
                         Free tips to improve work time
                       </span>
                     </div>
                   </li>
                 </ul>
               </div>
-              <div class="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
-                <div class="relative space-y-4">
-                  <div class="flex items-end justify-center lg:justify-start space-x-4">
+              <div className="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
+                <div className="relative space-y-4">
+                  <div className="flex items-end justify-center lg:justify-start space-x-4">
                     <img
-                      class="rounded-lg shadow-lg w-32 md:w-56"
+                      className="rounded-lg shadow-lg w-32 md:w-56"
                       width="200"
                       src="https://dummyimage.com/500x400/000/fff"
                       alt="1"
                     />
                     <img
-                      class="rounded-lg shadow-lg w-40 md:w-64"
+                      className="rounded-lg shadow-lg w-40 md:w-64"
                       width="260"
                       src="https://dummyimage.com/500x400/000/fff"
                       alt="2"
                     />
                   </div>
-                  <div class="flex items-start justify-center lg:justify-start space-x-4 ml-12">
+                  <div className="flex items-start justify-center lg:justify-start space-x-4 ml-12">
                     <img
-                      class="rounded-lg shadow-lg w-24 md:w-40"
+                      className="rounded-lg shadow-lg w-24 md:w-40"
                       width="170"
                       src="https://dummyimage.com/500x400/000/fff"
                       alt="3"
                     />
                     <img
-                      class="rounded-lg shadow-lg w-32 md:w-56"
+                      className="rounded-lg shadow-lg w-32 md:w-56"
                       width="200"
                       src="https://dummyimage.com/500x400/000/fff"
                       alt="4"
@@ -182,58 +182,365 @@ const About_us = () => {
             </div>
           </div>
         </div>
-        <div class="bg-blue-800 shadow py-4 my-8 ">
-          <p class="text-center text-3xl font-bold text-blue-600 py-6">
+        {/*  <div className="bg-blue-800 shadow py-4 my-8 ">
+          <p className="text-center text-3xl font-bold text-blue-600 py-6">
             Founding Member
           </p>
-          <div class="flex flex-col md:flex-row justify-evenly">
-            <div class="bg-white p-5 shadow text-blue-300 rounded-lg mb-4 mx-4">
-              <div class="text-center mb-4 opacity-90">
-                <a href="#" class="block relative">
+          <div className="flex flex-col md:flex-row justify-evenly">
+            <div className="bg-white p-5 shadow text-blue-300 rounded-lg mb-4 mx-4">
+              <div className="text-center mb-4 opacity-90">
+                <a href="#" className="block relative">
                   <img
                     alt="profile"
                     src="https://picsum.photos/200"
-                    class="mx-auto object-cover rounded-full h-40 w-40 "
+                    className="mx-auto object-cover rounded-full h-40 w-40 "
                   />
                 </a>
               </div>
-              <div class="text-center">
-                <p class="text-2xl text-black">Patrick Sebastien</p>
-                <p class="text-xl text-blue-500 font-myFont">
+              <div className="text-center">
+                <p className="text-2xl text-black">Patrick Sebastien</p>
+                <p className="text-xl text-blue-500 font-myFont">
                   Managing
                   <br />
                   Director
                 </p>
               </div>
             </div>
-            <div class="bg-white p-5 shadow text-blue-300 rounded-lg mb-4 mx-4">
-              <div class="text-center mb-4 opacity-90">
-                <a href="#" class="block relative">
+            <div className="bg-white p-5 shadow text-blue-300 rounded-lg mb-4 mx-4">
+              <div className="text-center mb-4 opacity-90">
+                <a href="#" className="block relative">
                   <img
                     alt="profile"
                     src="https://picsum.photos/200"
-                    class="mx-auto object-cover rounded-full h-40 w-40 "
+                    className="mx-auto object-cover rounded-full h-40 w-40 "
                   />
                 </a>
               </div>
-              <div class="text-center">
-                <p class="text-2xl text-black">Jean Castux</p>
-                <p class="text-xl text-blue-500 font-myFont">CEO</p>
+              <div className="text-center">
+                <p className="text-2xl text-black">Jean Castux</p>
+                <p className="text-xl text-blue-500 font-myFont">CEO</p>
               </div>
             </div>
-            <div class="bg-white p-5 shadow text-blue-300 rounded-lg mb-4 mx-4">
-              <div class="text-center mb-4 opacity-90">
-                <a href="#" class="block relative">
+            <div className="bg-white p-5 shadow text-blue-300 rounded-lg mb-4 mx-4">
+              <div className="text-center mb-4 opacity-90">
+                <a href="#" className="block relative">
                   <img
                     alt="profile"
                     src="https://picsum.photos/200"
-                    class="mx-auto object-cover rounded-full h-40 w-40 "
+                    className="mx-auto object-cover rounded-full h-40 w-40 "
                   />
                 </a>
               </div>
-              <div class="text-center">
-                <p class="text-2xl text-black">Thierry Halliday</p>
-                <p class="text-xl text-blue-500 font-myFont">Manager</p>
+              <div className="text-center">
+                <p className="text-2xl text-black">Thierry Halliday</p>
+                <p className="text-xl text-blue-500 font-myFont">Manager</p>
+              </div>
+            </div>
+          </div>
+  </div> */}
+        <div>
+          <div classNameName="mb-8">
+            <div className="bg-white shadow py-4 my-8">
+              <p className="text-center text-6xl font-bold text-blue-400 my-12">
+                Existing Board Of Directors
+              </p>
+              {/* 2 Cards In A Row */}
+              <div className="flex items-center flex-col md:flex-row justify-evenly my-8">
+                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                      Adv. Ajit Ashokrao Gaikwad
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Chairman
+                    </p>
+                  </div>
+                </div>
+                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                      Chandrasekhar Jaysingrao Gaikwad
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Vice Chairman
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* 4 Cards In A Row */}
+
+              <div className="flex items-center flex-col md:flex-row justify-evenly py-8">
+                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                      C.A. Laxman Kakasaheb Gaikwad
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                      Adv. Prasad Shriram Waikar
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">CEO</p>
+                    Director
+                  </div>
+                </div>
+                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                      Ramkumar Kisan Gaikwad
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                      Ramkumar Kisan Gaikwad
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* 5 Cards In A Row */}
+
+              <div className="flex mx-3 items-center flex-col md:flex-row justify-evenly py-8">
+                <div className="p-2 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                      Siddheshwar Basvneppa Sangh
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+                <div className="p-2 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                      Shivaji Keshav Shitole
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+                <div className="p-2 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                      Pramod Keshav Dharmadhikari
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+                <div className="p-2 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                      Dattatraya Baburao Tarlekar
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+                <div className="p-2 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                      Jyotiram Ramchandra Hogley
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* 4 Cards In A Row */}
+
+              <div className="flex items-center flex-col md:flex-row justify-evenly py-8">
+                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                    Vilas Sopan Khilare
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                    Director
+                    </p>
+                  </div>
+                </div>
+                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                    Sangeeta Bapuso Gauraje
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                    Hostess
+                    </p>
+                  </div>
+                </div>
+                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                    Rajshri Shankar Gaikwad
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">Hostess</p>
+                  </div>
+                </div>
+                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
+                  <div className="text-center mb-4 opacity-90">
+                    <a href="#" className="block relative">
+                      <img
+                        alt="profile"
+                        src="https://dummyimage.com/300x200/000/fff"
+                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black max-w-xs">
+                    Suresh Raghunath Pawar
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">Chief manager</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -243,4 +550,4 @@ const About_us = () => {
   );
 };
 
-export default About_us;
+export default About;

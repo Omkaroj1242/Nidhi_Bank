@@ -2,7 +2,7 @@ import React from "react";
 import CarouselComp from "../Carousel/CarouselComp";
 import Features from "../Features/Features";
 import Testimonials from "../Testimonials/Testimonials";
-import Team from "../Team/Team";
+
 import Branch from "../Branch/Branch";
 
 const Hero = () => {
@@ -12,7 +12,6 @@ const Hero = () => {
       <Branch />
       <Features />
       <Testimonials />
-      <Team />
     </>
   );
 };

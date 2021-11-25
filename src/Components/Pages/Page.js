@@ -24,7 +24,7 @@ const Page = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/plan" element={<Plan />} />
         </Routes>
-        
+        <Footer />
       </Router>
     </div>
   );

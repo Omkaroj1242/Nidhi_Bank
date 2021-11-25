@@ -52,3 +52,8 @@ a:hover {
 .card_wrapper {
   height: 450px;
 }
+
+.card_wrapper1 {
+  height: 380px;
+  width: 350px;
+}

@@ -2,9 +2,12 @@ import React from 'react'
 
 const Plan = () => {
     return (
-        <div className="py-10">
+        <div className="py-10 min-h-screen">
         <h1 className="text-5xl font-myFont text-center text-blue-400 mb-8">Various Deposit Schemes Of The Bank</h1>
+        <div className="container mb-10">
+        <h1 className="text-center text-blue-500 text-3xl mb-4">Attractive interest rates on deposits</h1>
         <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
+        
         <thead>
           <tr>
             <th scope="col">Duration</th>
@@ -55,8 +58,125 @@ const Plan = () => {
           </tr>
         </tbody>
       </table>
+      </div>
+      <div className="container mx-auto w-full flex">
+      <div className="w-1/2 mx-4">
+      <h1 className="text-lg text-center text-blue-500">Manmandir Deposit Scheme (Term 5 Years)</h1>
+      <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
+      <thead>
+        <tr>
+          <th scope="col">Investment amount</th>
+          <th scope="col">Amount received after maturity</th>
+      
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">₹ 6,982/-</th>
+          <td>₹ 10,000/-</td>
+       
+        </tr>
+        <tr>
+          <th scope="row">₹ 10,473/-</th>
+          <td>₹ 15,000/-</td>
+      
+        </tr>
+        <tr>
+          <th scope="row">₹ 13,964/-</th>
+          <td>₹ 20,000/-</td>
+      
+        </tr>
+        <tr>
+          <th scope="row">₹ 17,455/-</th>
+          <td>₹ 25,000/-</td>
+      
+        </tr>
+        <tr>
+          <th scope="row">₹ 34,910/-</th>
+          <td>₹ 50,000/-</td>
+      
+        </tr>
+        <tr>
+          <th scope="row">₹ 52,365/-</th>
+          <td>₹ 75,000/-</td>
+      
+        </tr>
+        <tr>
+          <th scope="row">₹ 69,820/-</th>
+          <td>₹ 1,00,000/-</td>
+      
+        </tr>
+        <tr>
+          <th scope="row">₹ 1,39,640/-</th>
+          <td>₹ 2,00,001/-</td>
+      
+        </tr>
+        <tr>
+        <th scope="row">₹ 3,49,099/-</th>
+        <td>₹ 5,00,001/-</td>
+    
+      </tr>
+      </tbody>
+    </table>
+      </div>
+      <div className="w-1/2 mx-4">
+      <h1 className="text-lg text-center text-blue-500">Manmandir Recurring Deposit Scheme</h1>
+      <p className="text-center text-blue-500">Lakhpati Yojana (Term 5 Years)</p>
+      <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
+        <thead>
+          <tr>
+            <th scope="col">Amount invested per month</th>
+            <th scope="col">Amount received after maturity</th>
+        
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">₹ 691/-</th>
+            <td>₹ 50,036/-</td>
+         
+          </tr>
+          <tr>
+            <th scope="row">₹ 1,382/-</th>
+            <td>₹ 1,00,072/-</td>
+        
+          </tr>
+          <tr>
+            <th scope="row">₹ 2,073/-</th>
+            <td>₹ 1,50,108/-</td>
+        
+          </tr>
+          <tr>
+            <th scope="row">₹ 2,764/-</th>
+            <td>₹ 2,00,144/-</td>
+        
+          </tr>
+          <tr>
+            <th scope="row">₹ 4,146/-</th>
+            <td>₹ 3,00,216/-</td>
+        
+          </tr>
+          <tr>
+            <th scope="row">₹ 5,528/-</th>
+            <td>₹ 4,00,289/-</td>
+        
+          </tr>
+          <tr>
+            <th scope="row">₹ 6,910/-</th>
+            <td>₹ 5,00,361/-</td>
+        
+          </tr>
+          <tr>
+            <th scope="row">₹ 13,820/-</th>
+            <td>₹ 10,00,721/-</td>
+        
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
         </div>
     )
 }
 
-export default Plan
+export default Plan;
