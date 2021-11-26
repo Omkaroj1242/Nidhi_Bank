@@ -59,10 +59,10 @@ const Plan = () => {
         </tbody>
       </table>
       </div>
-      <div className="container mx-auto w-full flex">
-      <div className="w-1/2 mx-4 text-center">
+      <div className="container w-full  flex md:flex-row flex-col">
+      <div className="md:w-1/2 md:mx-4 w-full text-center">
       <h1 className="text-3xl text-center text-blue-500 py-6 font-myFont">Manmandir Deposit Scheme <br/> (Term 5 Years)</h1>
-      <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
+      <table class="table table-striped table-bordered border-2 rounded-lg border-black">
       <thead>
         <tr>
           <th scope="col">Investment amount</th>
@@ -119,7 +119,7 @@ const Plan = () => {
       </tbody>
     </table>
       </div>
-      <div className="w-1/2 mx-4 text-center">
+      <div className="md:w-1/2 w-full md:mx-4 text-center">
       <h1 className="text-3xl text-center text-blue-500 font-myFont py-4">Manmandir Recurring Deposit Scheme</h1>
       <p className="text-center text-2xl text-blue-500 font-myFont">Lakhpati Yojana (Term 5 Years)</p>
       <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
