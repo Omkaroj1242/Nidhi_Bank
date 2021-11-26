@@ -241,7 +241,7 @@ const About = () => {
         <div>
           <div classNameName="mb-8">
             <div className="bg-white shadow py-4 my-8">
-              <p className="text-center md:text-6xl text-4xl font-bold text-blue-400 my-12 font-myFont">
+              <p className="text-center md:text-6xl text-4xl font-bold text-blue-400 py-12 font-myFont">
                 Existing Board Of Directors
               </p>
               {/* 2 Cards In A Row */}

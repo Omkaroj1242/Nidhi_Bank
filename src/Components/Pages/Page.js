@@ -8,6 +8,7 @@ import Faq from "../Faq/Faq";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer"
 import Plan from "../Plan/Plan";
+import Notice from "../Notice/Notice";
 
 const Page = () => {
   return (
@@ -23,6 +24,7 @@ const Page = () => {
           <Route path="/faq" element={<Faq />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/plan" element={<Plan />} />
+          <Route path="/notice" element={<Notice />} />
         </Routes>
         <Footer />
       </Router>

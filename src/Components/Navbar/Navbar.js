@@ -75,6 +75,9 @@ export default function Example() {
                                                 <Link to="/faq">FAQ</Link>
                                             </li>
                                             <li className="mx-3 my_li">
+                                                <Link to="/notice">Notice</Link>
+                                            </li>
+                                            <li className="mx-3 my_li">
                                                 <Link to="/contact">
                                                     Contact Us
                                                 </Link>
@@ -109,6 +112,9 @@ export default function Example() {
                                         <li className="my_li">
                                             <Link to="/faq">FAQ</Link>
                                         </li>
+                                        <li className="mx-3 my_li">
+                                                <Link to="/notice">Notice</Link>
+                                            </li>
                                         <li className="my_li">
                                             <Link to="/contact">
                                                 Contact Us
