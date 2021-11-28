@@ -81,10 +81,10 @@ const Features = () => {
               className="w-full max-h-80  sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6 border-border1 shadow-md rounded-lg dark:bg-gray-800"
             > 
               <img src={data.img} alt="" className="mx-auto" />
-              <h3 className="text-2xl sm:text-xl text-blue-500 font-myFont py-3">
+              <h3 className="text-2xl sm:text-xl text-blue-700 font-myFont py-3">
                 {data.feature}
               </h3>
-              <p className="text-md text-blue-700 font-normal py-4">
+              <p className="text-md text-blue-500 font-myFont py-4">
                 {data.desc}
               </p>
             </div>

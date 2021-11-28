@@ -5,7 +5,7 @@ const Branch = () => {
     {
       id: "1",
       branchName: "Branch Vita",
-      address:"Vita taluka Khanapur district Sangli in front of ST stand. 415 311",
+      address:"Vita taluka Khanapur, district Sangli, in front of ST stand. 415 311",
       phone1: "(02347) 273271",
       phone2: 7774097930,
       IFSCode: "ICIC00MMCBL",
@@ -22,8 +22,8 @@ const Branch = () => {
     },
     {
         id: "3",
-        branchName: "Branch JAT",
-        address:"Mangalwar Peth Jat Taluka Jat District Sangli. 416 404",
+        branchName: "Branch Jat",
+        address:"Mangalwar Peth Jat, Taluka Jat, District Sangli. 416 404",
         phone1: "(02344) 248883",
         phone2:7774097913,
         IFSCode: "ICIC00MMCBL",
@@ -41,7 +41,7 @@ const Branch = () => {
       {
         id: "5",
         branchName: "Branch TaasGoan",
-        address:"Om Shiv Sagar Complex Joshi Galli Tasgaon District Sangli. 416 312",
+        address:"Om Shiv Sagar Complex, Joshi Galli, Tasgaon, District Sangli. 416 312",
         phone1: "(02346) 241875",
         phone2: 7774097917,
         IFSCode: "ICIC00MMCBL",

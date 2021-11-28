@@ -17,7 +17,7 @@ const Notice = () => {
                 manmandirbankvita@yahoo.com
               </li>
             </Link>
-            <p className="text-center text-2xl text-white font-myFont md:-mt-8">
+            <p className="text-center text-2xl text-white font-myFont">
               "Leading the way to the common good"
             </p>
           </ul>
@@ -29,7 +29,7 @@ const Notice = () => {
           </h1>
         </div>
         <hr className="bg-gray-100" />
-        <div>
+        <div className="mb-10">
           <p className="text-white text-center text-lg pb-4">
             Head office: In front of ST stand, Vita - 415 311, Taluka Khanapur,
             District Sangli, Phone: 02347 - 276438,273271.
@@ -38,10 +38,10 @@ const Notice = () => {
       </div>
       <div>
         <div className="text-center">
-          <h1 className="font-myFont md:text-5xl text-2xl m-4">
+          <h1 className="font-myFont md:text-5xl text-2xl py-4">
             Cyber ​​Security - IT Department
           </h1>
-          <h1 className="font-myFont md:text-5xl text-2xl m-4">
+          <h1 className="font-myFont md:text-5xl text-2xl py-4">
             Notice To Account Holder Customers
           </h1>
         </div>
@@ -113,7 +113,7 @@ const Notice = () => {
             </li>
           </ol>
         </div>
-        <div className="bg-blue-400 py-4">
+        <div className="bg-blue-400 py-10 my-10">
           <h1 className="container md:text-4xl text-base text-left text-white font-myFont">
             Note: Free advice and information on how to keep your bank account
             safe is provided at all our offices. Contact for more information : -
@@ -123,7 +123,7 @@ const Notice = () => {
         {/* Contact Div */}
 
         <div className="flex items-center flex-col md:flex-row justify-evenly py-8">
-          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-4">
+          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-8">
             <div className="text-center">
               <p className="text-2xl text-black max-w-xs">
                 Head Office
@@ -134,7 +134,7 @@ const Notice = () => {
               </h1>
             </div>
           </div>
-          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-4">
+          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-8">
           <div className="text-center">
           <p className="text-2xl text-black max-w-xs">
           Nilesh Barsingh
@@ -145,7 +145,7 @@ const Notice = () => {
           </h1>
         </div>
           </div>
-          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-4">
+          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-8">
             <div className="text-center">
             <p className="text-2xl text-black max-w-xs">
             Vikram Nikam
@@ -156,7 +156,7 @@ const Notice = () => {
             </h1>
           </div>
           </div>
-          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-4">
+          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-8">
           <div className="text-center">
           <p className="text-2xl text-black max-w-xs">
           Ganesh Patil

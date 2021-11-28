@@ -47,13 +47,13 @@ const About = () => {
       </div>
 
       <div className="History bg-gray-200">
-        <h1 className="text-center md:text-6xl text-4xl font-myFont text-blue-400 pt-10">History</h1>
+        <h1 className="text-center md:text-7xl text-5xl font-myFont text-blue-400 pt-10 uppercase">History</h1>
 
         <div className="max-w-screen-xl p-4  mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
           <div className="relative">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
               <div className="lg:col-start-2 lg:max-w-2xl ml-auto">
-                <p className="text-base leading-6 font-semibold uppercase">
+                <p className="leading-6 md:text-4xl text-2xl font-myFont uppercase">
                   Interactive
                 </p>
                 <h4 className="mt-2 text-2xl leading-8 font-myFont text-blue-600 sm:text-3xl sm:leading-9">
@@ -69,7 +69,7 @@ const About = () => {
                     <div className="flex">
                       <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
                         <svg
-                          className="h-4 w-4"
+                          className="h-10 w-10"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -80,7 +80,7 @@ const About = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-base leading-6 font-medium text-blue-700">
+                      <span className="ml-4 text-lg leading-6 font-myFont text-blue-700">
                         Live modifications
                       </span>
                     </div>
@@ -89,7 +89,7 @@ const About = () => {
                     <div className="flex">
                       <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
                         <svg
-                          className="h-4 w-4"
+                          className="h-10 w-10"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -100,7 +100,7 @@ const About = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-base leading-6 font-medium text-blue-700">
+                      <span className="ml-4 text-lg leading-6 font-myFont text-blue-700">
                         Data tracker
                       </span>
                     </div>
@@ -109,7 +109,7 @@ const About = () => {
                     <div className="flex">
                       <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
                         <svg
-                          className="h-4 w-4"
+                          className="h-10 w-10"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -120,7 +120,7 @@ const About = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-base leading-6 font-medium text-blue-700">
+                      <span className="ml-4 text-lg leading-6 font-myFont text-blue-700">
                         24/24 support
                       </span>
                     </div>
@@ -129,7 +129,7 @@ const About = () => {
                     <div className="flex">
                       <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
                         <svg
-                          className="h-4 w-4"
+                          className="h-10 w-10"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -140,7 +140,7 @@ const About = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-base leading-6 font-medium text-blue-700">
+                      <span className="ml-4 text-lg leading-6 font-myFont text-blue-700">
                         Free tips to improve work time
                       </span>
                     </div>

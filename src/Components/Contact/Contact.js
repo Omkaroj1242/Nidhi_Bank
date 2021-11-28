@@ -7,37 +7,84 @@ import { FaHome } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="min-h-screen">
-      <h1 className="text-center text-5xl my-2 font-myFont text-blue-400">Contact Us</h1>
-      <div className="container flex flex-col md:flex-row mx-auto p-5 w-full border-2 border-blue-300 shadow mb-8 text-justify">
+      <h1 className="text-center text-5xl font-myFont text-blue-400 uppercase py-10">
+        Contact Us
+      </h1>
+      <div className="flex flex-col md:flex-row mx-auto p-5 w-full border-2 border-blue-300 shadow mb-8 text-justify">
         <div className="md:w-1/2 w-full mb-8">
           <iframe
             className="my_map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785100243837!2d55.27218771546111!3d25.197201837882503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sin!4v1637432266429!5m2!1sen!2sin"
           ></iframe>
         </div>
-        <div className="md:w-1/2 w-full">
-          <h1 className="text-center text-blue-500 font-myFont mb-8">Get In Touch</h1>
-          <p className="mx-4 text-blue-700">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Accusantium voluptas nihil libero quo consequatur dolores fuga
-            suscipit, tempore odit dignissimos!
-          </p>
-          <p className="mx-4 text-blue-700 inline-block">
-            742 Evergreen Terrace,
-            <br />
-            Spingfield, Mumbai -12345.
-          </p>
-          <p className="mx-4 text-blue-700">
-            Mon To Fri,
-            <br />
-            10Am - 5Pm.
-          </p>
-          <p className="mx-4 text-blue-700">+92158563314</p>
-          <p className="mx-4 text-blue-700">support@123gmail.com</p>
+        <div className="md:w-8/12 w-full">
+          <h1 className="text-center text-blue-400 font-myFont mb-8 uppercase">
+            Get In Touch
+          </h1>
+          <div className="flex mx-20 w-full">
+            <div className="w-1/2">
+              <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
+                <div className="text-center">
+                  <img
+                    src="https://img.icons8.com/ios/50/000000/address--v1.png"
+                    className="mx-auto"
+                    alt=""
+                  />
+                  <p className="text-2xl text-black max-w-xs">Address</p>
+                  <p className="text-xl text-blue-500 font-myFont">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+              <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
+                <div className="text-center">
+                  <img
+                    src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-email-business-kiranshastry-lineal-kiranshastry.png"
+                    className="mx-auto"
+                    alt=""
+                  />
+                  <p className="text-2xl text-black">Email</p>
+                  <p className="text-xl text-blue-500 font-myFont">
+                    manmandirbankvita@yahoo.com
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="w-1/2">
+              <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
+                <div className="text-center">
+                  <img
+                    src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/64/000000/external-time-business-method-inipagistudio-mixed-inipagistudio.png"
+                    className="mx-auto"
+                    alt=""
+                  />
+                  <p className="text-2xl text-black">Time</p>
+                  <p className="text-xl text-blue-500 font-myFont">
+                    Mon-Fri : - 10:00 Am To 5:00 Pm
+                  </p>
+                </div>
+              </div>
+              <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
+                <div className="text-center">
+                  <img
+                    src="https://img.icons8.com/ios/50/000000/phone.png"
+                    className="mx-auto"
+                    alt=""
+                  />
+                  <p className="text-2xl text-black">Phone No:-</p>
+                  <p className="text-xl text-blue-500 font-myFont">
+                    <h1 className="my_h1 px-2">
+                      <a href="tel:+918275913992">8275913992</a>
+                    </h1>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="w-full container mx-auto">
-        <h1 className="text-blue-400 font-myFont">Write To Us...</h1>
+        <h1 className="text-blue-400 font-myFont uppercase">Write To Us...</h1>
         <div>
           <Form>
             <Form>
@@ -60,10 +107,10 @@ const Contact = () => {
                 rows={3}
               />
             </Form.Group>
-            <div className="flex items-center justify-center pb-20">
-            <Button variant="primary" type="submit">
-              Submit
-            </Button>
+            <div className="flex items-center justify-end pb-20">
+              <Button variant="primary" type="submit">
+                Submit
+              </Button>
             </div>
           </Form>
         </div>
