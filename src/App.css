@@ -34,7 +34,7 @@ a:hover {
 .my_map {
   padding: 0;
   margin: 0%;
-  height: 400px;
+  height: 650px;
   width: 100%;
 }
 
@@ -65,4 +65,80 @@ a:hover {
 .contact_wrapper2 {
   height: 250px;
   width: 400px;
+}
+
+/* for desktop */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
+}
+
+.CustomSocial {
+  position: fixed;
+  top: 40%;
+  right: -190px;
+  bottom: 60%;
+  z-index: 10000;
+  color: black;
+  transition: 1s;
+  /* transition-property: transform; */
+}
+
+.CustomSocial a {
+  color: #fff;
+  background-color: #fcc111;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 250px;
+  text-align: left;
+  transition: 1s;
+  transition-property: transform;
+  color: black;
+  padding-left: 10px;
+}
+
+.CustomSocial:hover {
+  transform: translateX(120px, 0);
+  -webkit-transform: translate(-120px, 0);
+  -moz-transform: translate(-120px, 0);
+  -ms-transform: translate(-120px, 0);
+  -o-transform: translate(-120px, 0);
+}
+
+.CustomSocial i {
+  margin-left: 10px;
+  font-size: 30px;
+  width: 40px;
+  height: 30px;
 }

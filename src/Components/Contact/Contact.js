@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import { FaHome } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -21,29 +20,29 @@ const Contact = () => {
           <h1 className="text-center text-blue-400 font-myFont mb-8 uppercase">
             Get In Touch
           </h1>
-          <div className="flex mx-20 w-full">
-            <div className="w-1/2">
+          <div className="flex w-full">
+            <div className="w-1/2 mx-24">
               <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
-                <div className="text-center">
+                <div className="text-center py-2">
                   <img
-                    src="https://img.icons8.com/ios/50/000000/address--v1.png"
-                    className="mx-auto"
+                    src="https://img.icons8.com/wired/64/000000/address.png"
+                    className="mx-auto py-2"
                     alt=""
                   />
-                  <p className="text-2xl text-black max-w-xs">Address</p>
+                  <p className="text-2xl text-black py-2">Address</p>
                   <p className="text-xl text-blue-500 font-myFont">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit.
                   </p>
                 </div>
               </div>
               <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
-                <div className="text-center">
+                <div className="text-center py-2">
                   <img
                     src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-email-business-kiranshastry-lineal-kiranshastry.png"
-                    className="mx-auto"
+                    className="mx-auto py-2" 
                     alt=""
                   />
-                  <p className="text-2xl text-black">Email</p>
+                  <p className="text-2xl text-black py-2">Email</p>
                   <p className="text-xl text-blue-500 font-myFont">
                     manmandirbankvita@yahoo.com
                   </p>
@@ -52,28 +51,28 @@ const Contact = () => {
             </div>
             <div className="w-1/2">
               <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
-                <div className="text-center">
+                <div className="text-center py-2">
                   <img
                     src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/64/000000/external-time-business-method-inipagistudio-mixed-inipagistudio.png"
-                    className="mx-auto"
+                    className="mx-auto py-2"
                     alt=""
                   />
-                  <p className="text-2xl text-black">Time</p>
+                  <p className="text-2xl text-black py-2">Time</p>
                   <p className="text-xl text-blue-500 font-myFont">
                     Mon-Fri : - 10:00 Am To 5:00 Pm
                   </p>
                 </div>
               </div>
               <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
-                <div className="text-center">
+                <div className="text-center py-2">
                   <img
-                    src="https://img.icons8.com/ios/50/000000/phone.png"
-                    className="mx-auto"
+                    src="https://img.icons8.com/dotty/64/000000/phone.png"
+                    className="mx-auto py-2"
                     alt=""
                   />
-                  <p className="text-2xl text-black">Phone No:-</p>
+                  <p className="text-2xl text-black py-2">Phone No:-</p>
                   <p className="text-xl text-blue-500 font-myFont">
-                    <h1 className="my_h1 px-2">
+                    <h1 className="my_h1 px-2 py-2 font-myFont">
                       <a href="tel:+918275913992">8275913992</a>
                     </h1>
                   </p>
