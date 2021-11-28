@@ -51,7 +51,7 @@ export default function Example() {
                                         className=" text-black text-xl font-bold font-myFont"
                                         to="/"
                                     >
-                                        Manmandir
+                                        Manmandir Bank
                                     </Link>
                                 </div>
                                 </div>
