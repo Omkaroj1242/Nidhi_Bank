@@ -251,7 +251,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member1.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -270,7 +270,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member2.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -294,7 +294,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member3.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -313,7 +313,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member4.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -331,7 +331,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member5.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -350,14 +350,14 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member6.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
                   </div>
                   <div className="text-center">
                     <p className="text-2xl text-black max-w-xs">
-                      Ramkumar Kisan Gaikwad
+                    Ramchandra Krishna Pawar
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
                       Director
@@ -374,7 +374,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/7.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -393,7 +393,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member7.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -412,7 +412,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member8.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -431,7 +431,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member9.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -450,7 +450,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member10.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -474,7 +474,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member11.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -493,7 +493,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member12.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -512,7 +512,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member13.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
@@ -529,7 +529,7 @@ const About = () => {
                     <a href="#" className="block relative">
                       <img
                         alt="profile"
-                        src="https://dummyimage.com/300x200/000/fff"
+                        src="/Images/member14.jpg"
                         className="mx-auto object-cover rounded-full h-40 w-40 "
                       />
                     </a>
