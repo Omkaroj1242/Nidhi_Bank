@@ -9,20 +9,20 @@ const Contact = () => {
       <h1 className="text-center text-5xl font-myFont text-blue-400 uppercase py-10">
         Contact Us
       </h1>
-      <div className="flex flex-col md:flex-row mx-auto p-5 w-full border-2 border-blue-300 shadow mb-8 text-justify">
-        <div className="md:w-1/2 w-full mb-8">
+      <div className="flex flex-col lg:flex-row mx-auto w-full border-2 border-blue-300 shadow mb-8 text-justify">
+        <div className="lg:w-1/2 w-full mt-10 mb-8">
           <iframe
             className="my_map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785100243837!2d55.27218771546111!3d25.197201837882503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sin!4v1637432266429!5m2!1sen!2sin"
           ></iframe>
         </div>
-        <div className="md:w-8/12 w-full">
+        <div className="lg:w-6/12 w-full">
           <h1 className="text-center text-blue-400 font-myFont mb-8 uppercase">
             Get In Touch
           </h1>
-          <div className="flex w-full">
-            <div className="w-1/2 mx-24">
-              <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
+          <div className="flex w-full md:flex-row flex-col">
+            <div className="md:w-1/2 w-full">
+              <div className="lg:p-4 md:p-2 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8 mx-auto">
                 <div className="text-center py-2">
                   <img
                     src="https://img.icons8.com/wired/64/000000/address.png"
@@ -35,7 +35,7 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-              <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
+              <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8 mx-auto">
                 <div className="text-center py-2">
                   <img
                     src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-email-business-kiranshastry-lineal-kiranshastry.png"
@@ -43,14 +43,14 @@ const Contact = () => {
                     alt=""
                   />
                   <p className="text-2xl text-black py-2">Email</p>
-                  <p className="text-xl text-blue-500 font-myFont">
-                    manmandirbankvita@yahoo.com
-                  </p>
+                  <h4 className="text-lg lg:text-xl text-blue-500 font-myFont">
+                    manmandirbank<br />@yahoo.com
+                  </h4>
                 </div>
               </div>
             </div>
-            <div className="w-1/2">
-              <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
+            <div className="md:w-1/2 w-full">
+              <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8 mx-auto">
                 <div className="text-center py-2">
                   <img
                     src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/64/000000/external-time-business-method-inipagistudio-mixed-inipagistudio.png"
@@ -63,7 +63,7 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-              <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8">
+              <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8 mx-auto">
                 <div className="text-center py-2">
                   <img
                     src="https://img.icons8.com/dotty/64/000000/phone.png"

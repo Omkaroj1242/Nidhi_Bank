@@ -118,8 +118,7 @@ a:hover {
   font-weight: 500;
   text-decoration: none;
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   width: 250px;
   text-align: left;
   transition: 1s;
@@ -141,4 +140,26 @@ a:hover {
   font-size: 30px;
   width: 40px;
   height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .CustomSocial a {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .contact_wrapper2 {
+    flex-direction: row;
+    height: 300px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contact_wrapper2 {
+    flex-direction: row;
+    height: 300px;
+    width: 280px;
+  }
 }
