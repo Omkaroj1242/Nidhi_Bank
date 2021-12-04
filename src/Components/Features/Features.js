@@ -84,7 +84,7 @@ const Features = () => {
               <h3 className="text-2xl sm:text-xl text-blue-700 font-myFont py-3">
                 {data.feature}
               </h3>
-              <p className="text-md text-blue-500 font-myFont py-4">
+              <p className="text-md text-gray-400 font-myFont py-4">
                 {data.desc}
               </p>
             </div>

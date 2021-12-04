@@ -61,7 +61,7 @@ const Plan = () => {
       </div>
       <div className="container w-full  flex md:flex-row flex-col">
       <div className="md:w-1/2 md:mx-4 w-full text-center mb-10">
-      <h1 className="text-3xl text-center text-blue-500 py-8 font-myFont">Manmandir Deposit Scheme <br/> (Term 5 Years)</h1>
+      <h1 className="text-3xl text-center text-blue-500 py-10 font-myFont">Manmandir Deposit Scheme <br/> (Term 5 Years)</h1>
       <table class="table table-striped table-bordered border-2 rounded-lg border-black">
       <thead>
         <tr>
@@ -120,8 +120,7 @@ const Plan = () => {
     </table>
       </div>
       <div className="md:w-1/2 w-full md:mx-4 text-center mb-10">
-      <h1 className="text-3xl text-center text-blue-500 font-myFont py-4">Manmandir Recurring Deposit Scheme</h1>
-      <p className="text-center text-2xl text-blue-500 font-myFont mb-8">Lakhpati Yojana (Term 5 Years)</p>
+      <h1 className="text-3xl text-center text-blue-500 font-myFont py-10">Manmandir Recurring Deposit Scheme <br /><span className="text-2xl">Lakhpati Yojana (Term 5 Years)</span></h1>
       <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
         <thead>
           <tr>

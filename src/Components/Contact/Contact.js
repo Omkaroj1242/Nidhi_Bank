@@ -10,14 +10,14 @@ const Contact = () => {
         Contact Us
       </h1>
       <div className="flex flex-col lg:flex-row mx-auto w-full border-2 border-blue-300 shadow mb-8 text-justify">
-        <div className="lg:w-1/2 w-full mt-10 mb-8">
+        <div className="lg:w-1/2 w-full mt-10 mb-8 px-8">
           <iframe
             className="my_map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785100243837!2d55.27218771546111!3d25.197201837882503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sin!4v1637432266429!5m2!1sen!2sin"
           ></iframe>
         </div>
         <div className="lg:w-6/12 w-full">
-          <h1 className="text-center text-blue-400 font-myFont mb-8 uppercase">
+          <h1 className="text-center text-blue-400 font-myFont mb-8 uppercase py-4">
             Get In Touch
           </h1>
           <div className="flex w-full md:flex-row flex-col">
@@ -29,8 +29,8 @@ const Contact = () => {
                     className="mx-auto py-2"
                     alt=""
                   />
-                  <p className="text-2xl text-black py-2">Address</p>
-                  <p className="text-xl text-blue-500 font-myFont">
+                  <p className="text-xl text-black py-2">Address</p>
+                  <p className="text-2xl text-blue-700 font-myFont">
                     Lorem ipsum dolor sit.
                   </p>
                 </div>
@@ -42,8 +42,8 @@ const Contact = () => {
                     className="mx-auto py-2" 
                     alt=""
                   />
-                  <p className="text-2xl text-black py-2">Email</p>
-                  <h4 className="text-lg lg:text-xl text-blue-500 font-myFont">
+                  <p className="text-xl text-black py-2">Email</p>
+                  <h4 className="text-2xl lg:text-xl text-blue-700 font-myFont">
                     manmandirbank<br />@yahoo.com
                   </h4>
                 </div>
@@ -53,12 +53,12 @@ const Contact = () => {
               <div className="p-4 shadow contact_wrapper2 text-blue-300 rounded-lg mb-8 mx-auto">
                 <div className="text-center py-2">
                   <img
-                    src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/64/000000/external-time-business-method-inipagistudio-mixed-inipagistudio.png"
+                    src="https://img.icons8.com/dotty/64/000000/time.png"
                     className="mx-auto py-2"
                     alt=""
                   />
-                  <p className="text-2xl text-black py-2">Time</p>
-                  <p className="text-xl text-blue-500 font-myFont">
+                  <p className="text-xl text-black py-2">Time</p>
+                  <p className="text-xl text-blue-700 font-myFont">
                     Mon-Fri : - 10:00 Am To 5:00 Pm
                   </p>
                 </div>
@@ -70,10 +70,10 @@ const Contact = () => {
                     className="mx-auto py-2"
                     alt=""
                   />
-                  <p className="text-2xl text-black py-2">Phone No:-</p>
-                  <p className="text-xl text-blue-500 font-myFont">
+                  <p className="text-xl text-black py-2">Phone No</p>
+                  <p className="text-blue-700 font-myFont">
                     <h1 className="my_h1 px-2 py-2 font-myFont">
-                      <a href="tel:+918275913992">8275913992</a>
+                      <a href="tel:+918275913992" className="text-black text-2xl">8275913992</a>
                     </h1>
                   </p>
                 </div>
@@ -83,7 +83,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="w-full container mx-auto">
-        <h1 className="text-blue-400 font-myFont uppercase">Write To Us...</h1>
+        <h1 className="text-blue-400 font-myFont uppercase">Write To Us</h1>
         <div>
           <Form>
             <Form>

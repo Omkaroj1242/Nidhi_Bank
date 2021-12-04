@@ -9,7 +9,6 @@ import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer"
 import Plan from "../Plan/Plan";
 import Notice from "../Notice/Notice";
-import Social from "../Social/Social";
 
 const Page = () => {
   return (
@@ -23,13 +22,12 @@ const Page = () => {
           <Route exact path="/about" element={<About />} />
 
           <Route path="/service" element={<Service />} />
-          <Route path="/service" element={<Social />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/plan" element={<Plan />} />
           <Route path="/notice" element={<Notice />} />
         </Routes>
-          <Social />
+
         <Footer />
       </Router>
     </div>

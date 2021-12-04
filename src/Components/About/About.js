@@ -67,7 +67,7 @@ const About = () => {
                 <ul className="mt-8 md:grid md:grid-cols-2 gap-6">
                   <li className="mt-6 lg:mt-0">
                     <div className="flex">
-                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
+                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-lg text-blue-700">
                         <svg
                           className="h-10 w-10"
                           viewBox="0 0 20 20"
@@ -87,7 +87,7 @@ const About = () => {
                   </li>
                   <li className="mt-6 lg:mt-0">
                     <div className="flex">
-                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
+                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-lg text-blue-700">
                         <svg
                           className="h-10 w-10"
                           viewBox="0 0 20 20"
@@ -107,7 +107,7 @@ const About = () => {
                   </li>
                   <li className="mt-6 lg:mt-0">
                     <div className="flex">
-                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
+                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-lg text-blue-700">
                         <svg
                           className="h-10 w-10"
                           viewBox="0 0 20 20"
@@ -127,7 +127,7 @@ const About = () => {
                   </li>
                   <li className="mt-6 lg:mt-0">
                     <div className="flex">
-                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full text-blue-700">
+                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-lg text-blue-700">
                         <svg
                           className="h-10 w-10"
                           viewBox="0 0 20 20"
@@ -193,7 +193,7 @@ const About = () => {
                   <img
                     alt="profile"
                     src="https://picsum.photos/200"
-                    className="mx-auto object-cover rounded-full h-40 w-40 "
+                    className="mx-auto object-cover rounded-lg h-40 w-40 "
                   />
                 </a>
               </div>
@@ -212,7 +212,7 @@ const About = () => {
                   <img
                     alt="profile"
                     src="https://picsum.photos/200"
-                    className="mx-auto object-cover rounded-full h-40 w-40 "
+                    className="mx-auto object-cover rounded-lg h-40 w-40 "
                   />
                 </a>
               </div>
@@ -227,7 +227,7 @@ const About = () => {
                   <img
                     alt="profile"
                     src="https://picsum.photos/200"
-                    className="mx-auto object-cover rounded-full h-40 w-40 "
+                    className="mx-auto object-cover rounded-lg h-40 w-40 "
                   />
                 </a>
               </div>
@@ -252,7 +252,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member1.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -271,7 +271,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member2.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -295,7 +295,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member3.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -314,7 +314,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member4.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -332,7 +332,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member5.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -351,7 +351,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member6.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -375,7 +375,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/7.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -394,7 +394,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member7.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -413,7 +413,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member8.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -432,7 +432,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member9.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -451,7 +451,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member10.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -475,7 +475,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member11.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -494,7 +494,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member12.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -513,7 +513,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member13.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
@@ -530,7 +530,7 @@ const About = () => {
                       <img
                         alt="profile"
                         src="/Images/member14.jpg"
-                        className="mx-auto object-cover rounded-full h-40 w-40 "
+                        className="mx-auto object-cover rounded-lg h-48 w-40 "
                       />
                     </a>
                   </div>
