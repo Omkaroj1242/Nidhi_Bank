@@ -128,9 +128,9 @@ const Notice = () => {
               <p className="text-2xl text-black max-w-xs">
                 Head Office
               </p>
-              <p className="text-xl text-blue-500 font-myFont">Phone No.</p>
+              <p className="text-xl text-blue-700 font-myFont h-14 ">Phone No.</p>
               <h1 className="my_h1 px-2">
-                <a href="tel:02347-276438">02347-276438</a>
+                <a href="tel:02347-276438" className="text-lg" >02347-276438</a>
               </h1>
             </div>
           </div>
@@ -139,9 +139,9 @@ const Notice = () => {
           <p className="text-2xl text-black max-w-xs">
           Nilesh Barsingh
           </p>
-          <p className="text-xl text-blue-500 font-myFont">(Cyber ​​Security Officer)</p>
+          <p className="text-xl text-blue-700 font-myFont h-14">(Cyber ​​Security Officer)</p>
           <h1 className="my_h1 px-2">
-            <a href="tel:+917021638815">7021638815</a>
+            <a href="tel:+917021638815" className="text-lg">7021638815</a>
           </h1>
         </div>
           </div>
@@ -150,9 +150,9 @@ const Notice = () => {
             <p className="text-2xl text-black max-w-xs">
             Vikram Nikam
             </p>
-            <p className="text-xl text-blue-500 font-myFont">(Chief Information and Technology Officer)</p>
+            <p className="text-xl text-blue-700 font-myFont h-14">(Chief Information and Technology Officer)</p>
             <h1 className="my_h1 px-2">
-              <a href="tel:+918275913992">8275913992</a>
+              <a href="tel:+918275913992" className="text-lg">8275913992</a>
             </h1>
           </div>
           </div>
@@ -161,10 +161,10 @@ const Notice = () => {
           <p className="text-2xl text-black max-w-xs">
           Ganesh Patil
           </p>
-          <p className="text-xl text-blue-500 font-myFont">
+          <p className="text-xl text-blue-700 font-myFont h-14">
           (Head of Information and Technology Liaison)</p>
           <h1 className="my_h1 px-2">
-            <a href="tel:+919175522752">9175522752</a>
+            <a href="tel:+919175522752"className="text-lg">9175522752</a>
           </h1>
         </div>
           </div>
