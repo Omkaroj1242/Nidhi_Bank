@@ -5,12 +5,12 @@ const Plan = () => {
         <div className="py-10 min-h-screen">
         <h1 className="md:text-6xl text-4xl font-myFont text-center text-blue-400 py-6">Various Deposit Schemes Of The Bank</h1>
         <div className="container mb-16 text-center">
-        <h1 className="text-center text-blue-500 text-4xl py-6 font-myFont">Attractive interest rates on deposits</h1>
+        <h1 className="text-center text-blue-900 text-4xl py-6 font-myFont">Attractive interest rates on deposits</h1>
         <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
         
         <thead>
           <tr>
-            <th scope="col">Duration</th>
+            <th scope="col" >Duration</th>
             <th scope="col">Interest Rate</th>
         
           </tr>
@@ -61,7 +61,7 @@ const Plan = () => {
       </div>
       <div className="container w-full  flex md:flex-row flex-col">
       <div className="md:w-1/2 md:mx-4 w-full text-center mb-10">
-      <h1 className="text-3xl text-center text-blue-500 py-10 font-myFont">Manmandir Deposit Scheme <br/> (Term 5 Years)</h1>
+      <h1 className="text-3xl text-center text-blue-900 py-10 font-myFont">Manmandir Deposit Scheme <br/> (Term 5 Years)</h1>
       <table class="table table-striped table-bordered border-2 rounded-lg border-black">
       <thead>
         <tr>
@@ -120,7 +120,7 @@ const Plan = () => {
     </table>
       </div>
       <div className="md:w-1/2 w-full md:mx-4 text-center mb-10">
-      <h1 className="text-3xl text-center text-blue-500 font-myFont py-10">Manmandir Recurring Deposit Scheme <br /><span className="text-2xl">Lakhpati Yojana (Term 5 Years)</span></h1>
+      <h1 className="text-3xl text-center text-blue-900 font-myFont py-10">Manmandir Recurring Deposit Scheme <br /><span className="text-2xl">Lakhpati Yojana (Term 5 Years)</span></h1>
       <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
         <thead>
           <tr>
