@@ -1,10 +1,19 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { Link } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 
 export default function Example() {
+  //assigning location variable
+  const location = useLocation();
+
+  //destructuring pathname from location
+  const { pathname } = location;
+
+  //Javascript split method to get the name of the path in array
+  const splitLocation = pathname.split("/");
+
   return (
     <Disclosure as="nav" className="bg-blue-500 md:px-10">
       {({ open }) => (
@@ -39,34 +48,34 @@ export default function Example() {
                     src="/Images/bank.jpeg"
                     alt="Workflow"
                   />
-                  <Link
-                    className=" text-black text-xl font-bold font-myFont"
+                  <NavLink
+                    className=" text-xl font-bold font-myFont home"
                     to="/"
                   >
                     Manmandir Bank
-                  </Link>
+                  </NavLink>
                 </div>
               </div>
               <div className="hidden lg:block sm:ml-6 my-auto">
                 <div className="flex mx-4 mt-3.5 items-center justify-center text-center">
-                  <ul className="flex">
-                    <li className="mx-3 my_li font-myFont">
-                      <Link to="/about">About Us</Link>
+                  <ul className="flex my_ul">
+                    <li className={splitLocation[1] === "" ? "active" : ""}>
+                      <NavLink to="/about">About</NavLink>
                     </li>
-                    <li className="mx-3 my_li font-myFont">
-                      <Link to="/service">Service</Link>
+                    <li className={splitLocation[1] === "" ? "active" : ""}>
+                      <NavLink to="/service">Service</NavLink>
                     </li>
-                    <li className="mx-3 my_li font-myFont">
-                      <Link to="/plan">Plan</Link>
+                    <li className={splitLocation[1] === "" ? "active" : ""}>
+                      <NavLink to="/plan">Plan</NavLink>
                     </li>
-                    <li className="mx-3 my_li font-myFont">
-                      <Link to="/faq">FAQ</Link>
+                    <li className={splitLocation[1] === "" ? "active" : ""}>
+                      <NavLink to="/faq">FAQ</NavLink>
                     </li>
-                    <li className="mx-3 my_li font-myFont">
-                      <Link to="/notice">Notice</Link>
+                    <li className={splitLocation[1] === "" ? "active" : ""}>
+                      <NavLink to="/notice">Notice</NavLink>
                     </li>
-                    <li className="mx-3 my_li font-myFont">
-                      <Link to="/contact">Contact Us</Link>
+                    <li className={splitLocation[1] === "" ? "active" : ""}>
+                      <NavLink to="/contact">Contact</NavLink>
                     </li>
                   </ul>
                 </div>
@@ -86,22 +95,22 @@ export default function Example() {
                 <div className="flex">
                   <ul className="flex-col">
                     <li className="my_li font-myFont">
-                      <Link to="/about">About Us</Link>
+                      <NavLink to="/about">About Us</NavLink>
                     </li>
                     <li className="my_li font-myFont">
-                      <Link to="/service">Service</Link>
+                      <NavLink to="/service">Service</NavLink>
                     </li>
                     <li className="my_li font-myFont">
-                      <Link to="/invest">Invest</Link>
+                      <NavLink to="/invest">Invest</NavLink>
                     </li>
                     <li className="my_li font-myFont">
-                      <Link to="/faq">FAQ</Link>
+                      <NavLink to="/faq">FAQ</NavLink>
                     </li>
                     <li className="mx-3 my_li font-myFont">
-                      <Link to="/notice">Notice</Link>
+                      <NavLink to="/notice">Notice</NavLink>
                     </li>
                     <li className="my_li font-myFont">
-                      <Link to="/contact">Contact Us</Link>
+                      <NavLink to="/contact">Contact Us</NavLink>
                     </li>
                   </ul>
                 </div>

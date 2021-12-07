@@ -136,3 +136,37 @@ a:hover {
     width: 280px;
   }
 }
+
+.my_ul {
+  list-style: none;
+}
+ul.my_ul li a {
+  text-decoration: none;
+  background-color: #a2d2ff;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+ul.my_ul li a:hover {
+  color: #fff;
+}
+
+.my_ul .active {
+  background-color: black;
+  color: #fff;
+}
+
+.my_ul .active a {
+  background-color: #a2d2ff;
+  color: #fff;
+}
+
+.home {
+  background-color: transparent;
+  color: white;
+}
+
+.home:hover {
+  color: white;
+}

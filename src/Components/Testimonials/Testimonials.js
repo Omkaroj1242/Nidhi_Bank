@@ -19,7 +19,7 @@ const Testimonials = () => {
           <span class="font-bold text-black">”</span>
         </p>
         <div class="flex items-center justify-center">
-          <div class="flex ml-2 items-center justify-center text-blue-700">
+          <div class="flex ml-2 items-center justify-center text-black">
             <span class="font-semibold mr-2 text-lg">
              - Jean Miguel
             </span>
@@ -39,7 +39,7 @@ const Testimonials = () => {
           <span class="font-bold text-black">”</span>
         </p>
         <div class="flex items-center justify-center mt-4">
-          <div class="flex ml-2 items-center justify-center text-blue-700">
+          <div class="flex ml-2 items-center justify-center text-black">
             <span class="font-semibold mr-2 text-lg">
             - Jean Miguel
             </span>
@@ -59,7 +59,7 @@ const Testimonials = () => {
           <span class="font-bold text-black">”</span>
         </p>
         <div class="flex items-center justify-center mt-8">
-          <div class="flex ml-2 items-center justify-center text-blue-700">
+          <div class="flex ml-2 items-center justify-center text-black">
             <span class="font-semibold mr-2 text-lg">
              - Jean Miguel
             </span>
