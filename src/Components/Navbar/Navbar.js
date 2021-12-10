@@ -1,18 +1,9 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 export default function Example() {
-  //assigning location variable
-  const location = useLocation();
-
-  //destructuring pathname from location
-  const { pathname } = location;
-
-  //Javascript split method to get the name of the path in array
-  const splitLocation = pathname.split("/");
-
   return (
     <Disclosure as="nav" className="bg-blue-500 md:px-10">
       {({ open }) => (
