@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <div>
       <section class="text-blue-500 body-font py-4 my-8">
-        <h1 className="text-center text-6xl font-myFont text-blue-400">
+        <h1 className="text-center md:text-5xl text-3xl text-blue-400 font-myFont">
           Our Services
         </h1>
         <div class="container px-5 py-12 mx-auto">

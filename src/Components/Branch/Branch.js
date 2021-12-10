@@ -93,13 +93,13 @@ const Branch = () => {
   return (
     <div>
       <div className="my-8 mb-10">
-        <h1 className="text-blue-400 text-center text-6xl py-8">
+        <h1 className="md:text-5xl text-3xl text-blue-400 font-myFont text-center py-8">
           Our Branches Across Cities
         </h1>
         <div className="row justify-center items-center text-center mx-4 gap-8">
           {bankData.map((data, id) => {
             return (
-              <div className="card card_wrapper px-4 py-4 shadow-md" style={{ width: "28rem" }}>
+              <div className="card card_wrapper px-4 py-4 shadow-md" style={{ width: "20rem" }}>
                 <h5 className="card-title md:text-4xl text-3xl font-myFont py-2">{data.branchName}</h5>
                 <p className="card-text font-myFont pb-4 max-h-10">{data.address}</p>
 

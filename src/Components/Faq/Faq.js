@@ -5,7 +5,7 @@ const Faq = () => {
   return (
     <div>
       <div className="container mx-auto my-10 mb-40">
-      <h1 className="text-center py-10 text-blue-400 text-6xl">Frequently Asked Questions...?</h1>
+      <h1 className="text-center py-10 md:text-5xl text-3xl text-blue-400 font-myFont">Frequently Asked Questions...?</h1>
         <Accordion defaultActiveKey="0" className="w-11/12 mx-auto">
           <Accordion.Item eventKey="0">
             <Accordion.Header>Accordion Item #1</Accordion.Header>

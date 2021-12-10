@@ -72,7 +72,7 @@ const Features = () => {
 
   return (
     <div className="my-8 mb-10">
-      <h1 className="text-blue-400 text-center text-6xl py-8">Features</h1>
+      <h1 className="md:text-5xl text-3xl text-blue-400 text-center font-myFont py-8">Features</h1>
       <div className="row justify-center items-center text-center mx-4 gap-8">
         {bankFeatures.map((data, id) => {
           return (

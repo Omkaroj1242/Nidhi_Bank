@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Example() {
   return (
@@ -24,7 +24,10 @@ export default function Example() {
 
               {/* Laptop Navbar */}
 
-              <header id="header" className="container align-items-center bg-blue-500">
+              <header
+                id="header"
+                className="container align-items-center bg-blue-500"
+              >
                 <div className="flex align-items-center justify-content-between">
                   <div className="flex-1 flex lg:block items-center justify-center px-2">
                     <h1 className="logo flex h-8">
@@ -100,15 +103,12 @@ export default function Example() {
                       </li>
 
                       <button class="btn btn-warning">
-                        <a
-                          href="tel:+918974562241"
-                          className="text-black text-sm px-1"
-                        >
-                          8974562241
+                        <a href="tel:+918974562241" className="text-black">
                           <i
                             class="fa fa-phone"
-                            style={{ "font-size": "20px" }}
+                            style={{ "font-size": "18px", padding:"0 8px 0 0" }}
                           ></i>
+                          8974562241
                         </a>
                       </button>
                     </ul>

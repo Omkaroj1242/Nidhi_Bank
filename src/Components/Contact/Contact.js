@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact" class="contact">
       <div className="mx-12">
         <div class="section-title text-center">
-          <h2 className="md:text-5xl text-3xl text-blue-400 my-8">Contact Us</h2>
+          <h2 className="md:text-5xl text-3xl text-blue-400 my-8 font-myFont">Contact Us</h2>
         </div>
 
         <div>
@@ -24,7 +24,8 @@ const Contact = () => {
                 <i className="fas fa-map-marker-alt my-auto mx-4" style={{"font-size":"36px" }}></i>
                 <div>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>In front of ST stand, Vita - 415 311, Taluka Khanapur,
+                District Sangli.</p>
                 </div>
               </div>
 
@@ -32,7 +33,7 @@ const Contact = () => {
                 <i class="fas fa-envelope my-auto mx-4" style={{"font-size":"36px"}}></i>
                 <div>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>manmandirbankvita@yahoo.com</p>
                 </div>
               </div>
 
@@ -40,7 +41,7 @@ const Contact = () => {
                 <i class="fa fa-phone-square my-auto mx-4" style={{"font-size":"36px"}}></i>
                 <div>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>8974562241</p>
                 </div>
               </div>
             </div>

@@ -3,9 +3,9 @@ import React from 'react'
 const Plan = () => {
     return (
         <div className="py-10 min-h-screen">
-        <h1 className="md:text-6xl text-4xl font-myFont text-center text-blue-400 py-6">Various Deposit Schemes Of The Bank</h1>
+        <h1 className="text-center md:text-5xl text-3xl text-blue-400 py-6 font-myFont">Various Deposit Schemes Of The Bank</h1>
         <div className="container mb-16 text-center">
-        <h1 className="text-center text-blue-900 text-4xl py-6 font-myFont">Attractive interest rates on deposits</h1>
+        <h1 className="text-center text-blue-900 text-3xl py-6 font-myFont">Attractive interest rates on deposits</h1>
         <table class="table table-striped table-bordered container mx-auto border-2 rounded-lg border-black">
         
         <thead>

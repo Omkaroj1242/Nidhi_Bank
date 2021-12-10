@@ -7,7 +7,7 @@ const Footer = () => {
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap text-left lg:text-left">
             <div class="w-full lg:w-6/12 px-4">
-              <h3 className="text-3xl text-white font-myFont py-1">
+              <h3 className="text-3xl text-black font-myFont py-1">
                 Manmandir Bank
               </h3>
               <h4 class="text-3xl  text-blue-400 font-myFont py-1">
