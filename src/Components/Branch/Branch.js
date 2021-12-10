@@ -1,122 +1,202 @@
 import React from "react";
 
 const Branch = () => {
-  const bankData = [
-    {
-      id: "1",
-      branchName: "Branch Vita",
-      address:
-        "Vita taluka Khanapur, district Sangli, in front of ST stand. 415 311",
-      phone1: "(02347) 273271",
-      phone2: 7774097930,
-      IFSCode: "ICIC00MMCBL",
-      MICRCode: "415812476",
-    },
-    {
-      id: "2",
-      branchName: "Branch Aatpadi",
-      address: "Main road, taluka Aatpadi, District Sangli. 415 401",
-      phone1: "(02342) 221114",
-      phone2: 7774097915,
-      IFSCode: "ICIC00MMCBL",
-      MICRCode: "415825501",
-    },
-    {
-      id: "3",
-      branchName: "Branch Jat",
-      address: "Mangalwar Peth Jat, Taluka Jat, District Sangli. 416 404",
-      phone1: "(02344) 248883",
-      phone2: 7774097913,
-      IFSCode: "ICIC00MMCBL",
-      MICRCode: "416812401",
-    },
-    {
-      id: "4",
-      branchName: "Branch Sangli",
-      address: "Saraf Katta, Sangli. 416 416",
-      phone1: "(0233) 2328130",
-      phone2: 7774097912,
-      IFSCode: "ICIC00MMCBL",
-      MICRCode: "416812151",
-    },
-    {
-      id: "5",
-      branchName: "Branch TaasGoan",
-      address:
-        "Om Shiv Sagar Complex, Joshi Galli, Tasgaon, District Sangli. 416 312",
-      phone1: "(02346) 241875",
-      phone2: 7774097917,
-      IFSCode: "ICIC00MMCBL",
-      MICRCode: "415812302",
-    },
-    {
-      id: "6",
-      branchName: "Branch Mayani",
-      address: "Vita Road, Mayani, Taluka Khatav, District Satara.",
-      phone1: "(02161) 270311",
-      phone2: 7774030948,
-      IFSCode: "ICIC00MMCBL",
-      MICRCode: "415825502",
-    },
-    {
-      id: "7",
-      branchName: "Branch Mahud",
-      address:
-        "2101, Yamuna Niwas, Navi Peth, Pandharpur Malhar-Peth Road, District Solapur. 413 306",
-      phone1: "(02187) 246009",
-      phone2: 7774005918,
-      IFSCode: "ICIC00MMCBL",
-      MICRCode: "413825501",
-    },
-    {
-      id: "8",
-      branchName: "Branch Sangh",
-      address:
-        "G. M. No. 1351, Jat Road, Sangh, Taluka Jat, District Sangli. 416 412",
-      phone1: "(02344) 227050",
-      phone2: 7774097929,
-      IFSCode: "ICIC00MMCBL",
-      MICRCode: "416812501",
-    },
-    {
-      id: "9",
-      branchName: "Kavathemahankala",
-      address:
-        "552, Bazar-peth Kavathemahankala, Taluka Kavathemahankala, District Sangli. 416 405",
-      phone1: "(02341) 222090",
-      phone2: 7774097914,
-      IFSCode: "ICIC00MMCBL",
-      MICRCode: "416812502",
-    },
-  ];
-
   return (
     <div>
-      <div className="my-8 mb-10">
-        <h1 className="md:text-5xl text-3xl text-blue-400 font-myFont text-center py-8">
-          Our Branches Across Cities
-        </h1>
-        <div className="row justify-center items-center text-center mx-4 gap-8">
-          {bankData.map((data, id) => {
-            return (
-              <div className="card card_wrapper px-4 py-4 shadow-md" style={{ width: "20rem" }}>
-                <h5 className="card-title md:text-4xl text-3xl font-myFont py-2">{data.branchName}</h5>
-                <p className="card-text font-myFont pb-4 max-h-10">{data.address}</p>
+      <section id="pricing" class="pricing section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h1 className="md:text-5xl text-3xl text-blue-400 font-myFont text-center py-8">
+              Our Branches Across Cities
+            </h1>
+          </div>
 
-                <ul className="list-group list-group-flush py-2">
-                  <li className="font-myFont text-xl">Phone No : -</li>
-                  <li className="font-myFont md:text-base text-sm py-2">{data.phone1}</li>
-                  <li className="font-myFont md:text-base text-sm">{data.phone2}</li>
+          <div class="row mb-10">
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="box featured branch_card">
+                <h3>Branch Vita</h3>
+
+                <ul>
+                  <li>
+                    Vita taluka Khanapur, district Sangli, in front of ST stand.
+                    415 311
+                  </li>
+                  <li>(02347) 273271</li>
+                  <li>7774097930</li>
+                  <li>IFSCode:- ICIC00MMCBL</li>
+                  <li>MICRCode:- 416812502</li>
                 </ul>
-                <div className="py-4" >
-                  <p className="font-myFont">IFSC Code : - {data.IFSCode}</p>
-                  <p className="font-myFont">MICR Code : - {data.MICRCode}</p>
-                </div>
               </div>
-            );
-          })}
+            </div>
+
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="box featured branch_card">
+                <h3>Branch Aatpadi</h3>
+
+                <ul>
+                  <li>
+                  Main road, taluka Aatpadi, District Sangli 415 401.
+                  </li>
+                  <li>(02342) 221114</li>
+                  <li>7774097915</li>
+                  <li>IFSCode:- ICIC00MMCBL</li>
+                  <li>MICRCode:- 415825501</li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="box featured branch_card">
+                <h3>Branch Jat</h3>
+
+                <ul>
+                  <li>
+                  Mangalwar Peth Jat, Taluka Jat, District Sangli. 416 404.
+                  </li>
+                  <li>(02344) 248883</li>
+                  <li>7774097913</li>
+                  <li>IFSCode:- ICIC00MMCBL</li>
+                  <li>MICRCode:- 416812401</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-10">
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="box featured branch_card">
+                <h3>Branch Sangli</h3>
+
+                <ul>
+                  <li>
+                  Saraf Katta, Sangli. 416 416.
+                  </li>
+                  <li>(0233) 2328130</li>
+                  <li>7774097912</li>
+                  <li>IFSCode:- ICIC00MMCBL</li>
+                  <li>MICRCode:- 416812151</li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="box featured branch_card">
+                <h3>Branch TaasGoan</h3>
+
+                <ul>
+                  <li>
+                  Om Shiv Sagar Complex, Joshi Galli, Tasgaon, District Sangli. 416 312.
+                  </li>
+                  <li>(02346) 241875</li>
+                  <li>7774097917</li>
+                  <li>IFSCode:- ICIC00MMCBL</li>
+                  <li>MICRCode:- 415812302</li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="box featured branch_card">
+                <h3>Branch Mayani</h3>
+
+                <ul>
+                  <li>
+                  Vita Road, Mayani, Taluka Khatav, District Satara.
+                  </li>
+                  <li>(02161) 270311</li>
+                  <li>77774030948</li>
+                  <li>IFSCode:- ICIC00MMCBL</li>
+                  <li>MICRCode:- 415825502</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-10">
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="box featured branch_card">
+                <h3>Branch Mahud</h3>
+
+                <ul>
+                  <li>
+                  2101, Yamuna Niwas, Navi Peth, Pandharpur Malhar-Peth Road, District Solapur. 413 306.
+                  </li>
+                  <li>(02187) 246009</li>
+                  <li>7774005918</li>
+                  <li>IFSCode:- ICIC00MMCBL</li>
+                  <li>MICRCode:- 413825501</li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="box featured branch_card">
+                <h3>Branch Sangh</h3>
+
+                <ul>
+                  <li>
+                  G. M. No. 1351, Jat Road, Sangh, Taluka Jat, District Sangli. 416 412.
+                  </li>
+                  <li>(02344) 227050</li>
+                  <li>7774097929</li>
+                  <li>IFSCode:- ICIC00MMCBL</li>
+                  <li>MICRCode:- 416812501</li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="box featured branch_card">
+                <h3>Branch Kavathemahankala</h3>
+
+                <ul>
+                  <li>
+                  552, Bazar-peth Kavathemahankala, Taluka Kavathemahankala, District Sangli. 416 405.
+                  </li>
+                  <li>(02341) 222090</li>
+                  <li>7774097914</li>
+                  <li>IFSCode:- ICIC00MMCBL</li>
+                  <li>MICRCode:- 416812502</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

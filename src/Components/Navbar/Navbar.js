@@ -39,7 +39,7 @@ export default function Example() {
                       />
                       <NavLink
                         to="/"
-                        className="text-black font-myFont md:text-3xl text-2xl"
+                        className="text-black font-myFont md:text-2xl text-xl py-1"
                       >
                         Manmandir Bank
                       </NavLink>
@@ -106,7 +106,7 @@ export default function Example() {
                         <a href="tel:+918974562241" className="text-black">
                           <i
                             class="fa fa-phone"
-                            style={{ "font-size": "18px", padding:"0 8px 0 0" }}
+                            style={{ "font-size": "18px", padding:"0 5px 0 0" }}
                           ></i>
                           8974562241
                         </a>
