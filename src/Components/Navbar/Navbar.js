@@ -2,7 +2,6 @@
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { NavLink, useLocation } from "react-router-dom";
-import { FaPhoneAlt } from "react-icons/fa";
 
 export default function Example() {
   //assigning location variable
@@ -20,13 +19,6 @@ export default function Example() {
         <>
           <div className="bg-blue-500 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
-              <div>
-                <img
-                  className="hidden lg:block h-8 w-auto text-center"
-                  src="/Images/bank.jpeg"
-                  alt="Workflow"
-                />
-              </div>
               <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -41,51 +33,97 @@ export default function Example() {
 
               {/* Laptop Navbar */}
 
-              <div className="flex-1 flex lg:block items-center justify-center px-2">
-                <div className="flex items-center">
-                  <img
-                    className="lg:hidden block px-2 h-8 w-auto text-center"
-                    src="/Images/bank.jpeg"
-                    alt="Workflow"
-                  />
-                  <NavLink
-                    className=" text-xl font-bold font-myFont home"
-                    to="/"
-                  >
-                    Manmandir Bank
-                  </NavLink>
-                </div>
-              </div>
-              <div className="hidden lg:block sm:ml-6 my-auto">
-                <div className="flex mx-4 mt-3.5 items-center justify-center text-center">
-                  <ul className="flex my_ul">
-                    <li className={splitLocation[1] === "" ? "active" : ""}>
-                      <NavLink to="/about">About</NavLink>
-                    </li>
-                    <li className={splitLocation[1] === "" ? "active" : ""}>
-                      <NavLink to="/service">Service</NavLink>
-                    </li>
-                    <li className={splitLocation[1] === "" ? "active" : ""}>
-                      <NavLink to="/plan">Plan</NavLink>
-                    </li>
-                    <li className={splitLocation[1] === "" ? "active" : ""}>
-                      <NavLink to="/faq">FAQ</NavLink>
-                    </li>
-                    <li className={splitLocation[1] === "" ? "active" : ""}>
-                      <NavLink to="/notice">Notice</NavLink>
-                    </li>
-                    <li className={splitLocation[1] === "" ? "active" : ""}>
-                      <NavLink to="/contact">Contact</NavLink>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <header id="header" className="container align-items-center bg-blue-500">
+                <div className="flex align-items-center justify-content-between">
+                  <div className="flex-1 flex lg:block items-center justify-center px-2">
+                    <h1 className="logo flex h-8">
+                      <img
+                        src="Images/bank.jpeg"
+                        alt=""
+                        style={{ height: "40px", width: "40px" }}
+                        className="mx-2"
+                      />
+                      <NavLink
+                        to="/"
+                        className="text-black font-myFont md:text-3xl text-2xl"
+                      >
+                        Manmandir Bank
+                      </NavLink>
+                    </h1>
+                  </div>
+                  <nav id="navbar" className="navbar">
+                    <ul>
+                      <li>
+                        <NavLink
+                          to="/about"
+                          className="nav-link scrollto font-myFont"
+                          href="#about"
+                        >
+                          About
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/service"
+                          className="nav-link scrollto font-myFont"
+                          href="#services"
+                        >
+                          Services
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/plan"
+                          className="nav-link scrollto font-myFont "
+                          href="#portfolio"
+                        >
+                          Plan
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/faq"
+                          className="nav-link scrollto font-myFont"
+                          href="#team"
+                        >
+                          Faq
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/notice"
+                          className="nav-link scrollto font-myFont"
+                          href="#team"
+                        >
+                          Notice
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/contact"
+                          className="nav-link scrollto font-myFont"
+                          href="#contact"
+                        >
+                          Contact
+                        </NavLink>
+                      </li>
 
-              <div className="hidden lg:block -mt-1">
-                <a href="tel:+918974562241">
-                  <FaPhoneAlt className="hidden lg:block" />
-                </a>
-              </div>
+                      <button class="btn btn-warning">
+                        <a
+                          href="tel:+918974562241"
+                          className="text-black text-sm px-1"
+                        >
+                          8974562241
+                          <i
+                            class="fa fa-phone"
+                            style={{ "font-size": "20px" }}
+                          ></i>
+                        </a>
+                      </button>
+                    </ul>
+                  </nav>
+                </div>
+              </header>
             </div>
           </div>
 
@@ -94,22 +132,22 @@ export default function Example() {
               <Disclosure.Button>
                 <div className="flex">
                   <ul className="flex-col">
-                    <li className="my_li font-myFont">
+                    <li className="my_li font-myFont mb-2">
                       <NavLink to="/about">About Us</NavLink>
                     </li>
-                    <li className="my_li font-myFont">
+                    <li className="my_li font-myFont mb-2">
                       <NavLink to="/service">Service</NavLink>
                     </li>
-                    <li className="my_li font-myFont">
+                    <li className="my_li font-myFont mb-2">
                       <NavLink to="/invest">Invest</NavLink>
                     </li>
-                    <li className="my_li font-myFont">
+                    <li className="my_li font-myFont mb-2">
                       <NavLink to="/faq">FAQ</NavLink>
                     </li>
-                    <li className="mx-3 my_li font-myFont">
+                    <li className="mx-3 my_li font-myFont mb-2">
                       <NavLink to="/notice">Notice</NavLink>
                     </li>
-                    <li className="my_li font-myFont">
+                    <li className="my_li font-myFont mb-2">
                       <NavLink to="/contact">Contact Us</NavLink>
                     </li>
                   </ul>
