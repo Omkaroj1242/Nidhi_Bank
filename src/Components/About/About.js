@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const About = () => {
   return (
-    <div>
+    <>
       <div>
         <Carousel>
           <Carousel.Item className="w-full ">
@@ -133,137 +133,63 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-              <div className="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
-                <div className="relative space-y-4">
-                  <div className="flex items-end justify-center lg:justify-start space-x-4">
-                    <img
-                      className="rounded-lg shadow-lg w-32 md:w-56"
-                      width="200"
-                      src="https://dummyimage.com/500x400/000/fff"
-                      alt="1"
-                    />
-                    <img
-                      className="rounded-lg shadow-lg w-40 md:w-64"
-                      width="260"
-                      src="https://dummyimage.com/500x400/000/fff"
-                      alt="2"
-                    />
-                  </div>
-                  <div className="flex items-start justify-center lg:justify-start space-x-4 ml-12">
-                    <img
-                      className="rounded-lg shadow-lg w-24 md:w-40"
-                      width="170"
-                      src="https://dummyimage.com/500x400/000/fff"
-                      alt="3"
-                    />
-                    <img
-                      className="rounded-lg shadow-lg w-32 md:w-56"
-                      width="200"
-                      src="https://dummyimage.com/500x400/000/fff"
-                      alt="4"
-                    />
-                  </div>
+              <div class="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
+                <div class="relative space-y-4">
+                    <div class="flex items-end justify-center lg:justify-start space-x-4">
+                        <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="https://dummyimage.com/600x400/000/fff" alt="1"/>
+                        <img class="rounded-lg shadow-lg w-40 md:w-64" width="260" src="https://dummyimage.com/600x400/000/fff" alt="2"/>
+                    </div>
+                    <div class="flex items-start justify-center lg:justify-start space-x-4 ml-12">
+                        <img class="rounded-lg shadow-lg w-24 md:w-40" width="170" src="https://dummyimage.com/600x400/000/fff" alt="3"/>
+                        <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="https://dummyimage.com/600x400/000/fff" alt="4"/>
+                    </div>
                 </div>
-              </div>
+            </div>
             </div>
           </div>
         </div>
-        {/*  <div className="bg-blue-800 shadow py-4 my-8 ">
-          <p className="text-center text-3xl font-bold text-blue-600 py-6">
-            Founding Member
-          </p>
-          <div className="flex flex-col md:flex-row justify-evenly">
-            <div className="bg-white p-5 shadow text-blue-300 rounded-lg mb-4 mx-4">
-              <div className="text-center mb-4 opacity-90">
-                <a href="#" className="block relative">
+      </div>
+      
+      <div>
+        <div className="mb-8 mx-4">
+          <div className="bg-white py-4 my-8">
+            <p className="text-center md:text-5xl text-3xl text-blue-400 my-8 py-12 font-myFont">
+              Existing Board Of Directors
+            </p>
+            {/* 2 Cards In A Row */}
+            <section id="pricing" className="pricing section-bg">
+              <div className="row mb-10">
+                <div
+                  className="col-lg-6 col-md-6"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
                   <img
-                    alt="profile"
-                    src="https://picsum.photos/200"
-                    className="mx-auto object-cover rounded-lg h-40 w-40 "
+                    src="/Images/member1.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
-                </a>
-              </div>
-              <div className="text-center">
-                <p className="text-2xl text-black">Patrick Sebastien</p>
-                <p className="text-xl text-blue-500 font-myFont">
-                  Managing
-                  <br />
-                  Director
-                </p>
-              </div>
-            </div>
-            <div className="bg-white p-5 shadow text-blue-300 rounded-lg mb-4 mx-4">
-              <div className="text-center mb-4 opacity-90">
-                <a href="#" className="block relative">
-                  <img
-                    alt="profile"
-                    src="https://picsum.photos/200"
-                    className="mx-auto object-cover rounded-lg h-40 w-40 "
-                  />
-                </a>
-              </div>
-              <div className="text-center">
-                <p className="text-2xl text-black">Jean Castux</p>
-                <p className="text-xl text-blue-500 font-myFont">CEO</p>
-              </div>
-            </div>
-            <div className="bg-white p-5 shadow text-blue-300 rounded-lg mb-4 mx-4">
-              <div className="text-center mb-4 opacity-90">
-                <a href="#" className="block relative">
-                  <img
-                    alt="profile"
-                    src="https://picsum.photos/200"
-                    className="mx-auto object-cover rounded-lg h-40 w-40 "
-                  />
-                </a>
-              </div>
-              <div className="text-center">
-                <p className="text-2xl text-black">Thierry Halliday</p>
-                <p className="text-xl text-blue-500 font-myFont">Manager</p>
-              </div>
-            </div>
-          </div>
-  </div> */}
-        <div>
-          <div className="mb-8 mx-4">
-            <div className="bg-white py-4 my-8">
-              <p className="text-center md:text-5xl text-3xl text-blue-400 my-8 py-12 font-myFont">
-                Existing Board Of Directors
-              </p>
-              {/* 2 Cards In A Row */}
-              <section id="pricing" className="pricing section-bg">
-                <div className="row mb-10">
-                  <div
-                    className="col-lg-6 col-md-6"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member1.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
-                      <p className="text-2xl text-black">
-                        Adv. Ajit Ashokrao Gaikwad
-                      </p>
-                      <p className="text-xl text-blue-500 font-myFont">
-                        Chairman
-                      </p>
-                    </div>
+                  <div className="text-center">
+                    <p className="text-2xl text-black">
+                      Adv. Ajit Ashokrao Gaikwad
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Chairman
+                    </p>
                   </div>
+                </div>
 
-                  <div
-                    className="col-lg-6 col-md-6"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member2.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
+                <div
+                  className="col-lg-6 col-md-6"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member2.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
                     <p className="text-2xl text-black">
                       Chandrasekhar Jaysingrao Gaikwad
                     </p>
@@ -271,24 +197,23 @@ const About = () => {
                       Vice Chairman
                     </p>
                   </div>
-                  </div>
-
                 </div>
+              </div>
 
-               {/* 4 Cards in a row */}
+              {/* 4 Cards in a row */}
 
-                <div className="row mb-10">
-                  <div
-                    className="col-lg-4 col-md-4"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member3.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
+              <div className="row mb-10 md:px-14 px-2">
+                <div
+                  className="col-lg-4 col-md-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member3.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
                     <p className="text-2xl text-black">
                       C.A. Laxman Kakasaheb Gaikwad
                     </p>
@@ -296,254 +221,252 @@ const About = () => {
                       Director
                     </p>
                   </div>
-                  </div>
+                </div>
 
-                  <div
-                    className="col-lg-4 col-md-4"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member4.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
+                <div
+                  className="col-lg-4 col-md-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member4.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
                     <p className="text-2xl text-black">
                       Adv. Prasad Shriram Waikar
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont"> Director</p>
-                   
-                  </div>
-                  </div>
-                  
-                  <div
-                    className="col-lg-4 col-md-4"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member5.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
-                    <p className="text-2xl text-black">
-                    Ramkumar Kishan Gaikwad
-                    </p>
                     <p className="text-xl text-blue-500 font-myFont">
+                      {" "}
                       Director
                     </p>
                   </div>
-                  </div>
-                 
                 </div>
 
-                {/* 4 Cards in a row */}
-
-                <div className="row mb-10">
                 <div
-                className="col-lg-4 col-md-4"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <img
-                  src="/Images/member6.jpg"
-                  alt=""
-                  className="mx-auto object-cover rounded-lg h-48 w-40 "
-                />
-                <div className="text-center">
+                  className="col-lg-4 col-md-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member5.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
                     <p className="text-2xl text-black">
-                    Ramchandra Krishna Pawar
+                      Ramkumar Kishan Gaikwad
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
                       Director
                     </p>
                   </div>
+                </div>
               </div>
-                  <div
-                    className="col-lg-4 col-md-4"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/7.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
-                    <p className="text-2xl text-black">
-                    Siddheshwar Basvneppa Sangh
-                    </p>
-                    <p className="text-xl text-blue-500 font-myFont">
-                      Director
-                    </p>
-                  </div>
-                  </div>
-                  
-                  <div
-                    className="col-lg-4 col-md-4"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member7.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
-                    <p className="text-2xl text-black">
-                    Shivaji Keshav Shitole
-                    </p>
-                    <p className="text-xl text-blue-500 font-myFont">
-                      Director
-                    </p>
-                  </div>
-                  </div>  
-                </div>
-                <div className="row mb-10">
-                  <div
-                    className="col-lg-4 col-md-4"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member8.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
-                    <p className="text-2xl text-black">
-                    Pramod Keshav Dharmadhikari
-                    </p>
-                    <p className="text-xl text-blue-500 font-myFont">
-                      Director
-                    </p>
-                  </div>
-                  </div>
 
-                  <div
-                    className="col-lg-4 col-md-4"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member9.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
+              {/* 4 Cards in a row */}
+
+              <div className="row mb-10 md:px-14 px-2">
+                <div
+                  className="col-lg-4 col-md-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member6.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
                     <p className="text-2xl text-black">
-                    Dattatraya Baburao Tarlekar
+                      Ramchandra Krishna Pawar
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
                       Director
                     </p>
                   </div>
-                  </div>
-                  
-                  <div
-                    className="col-lg-4 col-md-4"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member10.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
-                    <p className="text-2xl text-black">
-                    Jyotiram Ramchandra Hogley
-                    </p>
-                    <p className="text-xl text-blue-500 font-myFont">
-                    Director
-                    </p>
-                  </div>
-                  </div>  
                 </div>
-                <div className="row mb-10">
-                  <div
-                    className="col-lg-3 col-md-3"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member11.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
+                <div
+                  className="col-lg-4 col-md-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/7.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
                     <p className="text-2xl text-black">
-                    Vilas Sopan Khilare
+                      Siddheshwar Basvneppa Sangh
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
-                    Director
+                      Director
                     </p>
                   </div>
-                  </div>
+                </div>
 
-                  <div
-                    className="col-lg-3 col-md-3"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member12.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
+                <div
+                  className="col-lg-4 col-md-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member7.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
                     <p className="text-2xl text-black">
-                    Sangeeta Bapuso Gauraje
+                      Shivaji Keshav Shitole
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="row mb-10 md:px-20 px-2">
+                <div
+                  className="col-lg-4 col-md-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member8.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
+                    <p className="text-2xl text-black">
+                      Pramod Keshav Dharmadhikari
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  className="col-lg-4 col-md-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member9.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
+                    <p className="text-2xl text-black">
+                      Dattatraya Baburao Tarlekar
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  className="col-lg-4 col-md-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member10.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
+                    <p className="text-2xl text-black">
+                      Jyotiram Ramchandra Hogley
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="row mb-10">
+                <div
+                  className="col-lg-3 col-md-3"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member11.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
+                    <p className="text-2xl text-black">Vilas Sopan Khilare</p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  className="col-lg-3 col-md-3"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member12.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
+                    <p className="text-2xl text-black">
+                      Sangeeta Bapuso Gauraje
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">Hostess</p>
                   </div>
-                  </div>
-                  
-                  <div
-                    className="col-lg-3 col-md-3"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member13.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
+                </div>
+
+                <div
+                  className="col-lg-3 col-md-3"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member13.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
                     <p className="text-2xl text-black">
-                    Rajshri Shankar Gaikwad
+                      Rajshri Shankar Gaikwad
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">Hostess</p>
                   </div>
-                  </div> 
-                  <div
-                    className="col-lg-3 col-md-3"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <img
-                      src="/Images/member14.jpg"
-                      alt=""
-                      className="mx-auto object-cover rounded-lg h-48 w-40 "
-                    />
-                    <div className="text-center">
+                </div>
+                <div
+                  className="col-lg-3 col-md-3"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="/Images/member14.jpg"
+                    alt=""
+                    className="mx-auto object-cover rounded-lg h-48 w-40 "
+                  />
+                  <div className="text-center">
                     <p className="text-2xl text-black">
-                    Suresh Raghunath Pawar
+                      Suresh Raghunath Pawar
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
-                    Chief manager
+                      Chief manager
                     </p>
                   </div>
-                  </div>   
                 </div>
-              </section>
-            </div>
+              </div>
+            </section>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
