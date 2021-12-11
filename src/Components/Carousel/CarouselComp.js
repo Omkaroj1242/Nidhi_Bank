@@ -22,13 +22,6 @@ const CarouselComp = () => {
     />
 
   </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="flex justify-center items-center mx-auto my_bg img-fluid"
-      src="/Images/poster1.jpg"
-      alt="Third slide"
-    />
-  </Carousel.Item>
 </Carousel>
     </div>
   )

@@ -5,14 +5,13 @@ const About = () => {
   return (
     <div>
       <div>
-        <Carousel >
+        <Carousel>
           <Carousel.Item className="w-full ">
             <img
               className="flex justify-center items-center mx-auto my_bg"
               src="https://dummyimage.com/1800x600/000/fff"
               alt="First slide"
             />
-           
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -20,8 +19,6 @@ const About = () => {
               src="https://dummyimage.com/1800x600/000/fff"
               alt="Second slide"
             />
-
-            
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -29,23 +26,23 @@ const About = () => {
               src="https://dummyimage.com/1800x600/000/fff"
               alt="Third slide"
             />
-
-            
           </Carousel.Item>
         </Carousel>
       </div>
 
       <div className="History bg-gray-200">
-        <h1 className="text-center md:text-5xl text-3xl text-blue-400 py-8 font-myFont">History</h1>
+        <h1 className="text-center md:text-5xl text-3xl text-blue-400 py-8 font-myFont">
+          History
+        </h1>
 
         <div className="max-w-screen-xl p-4  mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
           <div className="relative">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
               <div className="lg:col-start-2 lg:max-w-2xl ml-auto">
-                <p className="leading-6 md:text-4xl text-2xl font-myFont uppercase">
+                <p className="leading-6 md:text-3xl text-2xl font-myFont uppercase">
                   Interactive
                 </p>
-                <h4 className="mt-2 text-2xl leading-8 font-myFont text-blue-600 sm:text-3xl sm:leading-9">
+                <h4 className="mt-2 text-2xl leading-8 font-myFont text-blue-600 sm:text-xl sm:leading-9">
                   Interactivity between team members is the key of the success.
                 </h4>
                 <p className="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
@@ -228,309 +225,320 @@ const About = () => {
           </div>
   </div> */}
         <div>
-          <div classNameName="mb-8">
-            <div className="bg-white shadow py-4 my-8">
+          <div className="mb-8 mx-4">
+            <div className="bg-white py-4 my-8">
               <p className="text-center md:text-5xl text-3xl text-blue-400 my-8 py-12 font-myFont">
                 Existing Board Of Directors
               </p>
               {/* 2 Cards In A Row */}
-              <div className="flex items-center flex-col md:flex-row justify-evenly my-8">
-                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member1.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
+              <section id="pricing" className="pricing section-bg">
+                <div className="row mb-10">
+                  <div
+                    className="col-lg-6 col-md-6"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member1.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                      <p className="text-2xl text-black">
+                        Adv. Ajit Ashokrao Gaikwad
+                      </p>
+                      <p className="text-xl text-blue-500 font-myFont">
+                        Chairman
+                      </p>
+                    </div>
                   </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
-                      Adv. Ajit Ashokrao Gaikwad
-                    </p>
-                    <p className="text-xl text-blue-500 font-myFont">
-                      Chairman
-                    </p>
-                  </div>
-                </div>
-                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member2.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
+
+                  <div
+                    className="col-lg-6 col-md-6"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member2.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
                       Chandrasekhar Jaysingrao Gaikwad
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
                       Vice Chairman
                     </p>
                   </div>
-                </div>
-              </div>
-
-              {/* 4 Cards In A Row */}
-
-              <div className="flex items-center flex-col md:flex-row justify-evenly py-8">
-                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member3.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
                   </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
+
+                </div>
+
+               {/* 4 Cards in a row */}
+
+                <div className="row mb-10">
+                  <div
+                    className="col-lg-4 col-md-4"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member3.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
                       C.A. Laxman Kakasaheb Gaikwad
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
                       Director
                     </p>
                   </div>
-                </div>
-                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member4.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
                   </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
+
+                  <div
+                    className="col-lg-4 col-md-4"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member4.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
                       Adv. Prasad Shriram Waikar
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">CEO</p>
-                    Director
+                    <p className="text-xl text-blue-500 font-myFont"> Director</p>
+                   
                   </div>
-                </div>
-                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member5.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
                   </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
-                      Ramkumar Kisan Gaikwad
+                  
+                  <div
+                    className="col-lg-4 col-md-4"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member5.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
+                    Ramkumar Kishan Gaikwad
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
                       Director
                     </p>
                   </div>
-                </div>
-                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member6.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
                   </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
+                 
+                </div>
+
+                {/* 4 Cards in a row */}
+
+                <div className="row mb-10">
+                <div
+                className="col-lg-4 col-md-4"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <img
+                  src="/Images/member6.jpg"
+                  alt=""
+                  className="mx-auto object-cover rounded-lg h-48 w-40 "
+                />
+                <div className="text-center">
+                    <p className="text-2xl text-black">
                     Ramchandra Krishna Pawar
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
                       Director
                     </p>
                   </div>
-                </div>
               </div>
+                  <div
+                    className="col-lg-4 col-md-4"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/7.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
+                    Siddheshwar Basvneppa Sangh
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                  </div>
+                  
+                  <div
+                    className="col-lg-4 col-md-4"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member7.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
+                    Shivaji Keshav Shitole
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                  </div>  
+                </div>
+                <div className="row mb-10">
+                  <div
+                    className="col-lg-4 col-md-4"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member8.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
+                    Pramod Keshav Dharmadhikari
+                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                      Director
+                    </p>
+                  </div>
+                  </div>
 
-              {/* 5 Cards In A Row */}
-
-              <div className="flex mx-3 items-center flex-col md:flex-row justify-evenly py-8">
-                <div className="p-2 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/7.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
-                      Siddheshwar Basvneppa Sangh
+                  <div
+                    className="col-lg-4 col-md-4"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member9.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
+                    Dattatraya Baburao Tarlekar
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
                       Director
                     </p>
                   </div>
-                </div>
-                <div className="p-2 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member7.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
                   </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
-                      Shivaji Keshav Shitole
+                  
+                  <div
+                    className="col-lg-4 col-md-4"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member10.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
+                    Jyotiram Ramchandra Hogley
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
-                      Director
+                    Director
                     </p>
                   </div>
+                  </div>  
                 </div>
-                <div className="p-2 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member8.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
-                      Pramod Keshav Dharmadhikari
-                    </p>
-                    <p className="text-xl text-blue-500 font-myFont">
-                      Director
-                    </p>
-                  </div>
-                </div>
-                <div className="p-2 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member9.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
-                      Dattatraya Baburao Tarlekar
-                    </p>
-                    <p className="text-xl text-blue-500 font-myFont">
-                      Director
-                    </p>
-                  </div>
-                </div>
-                <div className="p-2 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member10.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
-                      Jyotiram Ramchandra Hogley
-                    </p>
-                    <p className="text-xl text-blue-500 font-myFont">
-                      Director
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* 4 Cards In A Row */}
-
-              <div className="flex items-center flex-col md:flex-row justify-evenly py-8">
-                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member11.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
+                <div className="row mb-10">
+                  <div
+                    className="col-lg-3 col-md-3"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member11.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
                     Vilas Sopan Khilare
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">
                     Director
                     </p>
                   </div>
-                </div>
-                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member12.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
                   </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
+
+                  <div
+                    className="col-lg-3 col-md-3"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member12.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
                     Sangeeta Bapuso Gauraje
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
-                    Hostess
-                    </p>
+                    <p className="text-xl text-blue-500 font-myFont">Hostess</p>
                   </div>
-                </div>
-                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member13.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
                   </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
+                  
+                  <div
+                    className="col-lg-3 col-md-3"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member13.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
                     Rajshri Shankar Gaikwad
                     </p>
                     <p className="text-xl text-blue-500 font-myFont">Hostess</p>
                   </div>
-                </div>
-                <div className="p-4 shadow card_wrapper1 text-blue-300 rounded-lg mb-4">
-                  <div className="text-center mb-4 opacity-90">
-                    <a href="#" className="block relative">
-                      <img
-                        alt="profile"
-                        src="/Images/member14.jpg"
-                        className="mx-auto object-cover rounded-lg h-48 w-40 "
-                      />
-                    </a>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-2xl text-black max-w-xs">
+                  </div> 
+                  <div
+                    className="col-lg-3 col-md-3"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <img
+                      src="/Images/member14.jpg"
+                      alt=""
+                      className="mx-auto object-cover rounded-lg h-48 w-40 "
+                    />
+                    <div className="text-center">
+                    <p className="text-2xl text-black">
                     Suresh Raghunath Pawar
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">Chief manager</p>
+                    <p className="text-xl text-blue-500 font-myFont">
+                    Chief manager
+                    </p>
                   </div>
+                  </div>   
                 </div>
-              </div>
+              </section>
             </div>
           </div>
         </div>
