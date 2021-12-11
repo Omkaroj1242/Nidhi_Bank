@@ -3,17 +3,17 @@ import React from "react";
 const Footer = () => {
     return (
         <div>
-            <footer class="relative bg-gray-600 pt-8 pb-6 bg-black-900">
+            <footer class="relative bg-gray-100 pt-8 pb-6 bg-blue-500">
                 <div class="container mx-auto px-4">
                     <div class="flex flex-wrap text-left lg:text-left">
                         <div class="w-full lg:w-6/12 px-4">
-                            <h3 className="text-3xl text-white font-myFont py-1">
+                            <h3 className="text-3xl text-black font-myFont py-1">
                                 Manmandir Bank
                             </h3>
                             <h4 class="text-3xl  text-blue-400 font-myFont py-1">
                                 Let's keep in touch!
                             </h4>
-                            <h5 class="text-lg mt-0 mb-2 text-white font-myFont py-1">
+                            <h5 class="text-lg mt-0 mb-2 text-blue-700 font-myFont py-1">
                                 Find us on any of these platforms, we respond
                                 1-2 business days.
                             </h5>
@@ -27,7 +27,7 @@ const Footer = () => {
                                     <ul class="list-unstyled">
                                         <li>
                                             <a
-                                                class="text-white font-semibold block pb-2 text-sm"
+                                                class="text-blue-700 hover:text-blue-800 font-semibold block pb-2 text-sm"
                                                 href="."
                                             >
                                                 About Us
@@ -35,7 +35,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                class="text-white font-semibold block pb-2 text-sm"
+                                                class="text-blue-700 hover:text-blue-800 font-semibold block pb-2 text-sm"
                                                 href="/"
                                             >
                                                 Blog
@@ -43,7 +43,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                class="text-white font-semibold block pb-2 text-sm"
+                                                class="text-blue-700 hover:text-blue-800 font-semibold block pb-2 text-sm"
                                                 href="/"
                                             >
                                                 Free Products
@@ -58,7 +58,7 @@ const Footer = () => {
                                     <ul class="list-unstyled">
                                         <li>
                                             <a
-                                                class="text-white font-semibold block pb-2 text-sm"
+                                                class="text-blue-700 hover:text-blue-800 font-semibold block pb-2 text-sm"
                                                 href="/"
                                             >
                                                 Terms &amp; Conditions
@@ -66,7 +66,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                class="text-white font-semibold block pb-2 text-sm"
+                                                class="text-blue-700 hover:text-blue-800 font-semibold block pb-2 text-sm"
                                                 href="/"
                                             >
                                                 Privacy Policy
@@ -74,10 +74,53 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                class="text-white font-semibold block pb-2 text-sm"
+                                                class="text-blue-700 hover:text-blue-800 font-semibold block pb-2 text-sm"
                                                 href="/"
                                             >
                                                 Contact Us
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="w-1/2 lg:w-4/12 px-4">
+                                    <span class="block uppercase text-blue-400 text-sm font-semibold pb-6">
+                                        Social Media
+                                    </span>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a
+                                                class="text-blue-700 hover:text-blue-800 font-semibold block pb-2 text-sm"
+                                                href="/"
+                                            >
+                                                <i className="fab fa-facebook-f"></i>{" "}
+                                                Facebook
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="text-blue-700 hover:text-blue-800 font-semibold block pb-2 text-sm"
+                                                href="/"
+                                            >
+                                                <i className="fab fa-twitter"></i>{" "}
+                                                Twitter
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="text-blue-700 hover:text-blue-800 font-semibold block pb-2 text-sm"
+                                                href="/"
+                                            >
+                                                <i className="fab fa-instagram"></i>{" "}
+                                                Instagram
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="text-blue-700 hover:text-blue-800 font-semibold block pb-2 text-sm"
+                                                href="/"
+                                            >
+                                                <i className="fab fa-youtube"></i>
+                                                YouTube
                                             </a>
                                         </li>
                                     </ul>
@@ -87,20 +130,23 @@ const Footer = () => {
                     </div>
                     <div class="flex flex-wrap items-center md:justify-between justify-center">
                         <div class="w-full md:w-4/12 mx-auto text-center">
-                            <div class="text-sm text-gray-300 font-semibold py-10 ">
+                            <div class="text-sm text-blue-700 font-semibold py-10 ">
                                 Copyright ©{" "}
-                                <span id="get-current-year">
-                                    2021 Manmandir bank{" "}
-                                </span>
-                                | designed by
+                                <span id="get-current-year">2021</span>
                                 <a
-                                    href="https://www.5techg.com"
+                                    href="/"
                                     class="text-blue-500 hover:text-gray-800"
                                     target="_blank"
+                                />{" "}
+                                5TechG by
+                                <a
+                                    href="https://www.creative-tim.com?ref=njs-profile"
+                                    class="text-blue-700 hover:text-blue-800"
                                 >
                                     {" "}
-                                    5TechG Lab
+                                    Creative Teams
                                 </a>
+                                .
                             </div>
                         </div>
                     </div>

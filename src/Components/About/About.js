@@ -12,13 +12,6 @@ const About = () => {
                             src="https://dummyimage.com/1800x600/000/fff"
                             alt="First slide"
                         />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>
-                                Nulla vitae elit libero, a pharetra augue mollis
-                                interdum.
-                            </p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -26,14 +19,6 @@ const About = () => {
                             src="https://dummyimage.com/1800x600/000/fff"
                             alt="Second slide"
                         />
-
-                        <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
-                            </p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -41,20 +26,12 @@ const About = () => {
                             src="https://dummyimage.com/1800x600/000/fff"
                             alt="Third slide"
                         />
-
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>
-                                Praesent commodo cursus magna, vel scelerisque
-                                nisl consectetur.
-                            </p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
             </div>
 
             <div className="History bg-gray-200">
-                <h1 className="text-center md:text-7xl text-5xl font-myFont text-blue-400 pt-10 uppercase">
+                <h1 className="text-center md:text-5xl text-3xl text-blue-400 py-8 font-myFont">
                     History
                 </h1>
 
@@ -252,7 +229,7 @@ const About = () => {
                 <div>
                     <div classNameName="mb-8">
                         <div className="bg-white shadow py-4 my-8">
-                            <p className="text-center md:text-6xl text-4xl font-bold text-blue-400 py-12 font-myFont">
+                            <p className="text-center md:text-5xl text-3xl text-blue-400 my-8 py-12 font-myFont">
                                 Existing Board Of Directors
                             </p>
                             {/* 2 Cards In A Row */}

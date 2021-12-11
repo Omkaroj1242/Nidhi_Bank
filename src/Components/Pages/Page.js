@@ -6,7 +6,7 @@ import Service from "../Service/Service";
 import About from "../About/About";
 import Faq from "../Faq/Faq";
 import Contact from "../Contact/Contact";
-import Footer from "../Footer/Footer"
+import Footer from "../Footer/Footer";
 import Plan from "../Plan/Plan";
 import Notice from "../Notice/Notice";
 
@@ -15,9 +15,9 @@ const Page = () => {
     <div className="App">
       <Router>
         <Navbar />
-        <Routes>  
+
+        <Routes>
           <Route exact path="/" element={<Hero />} />
-          
 
           <Route exact path="/about" element={<About />} />
 

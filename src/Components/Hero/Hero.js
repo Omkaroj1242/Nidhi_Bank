@@ -5,6 +5,7 @@ import Testimonials from "../Testimonials/Testimonials";
 
 import Branch from "../Branch/Branch";
 
+
 const Hero = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Hero = () => {
       <Branch />
       <Features />
       <Testimonials />
+   
     </>
   );
 };

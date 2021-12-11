@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <div className="bg-gray-100 pb-8">
     <div className="container mx-auto pt-8">
-    <h1 className="text-6xl font-myFont text-center text-blue-400 my-8">Testimonials</h1>
+    <h1 className="md:text-5xl text-3xl text-blue-400 font-myFont text-center my-8">Testimonials</h1>
     <div className="flex md:flex-row flex-col">
       <div class="py-8 m-4 rounded-md shadow ">
         <img
@@ -19,7 +19,7 @@ const Testimonials = () => {
           <span class="font-bold text-black">”</span>
         </p>
         <div class="flex items-center justify-center">
-          <div class="flex ml-2 items-center justify-center text-blue-700">
+          <div class="flex ml-2 items-center justify-center text-black">
             <span class="font-semibold mr-2 text-lg">
              - Jean Miguel
             </span>
@@ -39,7 +39,7 @@ const Testimonials = () => {
           <span class="font-bold text-black">”</span>
         </p>
         <div class="flex items-center justify-center mt-4">
-          <div class="flex ml-2 items-center justify-center text-blue-700">
+          <div class="flex ml-2 items-center justify-center text-black">
             <span class="font-semibold mr-2 text-lg">
             - Jean Miguel
             </span>
@@ -59,7 +59,7 @@ const Testimonials = () => {
           <span class="font-bold text-black">”</span>
         </p>
         <div class="flex items-center justify-center mt-8">
-          <div class="flex ml-2 items-center justify-center text-blue-700">
+          <div class="flex ml-2 items-center justify-center text-black">
             <span class="font-semibold mr-2 text-lg">
              - Jean Miguel
             </span>
