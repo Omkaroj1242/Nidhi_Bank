@@ -48,8 +48,11 @@ const Notice = () => {
         {/* Instruction Div */}
         <div className="container mx-auto">
           <ul style={{ listStyle: "disc" }}>
-            <li className="text-red-600 md:text-3xl text-2xl"> Be careful<hr className="custom_hr -mt-0" /></li>
-            
+            <li className="text-red-600 md:text-3xl text-2xl">
+              {" "}
+              Be careful
+              <hr className="custom_hr -mt-0" />
+            </li>
           </ul>
           <p className="max-w-4xl text-left py-2 ml-10">
             Checkbook, passbook, ATM card, PIN and other banking reference
@@ -57,9 +60,12 @@ const Notice = () => {
             help keep your bank account safe and secure from fraud.
           </p>
           <ul style={{ listStyle: "disc" }}>
-            <li className="text-red-600 md:text-3xl text-2xl">Don't do this<hr className="custom_hr1 -mt-0" /></li>
+            <li className="text-red-600 md:text-3xl text-2xl">
+              Don't do this
+              <hr className="custom_hr1 -mt-0" />
+            </li>
           </ul>
-          <ol style={{ listStyle: "number"}}>
+          <ol style={{ listStyle: "number" }}>
             <li className="max-w-4xl text-left py-2 mx-4">
               Keep checkbook and ATM card together.
             </li>
@@ -76,7 +82,10 @@ const Notice = () => {
             </li>
           </ol>
           <ul style={{ listStyle: "disc" }}>
-            <li className="text-red-600 md:text-3xl text-2xl">Do this<hr className="custom_hr2 -mt-0" /></li>
+            <li className="text-red-600 md:text-3xl text-2xl">
+              Do this
+              <hr className="custom_hr2 -mt-0" />
+            </li>
           </ul>
           <ol style={{ listStyle: "number" }}>
             <li className="max-w-4xl text-left py-2 mx-4">
@@ -117,59 +126,54 @@ const Notice = () => {
         <div className="bg-blue-400 py-10 my-10">
           <h1 className="container md:text-4xl text-base text-left text-white font-myFont">
             Note: Free advice and information on how to keep your bank account
-            safe is provided at all our offices. Contact for more information : -
+            safe is provided at all our offices. Contact for more information :
+            -
           </h1>
         </div>
 
         {/* Contact Div */}
 
-        <div className="flex items-center flex-col md:flex-row justify-evenly py-8 ">
-          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-8">
-            <div className="text-center">
-              <p className="text-2xl text-black max-w-xs">
-                Head Office
-              </p>
-              <p className="text-xl text-blue-700 font-myFont h-14 ">Phone No.</p>
+        <section id="contact" class="contact section-bg mx-4">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="info-box  mb-4">
+                <h3>Head Office</h3>
+                <p className="text-xl text-blue-700 font-myFont h-14 ">Phone No.</p>
               <h1 className="my_h1 px-2">
                 <a href="tel:02347-276438" className="text-lg" >02347-276438</a>
               </h1>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="info-box  mb-4">
+                <h3>Nilesh Barsingh</h3>
+                <p className="text-xl text-blue-700 font-myFont h-14 ">(Cyber ​​Security Officer)</p>
+                <h1 className="my_h1 px-2">
+                <a href="tel:+917021638815" className="text-lg">7021638815</a>
+              </h1>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="info-box  mb-4">
+                <h3>Vikram Nikam</h3>
+                <p className="text-xl text-blue-700 font-myFont h-14 ">(Chief Information and Technology Officer)</p>
+                <h1 className="my_h1 px-2">
+                <a href="tel:+918275913992" className="text-lg">8275913992</a>
+              </h1>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="info-box  mb-4">
+                <h3> Ganesh Patil</h3>
+                <p className="text-xl text-blue-700 font-myFont h-14 ">(Head of Information and Technology Liaison)</p>
+                <h1 className="my_h1 px-2">
+                <a href="tel:+919175522752"className="text-lg">9175522752</a>
+              </h1>
+              </div>
             </div>
           </div>
-          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-8">
-          <div className="text-center">
-          <p className="text-2xl text-black max-w-xs">
-          Nilesh Barsingh
-          </p>
-          <p className="text-xl text-blue-700 font-myFont h-14">(Cyber ​​Security Officer)</p>
-          <h1 className="my_h1 px-2">
-            <a href="tel:+917021638815" className="text-lg">7021638815</a>
-          </h1>
-        </div>
-          </div>
-          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-8">
-            <div className="text-center">
-            <p className="text-2xl text-black max-w-xs">
-            Vikram Nikam
-            </p>
-            <p className="text-xl text-blue-700 font-myFont h-14">(Chief Information and Technology Officer)</p>
-            <h1 className="my_h1 px-2">
-              <a href="tel:+918275913992" className="text-lg">8275913992</a>
-            </h1>
-          </div>
-          </div>
-          <div className="p-4 shadow card_wrapper2 text-blue-300 rounded-lg mb-8">
-          <div className="text-center">
-          <p className="text-2xl text-black max-w-xs">
-          Ganesh Patil
-          </p>
-          <p className="text-xl text-blue-700 font-myFont h-14">
-          (Head of Information and Technology Liaison)</p>
-          <h1 className="my_h1 px-2">
-            <a href="tel:+919175522752"className="text-lg">9175522752</a>
-          </h1>
-        </div>
-          </div>
-        </div>
+        </section>
       </div>
     </>
   );
