@@ -38,7 +38,7 @@ const Contact = () => {
               </div>
 
               <div class="phone flex mb-4">
-                <i class="fa fa-phone-square mx-4" style={{"font-size":"36px"}}></i>
+                <i class="fas fa-phone-alt mx-4" style={{"font-size":"36px"}}></i>
                 <div>
                 <h4>Call:</h4>
                 <p>8974562241</p>
