@@ -138,38 +138,70 @@ const Notice = () => {
             <div class="col-lg-3 col-md-6">
               <div class="info-box  mb-4">
                 <h3>Head Office</h3>
-                <p className="text-xl text-blue-700 font-myFont h-14 ">Phone No.</p>
-              <h1 className="my_h1 px-2">
-                <a href="tel:02347-276438" className="text-lg" >02347-276438</a>
-              </h1>
+                <p className="text-xl text-blue-700 font-myFont h-14 ">
+                  Phone No.
+                </p>
+                <h1 className="my_h1 px-2">
+                  <i
+                    class="fas fa-phone-alt"
+                    style={{ "font-size": "18px", padding: "0 5px 0 0" }}
+                  ></i>
+                  <a href="tel:02347-276438" className="text-lg">
+                    02347-276438
+                  </a>
+                </h1>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-6">
               <div class="info-box  mb-4">
                 <h3>Nilesh Barsingh</h3>
-                <p className="text-xl text-blue-700 font-myFont h-14 ">(Cyber ​​Security Officer)</p>
+                <p className="text-xl text-blue-700 font-myFont h-14 ">
+                  (Cyber ​​Security Officer)
+                </p>
                 <h1 className="my_h1 px-2">
-                <a href="tel:+917021638815" className="text-lg">7021638815</a>
-              </h1>
+                  <i
+                    class="fas fa-phone-alt"
+                    style={{ "font-size": "18px", padding: "0 5px 0 0" }}
+                  ></i>
+                  <a href="tel:+917021638815" className="text-lg">
+                    7021638815
+                  </a>
+                </h1>
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
               <div class="info-box  mb-4">
                 <h3>Vikram Nikam</h3>
-                <p className="text-xl text-blue-700 font-myFont h-14 ">(Chief Information and Technology Officer)</p>
+                <p className="text-xl text-blue-700 font-myFont h-14 ">
+                  (Chief Information and Technology Officer)
+                </p>
                 <h1 className="my_h1 px-2">
-                <a href="tel:+918275913992" className="text-lg">8275913992</a>
-              </h1>
+                  <i
+                    class="fas fa-phone-alt"
+                    style={{ "font-size": "18px", padding: "0 5px 0 0" }}
+                  ></i>
+                  <a href="tel:+918275913992" className="text-lg">
+                    8275913992
+                  </a>
+                </h1>
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
               <div class="info-box  mb-4">
                 <h3> Ganesh Patil</h3>
-                <p className="text-xl text-blue-700 font-myFont h-14 ">(Head of Information and Technology Liaison)</p>
+                <p className="text-xl text-blue-700 font-myFont h-14 ">
+                  (Head of Information and Technology Liaison)
+                </p>
                 <h1 className="my_h1 px-2">
-                <a href="tel:+919175522752"className="text-lg">9175522752</a>
-              </h1>
+                  <i
+                    class="fas fa-phone-alt"
+                    style={{ "font-size": "18px", padding: "0 5px 0 0" }}
+                  ></i>{" "}
+                  <a href="tel:+919175522752" className="text-lg">
+                    9175522752
+                  </a>
+                </h1>
               </div>
             </div>
           </div>

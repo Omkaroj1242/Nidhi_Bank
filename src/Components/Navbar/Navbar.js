@@ -39,7 +39,7 @@ export default function Example() {
                       />
                       <NavLink
                         to="/"
-                        className="text-black font-myFont md:text-2xl text-xl py-1"
+                        className="text-black font-myFont font-bold text-xl py-1 w-full"
                       >
                         Manmandir Bank
                       </NavLink>
@@ -105,7 +105,7 @@ export default function Example() {
                       <button class="btn btn-warning">
                         <a href="tel:+918974562241" className="text-black">
                           <i
-                            class="fa fa-phone"
+                            class="fas fa-phone-alt"
                             style={{ "font-size": "18px", padding:"0 5px 0 0" }}
                           ></i>
                           8974562241
@@ -130,7 +130,7 @@ export default function Example() {
                       <NavLink to="/service">Service</NavLink>
                     </li>
                     <li className="my_li font-myFont mb-2">
-                      <NavLink to="/invest">Invest</NavLink>
+                      <NavLink to="/plan">Plan</NavLink>
                     </li>
                     <li className="my_li font-myFont mb-2">
                       <NavLink to="/faq">FAQ</NavLink>

@@ -42,7 +42,7 @@ const About = () => {
                 <p className="leading-6 md:text-3xl text-2xl font-myFont uppercase">
                   Interactive
                 </p>
-                <h4 className="mt-2 text-2xl leading-8 font-myFont text-blue-600 sm:text-xl sm:leading-9">
+                <h4 className="mt-2 text-2xl leading-8 font-myFont text-gray-700 sm:text-xl sm:leading-9">
                   Interactivity between team members is the key of the success.
                 </h4>
                 <p className="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
@@ -293,7 +293,7 @@ const About = () => {
                   data-aos-delay="100"
                 >
                   <img
-                    src="/Images/7.jpg"
+                    src="/Images/member7.jpg"
                     alt=""
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
@@ -313,7 +313,7 @@ const About = () => {
                   data-aos-delay="100"
                 >
                   <img
-                    src="/Images/member7.jpg"
+                    src="/Images/member8.jpg"
                     alt=""
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
@@ -334,7 +334,7 @@ const About = () => {
                   data-aos-delay="100"
                 >
                   <img
-                    src="/Images/member8.jpg"
+                    src="/Images/member9.jpg"
                     alt=""
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
@@ -354,7 +354,7 @@ const About = () => {
                   data-aos-delay="100"
                 >
                   <img
-                    src="/Images/member9.jpg"
+                    src="/Images/member10.jpg"
                     alt=""
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
@@ -374,7 +374,7 @@ const About = () => {
                   data-aos-delay="100"
                 >
                   <img
-                    src="/Images/member10.jpg"
+                    src="/Images/member11.jpg"
                     alt=""
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
@@ -395,7 +395,7 @@ const About = () => {
                   data-aos-delay="100"
                 >
                   <img
-                    src="/Images/member11.jpg"
+                    src="/Images/member12.jpg"
                     alt=""
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
@@ -413,7 +413,7 @@ const About = () => {
                   data-aos-delay="100"
                 >
                   <img
-                    src="/Images/member12.jpg"
+                    src="/Images/member13.jpg"
                     alt=""
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
@@ -431,7 +431,7 @@ const About = () => {
                   data-aos-delay="100"
                 >
                   <img
-                    src="/Images/member13.jpg"
+                    src="/Images/member14.jpg"
                     alt=""
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
@@ -448,7 +448,7 @@ const About = () => {
                   data-aos-delay="100"
                 >
                   <img
-                    src="/Images/member14.jpg"
+                    src="/Images/member15.jpg"
                     alt=""
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
