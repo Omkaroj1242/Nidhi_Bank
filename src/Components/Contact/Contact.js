@@ -17,7 +17,7 @@ const Contact = () => {
           ></iframe>
         </div>
 
-        <div class="row mt-5">
+        <div class="row mt-5 bg-gray-200">
           <div class="col-lg-4">
             <div class="info mt-5">
               <div class="address flex mb-4">
@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <div class="col-lg-8 mt-5 mt-lg-0 bg-gray-200">
             <form
               action="forms/contact.php"
               method="post"

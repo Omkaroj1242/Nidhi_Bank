@@ -2,16 +2,24 @@ import React from "react";
 
 const Branch = () => {
   return (
-    <div>
-      <section id="pricing" class="pricing section-bg">
+    <div className="bg-gray-100">
+      <section id="pricing" class="pricing section-bg ">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h1 className="md:text-5xl text-3xl text-blue-400 font-myFont text-center py-8">
+            <h1 className="md:text-5xl text-3xl text-black font-bold font-myFont text-center py-8">
               Our Branches Across Cities
             </h1>
           </div>
+          <div>
+          <img
+      className="flex justify-center items-center mx-auto my_bg  img-fluid"
+      src="/Images/Map.jpg"
+      alt="slide"
+    />
+          </div>
+          <div class="b-example-divider"> </div>
 
-          <div class="row mb-10">
+          <div class="row mb-10 text-blue-900 font-myFont text-center font-bold">
             <div
               class="col-lg-4 col-md-4"
               data-aos="fade-up"
@@ -73,7 +81,7 @@ const Branch = () => {
               </div>
             </div>
           </div>
-          <div class="row mb-10">
+          <div class="row mb-10 text-blue-900 font-myFont text-center font-bold">
             <div
               class="col-lg-4 col-md-4"
               data-aos="fade-up"
@@ -134,7 +142,7 @@ const Branch = () => {
               </div>
             </div>
           </div>
-          <div class="row mb-10">
+          <div class="row mb-10 text-blue-900 font-myFont text-center font-bold">
             <div
               class="col-lg-4 col-md-4"
               data-aos="fade-up"

@@ -4,16 +4,17 @@ import { Link } from "react-router-dom";
 const Notice = () => {
   return (
     <>
-      <div className="bg-blue-400">
+    <div class="padding">
+      <div className="bg-black">
         <div>
           <ul className="py-2">
             <Link to="/">
-              <li className="text-right text-white pr-4 font-myFont hidden md:block">
+              <li className="text-right text-blue-100 hover:text-blue-400 pr-4 font-myFont hidden md:block">
                 www.manmandirbank.com
               </li>
             </Link>
             <Link to="/">
-              <li className="text-right text-white pr-4 font-myFont hidden md:block">
+              <li className="text-right text-blue-100 hover:text-blue-400 pr-4 font-myFont hidden md:block">
                 manmandirbankvita@yahoo.com
               </li>
             </Link>
@@ -23,7 +24,7 @@ const Notice = () => {
           </ul>
         </div>
         <div className="container mx-auto flex justify-center items-center pb-4">
-          <img src="/Images/bank1.jpeg" alt="" />
+          {/* <img src="/Images/bank1.jpeg" alt="" style={{ height: "55px", width: "70px" }}/> */}
           <h1 className="text-center text-2xl md:text-4xl text-white font-myFont">
             The Manmandir Co-Operative Bank Limited Vita.
           </h1>
@@ -36,19 +37,23 @@ const Notice = () => {
           </p>
         </div>
       </div>
+      </div>
       <div>
         <div className="text-center">
-          <h1 className="font-myFont lg:text-5xl md:text-3xl text-2xl py-4">
+          <h1 className="font-myFont font-bold text-blue-900 lg:text-5xl md:text-3xl text-2xl py-4">
             Cyber ​​Security - IT Department
+            <hr className="bg-blue-900" />
           </h1>
-          <h1 className="font-myFont lg:text-5xl md:text-3xl text-2xl py-4">
+          
+          <h1 className="font-myFont text-grey-200 hover:text-blue-400 text-4xl py-4">
             Notice To Account Holder Customers
+          
           </h1>
         </div>
         {/* Instruction Div */}
         <div className="container mx-auto">
           <ul style={{ listStyle: "disc" }}>
-            <li className="text-red-600 md:text-3xl text-2xl">
+            <li className="text-red-600 text-xl font-bold">
               {" "}
               Be careful
               <hr className="custom_hr -mt-0" />
@@ -60,7 +65,7 @@ const Notice = () => {
             help keep your bank account safe and secure from fraud.
           </p>
           <ul style={{ listStyle: "disc" }}>
-            <li className="text-red-600 md:text-3xl text-2xl">
+            <li className="text-red-600 text-xl font-bold">
               Don't do this
               <hr className="custom_hr1 -mt-0" />
             </li>
@@ -82,7 +87,7 @@ const Notice = () => {
             </li>
           </ol>
           <ul style={{ listStyle: "disc" }}>
-            <li className="text-red-600 md:text-3xl text-2xl">
+            <li className="text-red-600 text-xl font-bold">
               Do this
               <hr className="custom_hr2 -mt-0" />
             </li>
@@ -123,11 +128,10 @@ const Notice = () => {
             </li>
           </ol>
         </div>
-        <div className="bg-blue-400 py-10 my-10">
-          <h1 className="container md:text-4xl text-base text-left text-white font-myFont">
+        <div className="bg-black py-10 my-10">
+          <h1 className="container text-xl text-left text-blue-100 hover:text-blue-600 font-myFont">
             Note: Free advice and information on how to keep your bank account
-            safe is provided at all our offices. Contact for more information :
-            -
+            safe is provided at all our offices.
           </h1>
         </div>
 

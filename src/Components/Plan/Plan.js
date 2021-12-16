@@ -2,8 +2,8 @@ import React from "react";
 
 const Plan = () => {
     return (
-        <div className="py-10 min-h-screen">
-            <h1 className="text-center md:text-5xl text-3xl text-blue-400 py-6 font-myFont">
+        <div className="py-10 min-h-screen bg-gray-200">
+            <h1 className="text-center md:text-5xl text-3xl text-blue-400 py-6 font-myFont font-bold">
                 Various Deposit Schemes Of The Bank
             </h1>
             <div className="container mb-16 text-center">

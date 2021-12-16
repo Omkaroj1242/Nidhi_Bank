@@ -14,7 +14,7 @@ a:hover {
 }
 
 .my_h1 {
-  font-size: 1rem;
+  font-size: center;
 }
 
 .my_p {
@@ -40,7 +40,7 @@ a:hover {
 
 .my_nav {
   width: 100%;
-  background-color: #a2d2ff;
+  background-color: rgb(255, 255, 255);
   color: black;
 }
 
@@ -167,8 +167,9 @@ a:hover {
 */
 .navbar {
   padding: 0;
-  background-color: #a2d2ff;
+  background-color:rgb(255, 255, 255);
 }
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -192,7 +193,7 @@ a:hover {
   padding: 7px 3px;
   font-size: 15px;
   font-weight: 600;
-  color: black;
+  color: rgb(0, 0, 0);
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -225,7 +226,7 @@ a:hover {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: black;
+  color: rgb(255, 233, 32);
 }
 
 /**
@@ -381,7 +382,7 @@ a:hover {
   padding: 20px 15px;
   font-size: 16px;
   font-weight: 600;
-  color: #2c4964;
+  color: #2c97a5;
   background: #f8f8f8;
 }
 .pricing h4 {
@@ -424,7 +425,7 @@ a:hover {
 
 .pricing .featured h3 {
   color: black;
-  background: #a2d2ff;
+  background: #ffa012;
 }
 
 /*--------------------------------------------------------------
@@ -563,4 +564,18 @@ a:hover {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+}
+/* Notice Section */
+.b-example-divider{
+    flex-shrink: 0;
+    width: 69.7rem;
+    height: 5vh;
+    background-color: rgb(255, 255, 255);
+}
+
+/* .padding{
+  padding-top: 67px;
+} */
+.nav{
+  padding-bottom: 5px;
 }

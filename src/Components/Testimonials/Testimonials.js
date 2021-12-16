@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <div className="bg-gray-100 pb-8">
     <div className="container mx-auto pt-8">
-    <h1 className="md:text-5xl text-3xl text-blue-400 font-myFont text-center my-8">Testimonials</h1>
+    <h1 className="md:text-5xl text-3xl text-green-400 hover:text-blue-900 font-myFont text-center font-bold my-8">Testimonials</h1>
     <div className="flex md:flex-row flex-col">
       <div class="py-8 m-4 rounded-md shadow ">
         <img

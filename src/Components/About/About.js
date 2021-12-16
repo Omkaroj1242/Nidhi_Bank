@@ -8,34 +8,55 @@ const About = () => {
         <Carousel>
           <Carousel.Item className="w-full ">
             <img
-              className="flex justify-center items-center mx-auto my_bg"
-              src="https://dummyimage.com/1800x600/000/fff"
+              className="flex justify-center items-center mx-auto my_bg img-fluid"
+              src="/Images/poster1.jpg"
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="flex justify-center items-center mx-auto my_bg"
-              src="https://dummyimage.com/1800x600/000/fff"
+              className="flex justify-center items-center mx-auto my_bg img-fluid"
+              src="/Images/poster2.jpg"
               alt="Second slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="flex justify-center items-center mx-auto my_bg"
-              src="https://dummyimage.com/1800x600/000/fff"
+              className="flex justify-center items-center mx-auto my_bg img-fluid"
+              src="/Images/poster3.jpg"
               alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="flex justify-center items-center mx-auto my_bg img-fluid"
+              src="/Images/poster4.jpg"
+              alt="Fourth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="flex justify-center items-center mx-auto my_bg img-fluid"
+              src="/Images/poster5.jpg"
+              alt="Fifth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="flex justify-center items-center mx-auto my_bg img-fluid"
+              src="/Images/poster6.jpg"
+              alt="Sixth slide"
             />
           </Carousel.Item>
         </Carousel>
       </div>
 
       <div className="History bg-gray-200">
-        <h1 className="text-center md:text-5xl text-3xl text-blue-400 py-8 font-myFont">
+        <h1 className="text-center md:text-5xl text-3xl text-blue-900 hover:text-blue-400 py-8 font-myFont">
           History
         </h1>
-
-        <div className="max-w-screen-xl p-4  mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
+        
+        <div className="max-w-screen-xl p-2  mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
           <div className="relative">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
               <div className="lg:col-start-2 lg:max-w-2xl ml-auto">
@@ -152,8 +173,8 @@ const About = () => {
       
       <div>
         <div className="mb-8 mx-4">
-          <div className="bg-white py-4 my-8">
-            <p className="text-center md:text-5xl text-3xl text-blue-400 my-8 py-12 font-myFont">
+          <div className="bg-gray-200 py-2 my-8">
+            <p className="text-center md:text-5xl text-3xl text-blue-900 my-8 py-2 font-myFont">
               Existing Board Of Directors
             </p>
             {/* 2 Cards In A Row */}
@@ -170,10 +191,10 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Adv. Ajit Ashokrao Gaikwad
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       Chairman
                     </p>
                   </div>
@@ -190,10 +211,10 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Chandrasekhar Jaysingrao Gaikwad
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       Vice Chairman
                     </p>
                   </div>
@@ -204,7 +225,7 @@ const About = () => {
 
               <div className="row mb-10 md:px-14 px-2">
                 <div
-                  className="col-lg-4 col-md-4"
+                  className="col-lg-3 col-md-3"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
@@ -214,17 +235,17 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       C.A. Laxman Kakasaheb Gaikwad
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       Director
                     </p>
                   </div>
                 </div>
 
                 <div
-                  className="col-lg-4 col-md-4"
+                  className="col-lg-3 col-md-3"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
@@ -234,10 +255,10 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Adv. Prasad Shriram Waikar
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       {" "}
                       Director
                     </p>
@@ -245,7 +266,7 @@ const About = () => {
                 </div>
 
                 <div
-                  className="col-lg-4 col-md-4"
+                  className="col-lg-3 col-md-3"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
@@ -255,21 +276,17 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Ramkumar Kishan Gaikwad
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       Director
                     </p>
                   </div>
                 </div>
-              </div>
-
-              {/* 4 Cards in a row */}
-
-              <div className="row mb-10 md:px-14 px-2">
+                
                 <div
-                  className="col-lg-4 col-md-4"
+                  className="col-lg-3 col-md-3"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
@@ -279,16 +296,21 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Ramchandra Krishna Pawar
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       Director
                     </p>
                   </div>
                 </div>
+              
+              </div>
+
+              {/* 4 Cards in a row */}
+              <div className="row mb-10 md:px-14 px-2">
                 <div
-                  className="col-lg-4 col-md-4"
+                  className="col-lg-3 col-md-3"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
@@ -298,17 +320,17 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Siddheshwar Basvneppa Sangh
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       Director
                     </p>
                   </div>
                 </div>
 
                 <div
-                  className="col-lg-4 col-md-4"
+                  className="col-lg-3 col-md-3"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
@@ -318,18 +340,16 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Shivaji Keshav Shitole
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       Director
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className="row mb-10 md:px-20 px-2">
                 <div
-                  className="col-lg-4 col-md-4"
+                  className="col-lg-3 col-md-3"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
@@ -339,17 +359,17 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Pramod Keshav Dharmadhikari
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       Director
                     </p>
                   </div>
                 </div>
 
                 <div
-                  className="col-lg-4 col-md-4"
+                  className="col-lg-3 col-md-3"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
@@ -359,17 +379,21 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Dattatraya Baburao Tarlekar
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       Director
                     </p>
                   </div>
                 </div>
 
+              </div>
+              {/* 5 cards in row */}
+              <div className="row mb-10 md:px-20 px-2">
+                
                 <div
-                  className="col-lg-4 col-md-4"
+                  className="col-lg-2 col-md-2"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
@@ -379,16 +403,14 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Jyotiram Ramchandra Hogley
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       Director
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className="row mb-10">
                 <div
                   className="col-lg-3 col-md-3"
                   data-aos="fade-up"
@@ -400,15 +422,15 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">Vilas Sopan Khilare</p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-black font-bold">Vilas Sopan Khilare</p>
+                    <p className="text-xl text-blue-900 font-myFont">
                       Director
                     </p>
                   </div>
                 </div>
-
+                
                 <div
-                  className="col-lg-3 col-md-3"
+                  className="col-lg-2 col-md-2"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
@@ -418,10 +440,10 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Sangeeta Bapuso Gauraje
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">Hostess</p>
+                    <p className="text-xl text-blue-900 font-myFont">Hostess</p>
                   </div>
                 </div>
 
@@ -436,14 +458,14 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Rajshri Shankar Gaikwad
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">Hostess</p>
+                    <p className="text-xl text-blue-900 font-myFont">Hostess</p>
                   </div>
                 </div>
                 <div
-                  className="col-lg-3 col-md-3"
+                  className="col-lg-2 col-md-2"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
@@ -453,14 +475,17 @@ const About = () => {
                     className="mx-auto object-cover rounded-lg h-48 w-40 "
                   />
                   <div className="text-center">
-                    <p className="text-2xl text-black">
+                    <p className="text-xl text-black font-bold">
                       Suresh Raghunath Pawar
                     </p>
-                    <p className="text-xl text-blue-500 font-myFont">
+                    <p className="text-xl text-blue-900 font-myFont">
                       Chief manager
                     </p>
                   </div>
                 </div>
+                <div className="row mb-10">
+              </div>
+              
               </div>
             </section>
           </div>
