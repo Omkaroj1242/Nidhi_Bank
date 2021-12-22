@@ -6,11 +6,11 @@ import { NavLink } from "react-router-dom";
 export default function Example() {
   return (
     
-    <Disclosure as="nav" className="bg-white">
+    <Disclosure as="nav" className="bg-white  fixed-top">
       {({ open }) => (
         <>
           {/* <div className="bg-white sm:px-6 lg:px-8"> */}
-            <div className="relative flex items-center justify-between h-16">
+            <div className="container relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -25,12 +25,12 @@ export default function Example() {
 
               {/* Laptop Navbar */}
 
-              <header
+              {/* <header
                 id="header"
                 className="container align-items-center bg-white fixed-top"
-              >
+              > */}
                 <div className="flex align-items-center justify-content-between">
-                  <div className="flex-1 flex lg:block items-center justify-center px-2">
+                  {/* <div className="flex-1 flex lg:block items-center justify-center px-2"> */}
                     <h1 className="logo flex h-8">
                     <img
                         src="Images/manmandir1.png"
@@ -45,7 +45,7 @@ export default function Example() {
                       <img
                         src="Images/Asset_2.png"
                         alt=""
-                        style={{ height: "50px", width: "200px" }}
+                        style={{ height: "50px", width: "180px" }}
                         className="mx-2"
                       />
                       </NavLink>
@@ -56,8 +56,10 @@ export default function Example() {
                           MANMANDIR BANK 
                       </NavLink>*/}
                     </h1>
-                  </div>
+                  {/* </div> */}
+                  
                   <nav id="navbar" className="navbar">
+                    
                     <ul>
                       <li>
                         <NavLink
@@ -127,7 +129,7 @@ export default function Example() {
                         <a href="tel:+918974562241" className="text-black">
                           <i
                             class="fas fa-phone-alt"
-                            style={{ "font-size": "18px", padding:"0 5px 0 0" }}
+                            style={{ "font-size": "20px", padding:"0 5px 0 0" }}
                           ></i>
                           8974562241
                         </a>
@@ -135,7 +137,7 @@ export default function Example() {
                     </ul>
                   </nav>
                 </div>
-              </header>
+              {/* </header> */}
             </div>
           {/* </div> */}
 

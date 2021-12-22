@@ -5,8 +5,8 @@ const About = () => {
   return (
     <>
       <div>
-        <Carousel>
-          <Carousel.Item className="w-full ">
+        <Carousel className="carousel">
+          <Carousel.Item className="w-full">
             <img
               className="flex justify-center items-center mx-auto my_bg img-fluid"
               src="/Images/poster1.jpg"
@@ -157,12 +157,12 @@ const About = () => {
               <div class="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
                 <div class="relative space-y-4">
                     <div class="flex items-end justify-center lg:justify-start space-x-4">
-                        <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="https://dummyimage.com/600x400/000/fff" alt="1"/>
-                        <img class="rounded-lg shadow-lg w-40 md:w-64" width="260" src="https://dummyimage.com/600x400/000/fff" alt="2"/>
+                        <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="/Images/trail2.jpg" alt="1"/>
+                        <img class="rounded-lg shadow-lg w-40 md:w-64" width="260" src="/Images/trail.jpg" alt="2"/>
                     </div>
                     <div class="flex items-start justify-center lg:justify-start space-x-4 ml-12">
-                        <img class="rounded-lg shadow-lg w-24 md:w-40" width="170" src="https://dummyimage.com/600x400/000/fff" alt="3"/>
-                        <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="https://dummyimage.com/600x400/000/fff" alt="4"/>
+                        <img class="rounded-lg shadow-lg w-24 md:w-40" width="170" src="/Images/trail.jpg" alt="3"/>
+                        <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="/Images/map.jpg" alt="4"/>
                     </div>
                 </div>
             </div>

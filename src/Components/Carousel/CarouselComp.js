@@ -6,13 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const CarouselComp = () => {
   return (
     <div>
-    <Carousel>
+    <Carousel className="carousel">
   <Carousel.Item className="w-full">
     <img
       className="flex justify-center items-center mx-auto my_bg img-fluid"
       src="/Images/poster1.jpg"
       alt="First slide"
     />
+    
   </Carousel.Item>
   <Carousel.Item>
     <img

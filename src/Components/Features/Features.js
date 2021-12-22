@@ -13,7 +13,7 @@ const Features = () => {
   </div>
 
       <div className="row gy-4">
-        <div className="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+        <div className="col-lg-4 col-md-6 d-flex align-items-stretch " data-aos="zoom-in" data-aos-delay="100">
           <div className="icon-box">
             <div className="icon">
               <img src="https://img.icons8.com/external-itim2101-lineal-itim2101/64/000000/external-insurance-insurance-itim2101-lineal-itim2101-2.png" alt="" />

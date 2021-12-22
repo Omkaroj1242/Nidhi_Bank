@@ -183,7 +183,7 @@ a:hover {
 .navbar > ul > li {
   position: relative;
   white-space: nowrap;
-  margin: 0 12px;
+  margin: 0 25px;
 }
 .navbar a,
 .navbar a:focus {
@@ -191,7 +191,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 7px 3px;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   color: rgb(0, 0, 0);
   white-space: nowrap;
@@ -225,7 +225,7 @@ a:hover {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover > a { 
   color: rgb(255, 233, 32);
 }
 
@@ -573,9 +573,10 @@ a:hover {
     background-color: rgb(255, 255, 255);
 }
 
-/* .padding{
+.carousel{
   padding-top: 67px;
-} */
-.nav{
-  padding-bottom: 5px;
+}
+
+.padding{
+  padding-top: 67px;
 }

@@ -8,7 +8,7 @@ const Testimonials = () => {
     <div className="flex md:flex-row flex-col">
       <div class="py-8 m-4 rounded-md shadow ">
         <img
-          src="https://dummyimage.com/200x200/000/fff"
+          src="/Images/test1.jfif"
           class="mx-auto mb-4 object-cover rounded-lg h-40 w-40"
           alt="profile"
         />
@@ -20,7 +20,7 @@ const Testimonials = () => {
         </p>
         <div class="flex items-center justify-center">
           <div class="flex ml-2 items-center justify-center text-black">
-            <span class="font-semibold mr-2 text-lg">
+            <span class="font-semibold mr-2 text-blue-900 text-lg">
              - Jean Miguel
             </span>
           </div>
@@ -28,7 +28,7 @@ const Testimonials = () => {
       </div>
       <div class="py-8 m-4 rounded-md shadow">
         <img
-          src="https://dummyimage.com/200x200/000/fff"
+          src="/Images/test2.jfif"
           class="mx-auto object-cover mb-4 rounded-lg h-40 w-40"
           alt="profile"
         />
@@ -40,7 +40,7 @@ const Testimonials = () => {
         </p>
         <div class="flex items-center justify-center mt-4">
           <div class="flex ml-2 items-center justify-center text-black">
-            <span class="font-semibold mr-2 text-lg">
+            <span class="font-semibold mr-2 text-blue-900 text-lg">
             - Jean Miguel
             </span>
           </div>
@@ -48,7 +48,7 @@ const Testimonials = () => {
       </div>
       <div class="py-8 m-4 rounded-md shadow ">
         <img
-          src="https://dummyimage.com/200x200/000/fff"
+          src="/Images/test3.jfif"
           class="mx-auto mb-4 object-cover rounded-lg h-40 w-40"
           alt="profile"
         />
@@ -60,7 +60,7 @@ const Testimonials = () => {
         </p>
         <div class="flex items-center justify-center mt-8">
           <div class="flex ml-2 items-center justify-center text-black">
-            <span class="font-semibold mr-2 text-lg">
+            <span class="font-semibold mr-2 text-blue-900 text-lg">
              - Jean Miguel
             </span>
           </div>

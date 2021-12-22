@@ -6,7 +6,7 @@ const Branch = () => {
       <section id="pricing" class="pricing section-bg ">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h1 className="md:text-5xl text-3xl text-black font-bold font-myFont text-center py-8">
+            <h1 className="md:text-5xl text-3xl px-5 py-20 text-black font-bold font-myFont text-center py-8">
               Our Branches Across Cities
             </h1>
           </div>

@@ -8,53 +8,54 @@ const Faq = () => {
       <h1 className="text-center py-10 md:text-5xl text-3xl font-bold text-blue-900 font-myFont">Frequently Asked Questions...?</h1>
         <Accordion defaultActiveKey="0" className="w-11/12 mx-auto">
           <Accordion.Item eventKey="0">
-            <Accordion.Header>Accordion Item #1</Accordion.Header>
+            <Accordion.Header className="font-myFont">How to change/update the mobile number?</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Kindly place a request at the branch for changing the Mobile number.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>Accordion Item #2</Accordion.Header>
+            <Accordion.Header className="font-myFont">How to change/update the mailing address?</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Kindly place a request at the nearest branch for changing the Mailing address .
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header>Accordion Item #3</Accordion.Header>
+            <Accordion.Header className="font-myFont">How long will it take to update a change of address?</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            It takes 7 Working days for bank to process the request from the time complete request is given.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
-            <Accordion.Header>Accordion Item #4</Accordion.Header>
+            <Accordion.Header className="font-myFont">What are the annual charges of debit card?</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Refer the schedule of charges.
             </Accordion.Body>
           </Accordion.Item>
+          <Accordion.Item eventKey="4">
+            <Accordion.Header className="font-myFont">How can I upgrade my account type?</Accordion.Header>
+            <Accordion.Body>
+            Kindly place a request at the nearest branch .
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="5">
+            <Accordion.Header className="font-myFont">How to place a request for a new cheque book?</Accordion.Header>
+            <Accordion.Body>
+            You may place the reqeust through branch ,ATM , IVR,Netbanking, Mobile Banking.
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="6">
+            <Accordion.Header className="font-myFont">Is there any charges applicable for personalized debit card?</Accordion.Header>
+            <Accordion.Body>
+            Refer Schedule of charges.
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="7">
+            <Accordion.Header className="font-myFont">How can I place a request for account statement?</Accordion.Header>
+            <Accordion.Body>
+            You may place the request by calling at contact center or by visiting the branch.
+            </Accordion.Body>
+          </Accordion.Item>
+
         </Accordion>
       </div>
     </div>
