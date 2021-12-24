@@ -51,7 +51,7 @@ const About = () => {
         </Carousel>
       </div>
 
-      <div className="History bg-gray-200">
+      <div className="History bg-gray-100">
         <h1 className="text-center md:text-5xl text-3xl text-blue-900 hover:text-blue-400 py-8 font-myFont">
           History
         </h1>
@@ -157,12 +157,12 @@ const About = () => {
               <div class="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
                 <div class="relative space-y-4">
                     <div class="flex items-end justify-center lg:justify-start space-x-4">
-                        <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="/Images/trail2.jpg" alt="1"/>
-                        <img class="rounded-lg shadow-lg w-40 md:w-64" width="260" src="/Images/trail.jpg" alt="2"/>
+                        <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="/Images/trail3.jpg" alt="1"/>
+                        <img class="rounded-lg shadow-lg w-40 md:w-64" width="260" src="/Images/trail2.jpg" alt="2"/>
                     </div>
                     <div class="flex items-start justify-center lg:justify-start space-x-4 ml-12">
                         <img class="rounded-lg shadow-lg w-24 md:w-40" width="170" src="/Images/trail.jpg" alt="3"/>
-                        <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="/Images/map.jpg" alt="4"/>
+                        <img class="rounded-lg shadow-lg w-32 md:w-56" width="200" src="/Images/trail4.jpg" alt="4"/>
                     </div>
                 </div>
             </div>

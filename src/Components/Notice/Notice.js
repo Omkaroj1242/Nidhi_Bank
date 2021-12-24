@@ -5,27 +5,28 @@ const Notice = () => {
   return (
     <>
     <div class="padding">
-      <div className="bg-black">
+      <div className="container bg-black">
         <div>
-          <ul className="py-2">
+          <ul className="py-2 mx-auto">
             <Link to="/">
-              <li className="text-right text-blue-100 hover:text-blue-400 pr-4 font-myFont hidden md:block">
+              <li className="link text-right text-blue-100 hover:text-blue-400 pr-4 font-myFont hidden md:block">
                 www.manmandirbank.com
               </li>
             </Link>
             <Link to="/">
-              <li className="text-right text-blue-100 hover:text-blue-400 pr-4 font-myFont hidden md:block">
+              <li className="link text-right text-blue-100 hover:text-blue-400 pr-4 font-myFont hidden md:block">
                 manmandirbankvita@yahoo.com
               </li>
             </Link>
-            <p className="text-center md:text-3xl text-xl text-white font-myFont">
-              "Leading the way to the common good"
-            </p>
+            
           </ul>
+          <div className="container mx-auto flex justify-center items-center"><p className="text-center sm:xl md:text-3xl text-xl text-white font-myFont">
+              "Leading the way to the common good"
+            </p></div>
         </div>
-        <div className="container mx-auto flex justify-center items-center pb-4">
+        <div className="container mx-auto flex justify-center items-center">
           {/* <img src="/Images/bank1.jpeg" alt="" style={{ height: "55px", width: "70px" }}/> */}
-          <h1 className="text-center text-2xl md:text-4xl text-white font-myFont">
+          <h1 className="text-center text-2xl sm:xl md:text-4xl text-white font-myFont">
             The Manmandir Co-Operative Bank Limited Vita.
           </h1>
         </div>
@@ -39,7 +40,7 @@ const Notice = () => {
       </div>
       </div>
       <div>
-        <div className="text-center">
+        <div className="text-center  bg-gray-100">
           <h1 className="font-myFont font-bold text-blue-900 lg:text-5xl md:text-3xl text-2xl py-4">
             Cyber ​​Security - IT Department
             <hr className="bg-blue-900" />
@@ -51,7 +52,7 @@ const Notice = () => {
           </h1>
         </div>
         {/* Instruction Div */}
-        <div className="container mx-auto">
+        <div className="container mx-auto bg-gray-100">
           <ul style={{ listStyle: "disc" }}>
             <li className="text-red-600 text-xl font-bold">
               {" "}

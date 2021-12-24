@@ -2,7 +2,7 @@ import React from "react";
 
 const Plan = () => {
     return (
-        <div className="py-10 min-h-screen bg-gray-200">
+        <div className="py-10 min-h-screen bg-gray-100">
             <h1 className="text-center md:text-5xl text-3xl text-blue-400 py-10 font-myFont font-bold">
                 Various Deposit Schemes Of The Bank
             </h1>
@@ -58,7 +58,7 @@ const Plan = () => {
                     <h1 className="text-3xl text-center text-blue-900 py-10 font-myFont">
                         Manmandir Deposit Scheme <br /> (Term 5 Years)
                     </h1>
-                    <table class="table table-striped table-bordered border-2 rounded-lg border-black">
+                    <table class="table table-striped table-bordered table-hover border-2 rounded-lg border-black">
                         <thead>
                             <tr>
                                 <th scope="col">Investment amount</th>

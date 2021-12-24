@@ -3,7 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <div>
-      <section class="text-blue-500 body-font py-4 my-8 bg-gray-200">
+      <section class="text-blue-500 body-font py-4 my-8 bg-gray-100">
         <h1 className="text-center md:text-5xl text-3xl py-4 text-blue-900 font-myFont font-bold">
           Our Services
         </h1>

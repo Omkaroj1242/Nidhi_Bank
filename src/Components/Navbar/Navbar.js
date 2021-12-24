@@ -45,7 +45,7 @@ export default function Example() {
                       <img
                         src="Images/Asset_2.png"
                         alt=""
-                        style={{ height: "50px", width: "180px" }}
+                        style={{ height: "47px", width: "160px" }}
                         className="mx-2"
                       />
                       </NavLink>
