@@ -156,7 +156,7 @@ export default function Example() {
             <button class="">
               <h6 className="text-dark" style={{ "font-size": "12px", paddingLeft: "1025px"}}>
                 
-                GSTIN Number: 27AAAAMO585H1ZM
+                GSTIN Number: 27AAAAM0585H1ZM
               </h6>
             </button>
           </div>
