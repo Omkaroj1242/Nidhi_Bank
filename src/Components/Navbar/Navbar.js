@@ -6,11 +6,11 @@ import { NavLink } from "react-router-dom";
 export default function Example() {
   return (
 
-    <Disclosure as="nav" className="bg-white  fixed-top">
+    <Disclosure as="nav" className=" bg-white fixed-top">
       {({ open }) => (
         <>
 
-          <div className="container relative flex items-center justify-between h-16">
+          <div className="container relative flex  justify-between h-16">
             <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
               {/* Mobile menu button*/}
               <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -29,7 +29,7 @@ export default function Example() {
               <img
                 src="Images/manmandir1.png"
                 alt=""
-                style={{ height: "45px", width: "70px" }}
+                style={{ height: "70px", width: "70px", padding: "0 0 0 0" }}
                 className="pt-1"
               />
               {/* <NavLink
@@ -47,7 +47,7 @@ export default function Example() {
                 to="/"
                 className="text-white font-myFont font-bold text-xl py-1 w-full"
               >
-               <h2 style={{ color: "#ffcc80", paddingTop: "7px"}}>Manmandir</h2>
+               <h2 style={{ color: "#ffcc80", paddingTop: "10px"}}>Manmandir</h2>
               </NavLink>
 
               {/* </h1> */}
@@ -144,7 +144,7 @@ export default function Example() {
                         class="fas fa-phone-alt"
                         style={{ "font-size": "20px", padding: "0 5px 0 0" }}
                       ></i>
-                      8275913992
+                      02347-276438
                     </a>
                   </button>
                 </ul>
@@ -154,9 +154,9 @@ export default function Example() {
           </div>
           <div className="nav-header">
             <button class="">
-              <h6 className="text-dark" style={{ "font-size": "12px", paddingLeft: "1012px"}}>
+              <h6 className="text-dark" style={{ "font-size": "12px", paddingLeft: "1025px"}}>
                 
-                GSTIN Number: 28DFEGY6598VGKP
+                GSTIN Number: 27AAAAMO585H1ZM
               </h6>
             </button>
           </div>

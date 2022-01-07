@@ -26,7 +26,7 @@ const Branch = () => {
               data-aos-delay="100"
             >
               <div class="box featured branch_card">
-                <h3>Branch Vita</h3>
+                <h3>Vita</h3>
 
                 <ul>
                   <li>
@@ -47,7 +47,7 @@ const Branch = () => {
               data-aos-delay="100"
             >
               <div class="box featured branch_card">
-                <h3>Branch Aatpadi</h3>
+                <h3>Aatpadi</h3>
 
                 <ul>
                   <li>
@@ -67,7 +67,7 @@ const Branch = () => {
               data-aos-delay="100"
             >
               <div class="box featured branch_card">
-                <h3>Branch Jat</h3>
+                <h3>Jat</h3>
 
                 <ul>
                   <li>
@@ -88,7 +88,7 @@ const Branch = () => {
               data-aos-delay="100"
             >
               <div class="box featured branch_card">
-                <h3>Branch Sangli</h3>
+                <h3>Sangli</h3>
 
                 <ul>
                   <li>
@@ -108,7 +108,7 @@ const Branch = () => {
               data-aos-delay="100"
             >
               <div class="box featured branch_card">
-                <h3>Branch TaasGoan</h3>
+                <h3>TaasGoan</h3>
 
                 <ul>
                   <li>
@@ -128,7 +128,7 @@ const Branch = () => {
               data-aos-delay="100"
             >
               <div class="box featured branch_card">
-                <h3>Branch Mayani</h3>
+                <h3>Mayani</h3>
 
                 <ul>
                   <li>
@@ -149,7 +149,7 @@ const Branch = () => {
               data-aos-delay="100"
             >
               <div class="box featured branch_card">
-                <h3>Branch Mahud</h3>
+                <h3>Mahud</h3>
 
                 <ul>
                   <li>
@@ -169,7 +169,7 @@ const Branch = () => {
               data-aos-delay="100"
             >
               <div class="box featured branch_card">
-                <h3>Branch Sangh</h3>
+                <h3>Sankha</h3>
 
                 <ul>
                   <li>
@@ -189,7 +189,7 @@ const Branch = () => {
               data-aos-delay="100"
             >
               <div class="box featured branch_card">
-                <h3>Branch Kavathemahankala</h3>
+                <h3>Kavathemahankala</h3>
 
                 <ul>
                   <li>

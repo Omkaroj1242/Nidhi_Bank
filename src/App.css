@@ -165,6 +165,7 @@ a:hover {
 /**
 * Desktop Navigation 
 */
+
 .navbar {
   padding: 0;
   background-color:rgb(255, 255, 255);
@@ -432,7 +433,7 @@ a:hover {
 
 .pricing .featured h3 {
   color: black;
-  background: #ffa012;
+  background: #ffccb1;
 }
 
 /*--------------------------------------------------------------
@@ -550,7 +551,7 @@ a:hover {
 .contact .info-box {
   color: #444444;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(83, 87, 92, 0.6);
   padding: 20px 0 30px 0;
   background: #fff;
 }

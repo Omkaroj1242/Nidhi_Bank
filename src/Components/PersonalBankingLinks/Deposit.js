@@ -38,47 +38,47 @@ const Deposit = () => {
                                                 <td colspan="2" className='font-bold'>Features:</td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left"> Any Branch Banking (ABB).</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">ATM facility / Debit cum ATM card</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Demand Draft (Local and Outstation)</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">RTGS/NEFT</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Nomination facility available</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">DICGC Insurance facility</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Personalized cheque books as per CTS standards</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left"></div>Basic Saving account (No Frills account)</td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Students Saving account</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Saving accounts for Minor</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Transaction alerts by SMS</div></td>
                                             </tr>
                                         </tbody>
@@ -102,43 +102,43 @@ const Deposit = () => {
                                                 <td colspan="2" className='font-bold'>Features:</td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Customer can deposit or withdraw the amount as many times required</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Minimum Balance to be maintained is Rs.2000/- for Individuals</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Minimum Balance to be maintained is Rs.5000/- for Firms,Companies.</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Account will be operated by Authorized Signatories</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Any Branch Banking (ABB).</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Demand Draft (Local and Outstation).</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">RTGS/NEFT</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left"></div>DICGC Insurance facility</td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left">Personalized cheque books as per CTS standards</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                                <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                                 <td width="97%" class="tblifsc"><div align="left"> RERA Account Facility for Builders/Contractors</div></td>
                                             </tr>
                                         </tbody>
@@ -538,15 +538,15 @@ const Deposit = () => {
                             <table width="100%" class="table-bordered ">
                                 <tbody>
                                     <tr>
-                                        <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                        <td width="3%" class="tblifsc px-1 "><i class="fas fa-arrow-circle-right"></i></td>
                                         <td width="97%" class="tblifsc"><div align="left"> 1. Get additional 0.25% interest for the Period one year and above on one time deposit between Rs. 25 lakhs or more. (Applicable only for Individuals)</div></td>
                                     </tr>
                                     <tr>
-                                        <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                        <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                         <td width="97%" class="tblifsc"><div align="left">2.Get additional 0.50% interest for the Period one year and above on one time deposit above Rs. 25 lakhs (Not applicable for Co-operative Societies/Banks)</div></td>
                                     </tr>
                                     <tr>
-                                        <td width="3%" class="tblifsc px-1"><img src="/images/icon.png" alt='...' /></td>
+                                        <td width="3%" class="tblifsc px-1"><i class="fas fa-arrow-circle-right"></i></td>
                                         <td width="97%" class="tblifsc"><div align="left">3. Flexible Interest rate for Co-operative Societies/Patsanshta</div></td>
                                     </tr>
                                     <tr>    

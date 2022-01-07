@@ -8,7 +8,7 @@ const Faq = () => {
       <h1 className="text-center py-10 md:text-5xl text-3xl font-bold text-blue-900 font-myFont">Frequently Asked Questions...?</h1>
         <Accordion defaultActiveKey="0" className="w-11/12 mx-auto">
           <Accordion.Item eventKey="0">
-            <Accordion.Header className="font-myFont">RTGS Related?</Accordion.Header>
+            <Accordion.Header className="font-myFont">RTGS<h6 className="pt-2 text-primary"> (Real Time Gross Settlement)</h6></Accordion.Header>
             <Accordion.Body>
                 <p className="font-bold">Q1. What is RTGS System?</p>
                 <p><b>Ans.</b>The acronym 'RTGS' stands for Real Time Gross Settlement, which can be defined as the continuous (real-time) settlement of funds transfer individually on an order by order basis (without netting). 'Real Time' means the processing of instructions at the time they are received rather than at some later time; 'Gross Settlement' means the settlement of funds transfer instructions occurs individually (on an instruction by instruction basis). Considering that the funds settlement takes place in the books of the Reserve Bank of India, the payments are final and irrevocable.</p>
@@ -27,7 +27,7 @@ const Faq = () => {
           </Accordion.Item>
 
           <Accordion.Item eventKey="1">
-            <Accordion.Header className="font-myFont">NEFT Related?</Accordion.Header>
+            <Accordion.Header className="font-myFont">NEFT<h6 className="pt-2 text-primary"> (National Electronic Funds Transfer)</h6></Accordion.Header>
             <Accordion.Body>
                 <p className="font-bold">Q.1. What is NEFT?</p>
                 <p><b>Ans.</b>National Electronic Funds Transfer (NEFT) is a nation-wide payment system facilitating one-to-one funds transfer. Under this Scheme, individuals, firms and corporates can electronically transfer funds from any bank branch to any individual, firm or corporate having an account with any other bank branch in the country participating in the Scheme.</p>
@@ -49,7 +49,7 @@ const Faq = () => {
           </Accordion.Item>
 
           <Accordion.Item eventKey="2">
-            <Accordion.Header className="font-myFont">RTS Related?</Accordion.Header>
+            <Accordion.Header className="font-myFont">CTS<h6 className="pt-2 text-primary"> (Cheque Truncation)</h6></Accordion.Header>
             <Accordion.Body>
                 <p className="font-bold">Q.1. What is Cheque Truncation?</p>
                 <p>Truncation is the process of stopping the flow of the physical cheque issued by a drawer at some point by the presenting bank en-route to the drawee bank branch. In its place an electronic image of the cheque is transmitted to the drawee branch through the clearing house, along with relevant information like data on the MICR band, date of presentation, presenting bank, etc. Cheque truncation thus obviates the need to move the physical instruments across branches, other than in exceptional circumstances for clearing purposes. This effectively eliminates the associated cost of movement of the physical cheques, reduces the time required for their collection and brings elegance to the entire activity of cheque processing.</p>
@@ -87,7 +87,7 @@ const Faq = () => {
           </Accordion.Item>
 
           <Accordion.Item eventKey="3">
-            <Accordion.Header className="font-myFont">KYC Related?</Accordion.Header>
+            <Accordion.Header className="font-myFont">KYC<h6 className="pt-2 text-primary"> (Know Your Customer)</h6></Accordion.Header>
             <Accordion.Body>
               <p className="font-bold">Q.1. What is KYC?</p>
               <p>KYC is an acronym for "Know your Customer", a term used for customer identification process. It involves making reasonable efforts to determine true identity and beneficial ownership of accounts, source of funds, the nature of customer's business, reasonableness of operations in the account in relation to the customer's business, etc which in turn helps the banks to manage their risks prudently. The objective of the KYC guidelines is to prevent banks being used, intentionally or unintentionally by criminal elements for money laundering.</p>
@@ -119,7 +119,7 @@ const Faq = () => {
           </Accordion.Item>
 
           <Accordion.Item eventKey="4">
-            <Accordion.Header className="font-myFont">Basic Savings Account(BSBDA)</Accordion.Header>
+            <Accordion.Header className="font-myFont">Basic Savings Account<h6 className="pt-2 text-primary">(BSBDA)</h6></Accordion.Header>
             <Accordion.Body>
               <p className="font-bold">Q.1. What is the definition of "Basic Savings Bank Deposit Account" (BSBDA)?</p>
               <p>All the existing 'No-frills' accounts opened pursuant to guidelines issued vide circular UBD.BPD.Cir.No.19/13.01.000/2005-06 dated November 24, 2005 and converted into BSBDA in compliance with the guidelines issued in circular UBD.BPD.Cir.No.5/13.01.000/2012-13 dated August 17, 2012 as well as fresh accounts opened under the said circular should be treated as BSBDA.</p>
@@ -178,23 +178,57 @@ const Faq = () => {
 
             </Accordion.Body>
           </Accordion.Item>
-          
+
           <Accordion.Item eventKey="5">
-            <Accordion.Header className="font-myFont">How to place a request for a new cheque book?</Accordion.Header>
+            <Accordion.Header className="font-myFont">DICGC</Accordion.Header>
             <Accordion.Body>
-            You may place the reqeust through branch ,ATM , IVR,Netbanking, Mobile Banking.
+                <p className="font-bold">Q.1. Which banks are insured by the DICGC?</p>
+                <p>Commercial Banks: All commercial banks including branches of foreign banks functioning in India, local area banks and regional rural banks are insured by the DICGC.</p>
+                <p>Cooperative Banks: All State, Central and Primary cooperative banks, also called urban cooperative banks, functioning in States / Union Territories which have amended the local Cooperative Societies Act empowering the Reserve Bank of India (RBI) to order the Registrar of Cooperative Societies of the State / Union Territory to wind up a cooperative bank or to supersede its committee of management and requiring the Registrar not to take any action regarding winding up, amalgamation or reconstruction of a co-operative bank without prior sanction in writing from the Reserve Bank are covered under the Deposit Insurance System. At present all co-operative banks other than those from the States of Meghalaya, and the Union Territories of Chandigarh, Lakshadweep and Dadra and Nagar Haveli are covered under the deposit insurance system of DICGC.</p>
+                <p>Primary cooperative societies are not insured by the DICGC.</p>
+
+                <p className="font-bold">Q.2. What does the DICGC insure?</p>
+                <p>In the event of a bank failure, DICGC protects bank deposits that are payable in India.<br/>The DICGC insures all deposits such as savings, fixed, current, recurring, etc. except the following types of deposits.<br/>(i) Deposits of foreign Governments;<br/>(ii) Deposits of Central/State Governments;<br/>(iii)Inter-bank deposits;<br/>(iv) Deposits of the State Land Development Banks with the State co-operative bank;<br/>(v) Any amount due on account of any deposit received outside India<br/>(vi) Any amount, which has been specifically exempted by the corporation with the previous approval of Reserve Bank of India.</p>
+                
+                <p className="font-bold">Q.3. What is the maximum deposit amount insured by the DICGC?</p>
+                <p>Each depositor in a bank is insured upto a maximum of Rs.1,00,000 (Rupees One Lakh) for both principal and interest amount held by him in the same capacity and same right as on the date of liquidation/cancellation of bank's licence or the date on which the scheme of amalgamation/merger/reconstruction comes into force.</p>
+            
+                <p className="font-bold">Q.4. How will I know whether my bank is insured by the DICGC or not?</p>
+                <p>The premium paid receipts are made available with the bank branches and will be made available for confirmation to customers on request.</p>
+
+                <p className="font-bold">Q.5. What is the ceiling on amount of Insured deposits kept by one person in different branches of a bank?</p>
+                <p>The deposits kept in different branches of a bank are aggregated for the purpose of insurance cover and a maximum amount upto Rupees one lakh is paid.</p>
+
+                <p className="font-bold">Q.6. Does the DICGC insure just the principal on an account or both principal and accrued interest?</p>
+                <p>The DICGC insures principal and interest upto a maximum amount of Rs. One lakh. For example, if an individual had an account with a principal amount of Rs.95,000 plus accrued interest of Rs.4,000, the total amount insured by the DICGC would be Rs.99,000. If, however, the principal amount in that account was Rs. One lakh, the accrued interest would not be insured, not because it was interest but because that was the amount over the insurance limit.</p>
+
+                <p className="font-bold">Q.7. Can deposit insurance be increased by depositing funds into several different accounts all at the same bank?</p>
+                <p>All funds held in the same type of ownership at the same bank are added together before deposit insurance is determined. If the funds are in different types of ownership or are deposited into separate banks they would then be separately insured.</p>
+
+                <p className="font-bold">Q.8. What is a single ownership account?</p>
+                <p>A single (or inpidual) ownership account is an account owned by one person. Such accounts include those in the owner's name; those established for the benefit of the owner by agents, nominees, guardians, custodians, or conservators; and those established by a business that is a sole proprietorship.</p>
+
+                <p className="font-bold">Q.9. Are deposits in different banks separately insured?</p>
+                <p>Yes. If you have deposits with more than one bank, deposit insurance coverage limit is applied separately to the deposits in each bank.</p>
+
+                <p className="font-bold">Q.10. If I have my funds on deposit at two different banks, and those two banks are closed on the same day, are my funds added together, or insured separately?</p>
+                <p>Your funds from each bank would be insured separately, regardless of the date of closure.</p>
+
+
             </Accordion.Body>
           </Accordion.Item>
+
           <Accordion.Item eventKey="6">
-            <Accordion.Header className="font-myFont">Is there any charges applicable for personalized debit card?</Accordion.Header>
+            <Accordion.Header className="font-myFont">ATM</Accordion.Header>
             <Accordion.Body>
-            Refer Schedule of charges.
+                Will be provided soon
             </Accordion.Body>
           </Accordion.Item>
+
           <Accordion.Item eventKey="7">
-            <Accordion.Header className="font-myFont">How can I place a request for account statement?</Accordion.Header>
+            <Accordion.Header className="font-myFont">15G/15H</Accordion.Header>
             <Accordion.Body>
-            You may place the request by calling at contact center or by visiting the branch.
+                Will be provided soon
             </Accordion.Body>
           </Accordion.Item>
 
