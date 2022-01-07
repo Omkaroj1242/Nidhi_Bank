@@ -32,7 +32,7 @@ export default function Example() {
                 style={{ height: "45px", width: "70px" }}
                 className="pt-1"
               />
-              <NavLink
+              {/* <NavLink
                 to="/"
                 className="text-white font-myFont font-bold text-xl py-1 w-full"
               >
@@ -42,6 +42,12 @@ export default function Example() {
                   style={{ height: "50px", width: "160px" }}
                   className=""
                 />
+              </NavLink> */}
+              <NavLink
+                to="/"
+                className="text-white font-myFont font-bold text-xl py-1 w-full"
+              >
+               <h2 style={{ color: "#ffcc80", paddingTop: "7px"}}>Manmandir</h2>
               </NavLink>
 
               {/* </h1> */}
@@ -132,7 +138,7 @@ export default function Example() {
                     </a>
                   </button> */}
 
-                  <button class="btn btn-warning">
+                  <button class="nav-button btn btn-warning">
                     <a href="tel:+918974562241" className="text-black">
                       <i
                         class="fas fa-phone-alt"
@@ -146,9 +152,9 @@ export default function Example() {
             </div>
             {/* </header> */}
           </div>
-          <div className="nav-header  bg-secondary">
+          <div className="nav-header">
             <button class="">
-              <h6 className="text-light" style={{ "font-size": "12px", paddingLeft: "1012px"}}>
+              <h6 className="text-dark" style={{ "font-size": "12px", paddingLeft: "1012px"}}>
                 
                 GSTIN Number: 28DFEGY6598VGKP
               </h6>
