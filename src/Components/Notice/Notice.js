@@ -5,17 +5,22 @@ const Notice = () => {
   return (
     <>
     <div class="padding">
-      <div className="container bg-black">
+      <div className="container bg-black" style={{ paddingTop: "35px"}} >
         <div>
           <ul className="py-2 mx-auto">
             <Link to="/">
-              <li className="link text-right text-blue-100 hover:text-blue-400 pr-4 font-myFont hidden md:block">
+              <li className="link text-right text-blue-100 hover:text-blue-400 pr-4 font-myFont md:block">
                 www.manmandirbank.com
               </li>
             </Link>
             <Link to="/">
-              <li className="link text-right text-blue-100 hover:text-blue-400 pr-4 font-myFont hidden md:block">
+              <li className="link text-right text-blue-100 hover:text-blue-400 pr-4 font-myFont md:block">
                 manmandirbankvita@yahoo.com
+              </li>
+            </Link>
+            <Link to="/">
+              <li className="link text-right text-blue-100 hover:text-blue-400 pr-4 font-myFont md:block">
+                mmcv@manmandirbank.com
               </li>
             </Link>
             
@@ -37,6 +42,7 @@ const Notice = () => {
             District Sangli, Phone: 02347 - 276438,273271.
           </p>
         </div>
+        
       </div>
       </div>
       <div>

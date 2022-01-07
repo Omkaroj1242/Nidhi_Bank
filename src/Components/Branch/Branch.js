@@ -4,18 +4,18 @@ const Branch = () => {
   return (
     <div className="bg-gray-100">
       <section id="pricing" class="pricing section-bg ">
-        <div class="container" data-aos="fade-up">
+        <div class="container" data-aos="fade-up"  style={{ paddingTop: "35px"}}>
           <div class="section-title">
             <h1 className="md:text-5xl text-3xl px-5 py-20 text-black font-bold font-myFont text-center py-8">
               Our Branches Across Cities
             </h1>
           </div>
           <div>
-          <img
-      className="flex justify-center items-center mx-auto my_bg  img-fluid"
-      src="/Images/Map.jpg"
-      alt="slide"
-    />
+            <img
+              className="flex justify-center items-center mx-auto my_bg  img-fluid"
+              src="/Images/Map.jpg"
+              alt="slide"
+            />
           </div>
           <div class="b-example-divider"> </div>
 
@@ -51,7 +51,7 @@ const Branch = () => {
 
                 <ul>
                   <li>
-                  Main road, taluka Aatpadi, District Sangli 415 401.
+                    Main road, taluka Aatpadi, District Sangli 415 401.
                   </li>
                   <li>(02342) 221114</li>
                   <li>7774097915</li>
@@ -71,7 +71,7 @@ const Branch = () => {
 
                 <ul>
                   <li>
-                  Mangalwar Peth Jat, Taluka Jat, District Sangli. 416 404.
+                    Mangalwar Peth Jat, Taluka Jat, District Sangli. 416 404.
                   </li>
                   <li>(02344) 248883</li>
                   <li>7774097913</li>
@@ -92,7 +92,7 @@ const Branch = () => {
 
                 <ul>
                   <li>
-                  Saraf Katta, Sangli. 416 416.
+                    Saraf Katta, Sangli. 416 416.
                   </li>
                   <li>(0233) 2328130</li>
                   <li>7774097912</li>
@@ -112,7 +112,7 @@ const Branch = () => {
 
                 <ul>
                   <li>
-                  Om Shiv Sagar Complex, Joshi Galli, Tasgaon, District Sangli. 416 312.
+                    Om Shiv Sagar Complex, Joshi Galli, Tasgaon, District Sangli. 416 312.
                   </li>
                   <li>(02346) 241875</li>
                   <li>7774097917</li>
@@ -132,7 +132,7 @@ const Branch = () => {
 
                 <ul>
                   <li>
-                  Vita Road, Mayani, Taluka Khatav, District Satara.
+                    Vita Road, Mayani, Taluka Khatav, District Satara.
                   </li>
                   <li>(02161) 270311</li>
                   <li>77774030948</li>
@@ -153,7 +153,7 @@ const Branch = () => {
 
                 <ul>
                   <li>
-                  2101, Yamuna Niwas, Navi Peth, Pandharpur Malhar-Peth Road, District Solapur. 413 306.
+                    2101, Yamuna Niwas, Navi Peth, Pandharpur Malhar-Peth Road, District Solapur. 413 306.
                   </li>
                   <li>(02187) 246009</li>
                   <li>7774005918</li>
@@ -173,7 +173,7 @@ const Branch = () => {
 
                 <ul>
                   <li>
-                  G. M. No. 1351, Jat Road, Sangh, Taluka Jat, District Sangli. 416 412.
+                    G. M. No. 1351, Jat Road, Sangh, Taluka Jat, District Sangli. 416 412.
                   </li>
                   <li>(02344) 227050</li>
                   <li>7774097929</li>
@@ -193,7 +193,7 @@ const Branch = () => {
 
                 <ul>
                   <li>
-                  552, Bazar-peth Kavathemahankala, Taluka Kavathemahankala, District Sangli. 416 405.
+                    552, Bazar-peth Kavathemahankala, Taluka Kavathemahankala, District Sangli. 416 405.
                   </li>
                   <li>(02341) 222090</li>
                   <li>7774097914</li>

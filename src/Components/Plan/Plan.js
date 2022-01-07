@@ -3,7 +3,7 @@ import React from "react";
 const Plan = () => {
     return (
         <div className="py-10 min-h-screen bg-gray-100">
-            <h1 className="text-center md:text-5xl text-3xl text-blue-400 py-10 font-myFont font-bold">
+            <h1 className="text-center md:text-5xl text-3xl text-blue-400 py-10 font-myFont font-bold"  style={{ paddingTop: "70px"}}>
                 Various Deposit Schemes Of The Bank
             </h1>
             <div className="container mb-16 text-center">

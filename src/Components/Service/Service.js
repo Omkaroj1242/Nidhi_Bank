@@ -1,220 +1,102 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import QuickLink from "./QuickLink";
 
 const Blog = () => {
   return (
     <div>
-      <section class="text-blue-500 body-font py-4 my-8 bg-gray-100">
-        <h1 className="text-center md:text-5xl text-3xl py-4 text-blue-900 font-myFont font-bold">
-          Our Services
-        </h1>
-        <div class="container px-5 py-12 mx-auto">
-          <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/3">
-              <div class="h-full border-2 border-gray-500 border-opacity-60 rounded-lg overflow-hidden">
-                <div class="p-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-blue-700 mb-1">
-                    CATEGORY
-                  </h2>
-                  <h1 class="title-font text-lg font-medium text-black mb-3">
-                    The Catalyzer
-                  </h1>
-                  <p class="leading-relaxed mb-3 text-black">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
-                  </p>
-                  <div class="flex items-center flex-wrap ">
-                    <a class="text-indigo-500 no-underline inline-flex items-center md:mb-2 lg:mb-0">
-                      Learn More
-                      <svg
-                        class="w-4 h-4 ml-2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="p-4 md:w-1/3">
-              <div class="h-full border-2 border-gray-500 border-opacity-60 rounded-lg overflow-hidden">
-                <div class="p-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-blue-700 mb-1">
-                    CATEGORY
-                  </h2>
-                  <h1 class="title-font text-lg font-medium text-black mb-3">
-                    The Catalyzer
-                  </h1>
-                  <p class="leading-relaxed mb-3 text-black">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
-                  </p>
-                  <div class="flex items-center flex-wrap ">
-                    <a class="text-indigo-500 no-underline inline-flex items-center md:mb-2 lg:mb-0">
-                      Learn More
-                      <svg
-                        class="w-4 h-4 ml-2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="p-4 md:w-1/3">
-              <div class="h-full border-2 border-gray-500 border-opacity-60 rounded-lg overflow-hidden">
-                <div class="p-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-blue-700 mb-1">
-                    CATEGORY
-                  </h2>
-                  <h1 class="title-font text-lg font-medium text-black mb-3">
-                    The Catalyzer
-                  </h1>
-                  <p class="leading-relaxed mb-3 text-black">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
-                  </p>
-                  <div class="flex items-center flex-wrap ">
-                    <a class="text-indigo-500 no-underline inline-flex items-center md:mb-2 lg:mb-0">
-                      Learn More
-                      <svg
-                        class="w-4 h-4 ml-2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="p-4 md:w-1/3">
-              <div class="h-full border-2 border-gray-500 border-opacity-60 rounded-lg overflow-hidden">
-                <div class="p-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-blue-700 mb-1">
-                    CATEGORY
-                  </h2>
-                  <h1 class="title-font text-lg font-medium text-black mb-3">
-                    The Catalyzer
-                  </h1>
-                  <p class="leading-relaxed mb-3 text-black">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
-                  </p>
-                  <div class="flex items-center flex-wrap ">
-                    <a className="text-indigo-500 no-underline inline-flex items-center md:mb-2 lg:mb-0">
-                      Learn More
-                      <svg
-                        class="w-4 h-4 ml-2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="p-4 md:w-1/3">
-              <div class="h-full border-2 border-gray-500 border-opacity-60 rounded-lg overflow-hidden">
-                <div class="p-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-blue-700 mb-1">
-                    CATEGORY
-                  </h2>
-                  <h1 class="title-font text-lg font-medium text-black mb-3">
-                    The 400 Blows
-                  </h1>
-                  <p class="leading-relaxed mb-3 text-black">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
-                  </p>
-                  <div class="flex items-center flex-wrap">
-                    <a class="text-indigo-500 no-underline inline-flex items-center md:mb-2 lg:mb-0">
-                      Learn More
-                      <svg
-                        class="w-4 h-4 ml-2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="p-4 md:w-1/3">
-              <div class="h-full border-2 border-gray-500 border-opacity-60 rounded-lg overflow-hidden">
-                <div class="p-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-blue-700 mb-1">
-                    CATEGORY
-                  </h2>
-                  <h1 class="title-font text-lg font-medium text-black mb-3">
-                    Shooting Stars
-                  </h1>
-                  <p class="leading-relaxed mb-3 text-black">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
-                  </p>
-                  <div class="flex items-center flex-wrap ">
-                    <a class="text-indigo-500 no-underline inline-flex items-center md:mb-2 lg:mb-0">
-                      Learn More
-                      <svg
-                        class="w-4 h-4 ml-2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
+
+      <div class="container-fluid">
+        <div class="row  pt-4">
+          <div class="col-sm-3 col-md-3 col-lg-12">
+            <nav class="col-sm-3 col-md-3 col-lg-12">
+              <h5 className="bg-info pl-4 py-2">Services</h5>
+              <ul className="bg-gray-200">
+                <li>
+                  <NavLink
+                    to="/service"
+                    className="nav-link scrollto font-myFont active"
+                    style={{ color: "black", fontSize: "15px", padding: "4px" }}
+                    href="#services"
+                  >
+                    - RTGS/NEFT
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink
+                    to="/locker"
+                    className="nav-link scrollto font-myFont"
+                    style={{ color: "black", fontSize: "15px", padding: "4px" }}
+                    href="#services"
+                  >
+                    - Locker
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/sms"
+                    className="nav-link scrollto font-myFont"
+                    style={{ color: "black", fontSize: "15px", padding: "4px" }}
+                    href="#services"
+                  >
+                   - Sms Banking
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/abps"
+                    className="nav-link scrollto font-myFont"
+                    style={{ color: "black", fontSize: "15px", padding: "4px" }}
+                    href="#services"
+                  >
+                    - ABPS(Aadhar Card Linking)
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/executor-trustee"
+                    className="nav-link scrollto font-myFont"
+                    style={{ color: "black", fontSize: "15px", padding: "4px" }}
+                    href="#services"
+                  >
+                    - Executor &amp; Trustee
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/anybranch"
+                    className="nav-link scrollto font-myFont"
+                    style={{ color: "black", fontSize: "15px", padding: "4px" }}
+                    href="#services"
+                  >
+                    - Any Branch BAnking
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/utilitybill"
+                    className="nav-link scrollto font-myFont"
+                    style={{ color: "black", fontSize: "15px", padding: "4px" }}
+                    href="#services"
+                  >
+                    - Utility Bill Payments
+                  </NavLink>
+                </li>
+
+                {/* <li>+EMI Calculator </li> */}
+
+
+              </ul>
+            </nav>
+
+            <QuickLink />
+
           </div>
+
         </div>
-      </section>
+      </div>
+      
     </div>
   );
 };

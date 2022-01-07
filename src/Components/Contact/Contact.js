@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact" class="contact  bg-gray-100">
       <div className="mx-12">
         <div class="section-title text-center">
-          <h2 className="md:text-5xl text-3xl py-10 text-blue-400 my-8 font-myFont">Contact Us</h2>
+          <h2 className="md:text-5xl text-3xl py-10 text-blue-400 my-8 font-myFont" style={{ paddingTop: "90px"}}>Contact Us</h2>
         </div>
 
         <div>
