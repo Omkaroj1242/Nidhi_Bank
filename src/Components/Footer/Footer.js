@@ -28,7 +28,7 @@ const Footer = () => {
                                         <li>
                                             <a
                                                 class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                                href="."
+                                                href="/about"
                                             >
                                                 About Us
                                             </a>

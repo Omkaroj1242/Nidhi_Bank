@@ -22,7 +22,7 @@ const Loans = () => {
 
                     </div>
                     <div class="col-sm-9 col-md-6 col-lg-8">
-                        <h2 className='pt-3'>Deposits</h2>
+                        <h2 className='pt-3'>Loans</h2>
 
                         <Accordion defaultActiveKey="1" className="mx-auto pt-3">
                             <Accordion.Item eventKey="0">

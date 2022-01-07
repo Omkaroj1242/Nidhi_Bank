@@ -1,6 +1,5 @@
 import React from 'react'
-import QuickLink from '../Service/QuickLink'
-
+import PersonalBanking from "../PersonalBanking/PersonalBanking"
 
 const RateOfInterest = () => {
     return (
@@ -18,7 +17,7 @@ const RateOfInterest = () => {
                 <div class="row  pt-4">
                     <div class="col-sm-3 col-md-3 col-lg-3">
 
-                        <QuickLink />
+                        <PersonalBanking />
 
                     </div>
                     <div class="col-sm-9 col-md-6 col-lg-8">

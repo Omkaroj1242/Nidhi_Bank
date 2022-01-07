@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import QuickLink from "./QuickLink";
 
 const Blog = () => {
   return (
@@ -83,14 +82,8 @@ const Blog = () => {
                     - Utility Bill Payments
                   </NavLink>
                 </li>
-
-                {/* <li>+EMI Calculator </li> */}
-
-
               </ul>
             </nav>
-
-            <QuickLink />
 
           </div>
 

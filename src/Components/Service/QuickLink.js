@@ -1,9 +1,12 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 
+
 const QuickLink = () => {
     return (
         <div>
+
+           
             <nav class="col-sm-3 col-md-3 col-lg-12 pt-3">
               <h5 className="bg-info pl-4 py-2">Quick Links</h5>
               <ul className="bg-gray-200">
