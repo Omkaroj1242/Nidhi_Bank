@@ -4,204 +4,215 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { NavLink } from "react-router-dom";
 
 export default function Example() {
-  return (
+    return (
+        <Disclosure as="nav" className=" bg-white fixed-top">
+            {({ open }) => (
+                <>
+                    <div className="container relative flex  justify-between h-16 mx-1">
+                        <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
+                            {/* Mobile menu button*/}
+                            <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                                <span className="sr-only">Open main menu</span>
+                                {open ? (
+                                    <XIcon
+                                        className="block h-8 w-8"
+                                        aria-hidden="true"
+                                    />
+                                ) : (
+                                    <MenuIcon
+                                        className="block h-8   w-8"
+                                        aria-hidden="true"
+                                    />
+                                )}
+                            </Disclosure.Button>
+                        </div>
 
-    <Disclosure as="nav" className=" bg-white fixed-top">
-      {({ open }) => (
-        <>
+                        <div className="flex">
+                            {/* <h1 className="logo flex h-8"> */}
+                            <img
+                                src="Images/manmandir1.png"
+                                alt=""
+                                style={{
+                                    height: "70px",
+                                    width: "70px",
+                                    padding: "0 0 0 0",
+                                }}
+                                className="pt-1"
+                            />
 
-          <div className="container relative flex  justify-between h-16">
-            <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
-              {/* Mobile menu button*/}
-              <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                <span className="sr-only">Open main menu</span>
-                {open ? (
-                  <XIcon className="block h-8 w-8" aria-hidden="true" />
-                ) : (
-                  <MenuIcon className="block h-8   w-8" aria-hidden="true" />
-                )}
-              </Disclosure.Button>
-            </div>
+                            <NavLink
+                                to="/"
+                                className="text-white font-myFont font-bold text-xl py-1 w-full"
+                            >
+                                <h2
+                                    style={{
+                                        color: "#ffcc80",
+                                        paddingTop: "10px",
+                                    }}
+                                >
+                                    Manmandir
+                                </h2>
+                            </NavLink>
 
-            <div className="flex align-items-center justify-content-between">
+                            {/* </h1> */}
+                            {/* </div> */}
 
-              {/* <h1 className="logo flex h-8"> */}
-              <img
-                src="Images/manmandir1.png"
-                alt=""
-                style={{ height: "70px", width: "70px", padding: "0 0 0 0" }}
-                className="pt-1"
-              />
-              {/* <NavLink
-                to="/"
-                className="text-white font-myFont font-bold text-xl py-1 w-full"
-              >
-                <img
-                  src="Images/Asset_2.png"
-                  alt=""
-                  style={{ height: "50px", width: "160px" }}
-                  className=""
-                />
-              </NavLink> */}
-              <NavLink
-                to="/"
-                className="text-white font-myFont font-bold text-xl py-1 w-full"
-              >
-               <h2 style={{ color: "#ffcc80", paddingTop: "10px"}}>Manmandir</h2>
-              </NavLink>
+                            <nav id="navbar" className="navbar">
+                                <ul>
+                                    <li>
+                                        <NavLink
+                                            to="/"
+                                            className="nav-link scrollto font-myFont"
+                                            href="#about"
+                                        >
+                                            Home
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/about"
+                                            className="nav-link scrollto font-myFont"
+                                            href="#about"
+                                        >
+                                            About Us
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/personalbanking"
+                                            className="nav-link scrollto font-myFont"
+                                            href="#personalBanking"
+                                        >
+                                            Personal Banking
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/service"
+                                            className="nav-link scrollto font-myFont"
+                                            href="#services"
+                                        >
+                                            Services
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/branch"
+                                            className="nav-link scrollto font-myFont"
+                                            href="#services"
+                                        >
+                                            Branches
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/plan"
+                                            className="nav-link scrollto font-myFont "
+                                            href="#portfolio"
+                                        >
+                                            Plan
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/faq"
+                                            className="nav-link scrollto font-myFont"
+                                            href="#team"
+                                        >
+                                            FAQ
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/notice"
+                                            className="nav-link scrollto font-myFont"
+                                            href="#team"
+                                        >
+                                            Notice
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/contact"
+                                            className="nav-link scrollto font-myFont"
+                                            href="#contact"
+                                        >
+                                            Contact
+                                        </NavLink>
+                                    </li>
 
-              {/* </h1> */}
-              {/* </div> */}
+                                    <a
+                                        href="tel:02347276438"
+                                        className="text-black nav-button btn btn-sm btn-warning ml-5"
+                                    >
+                                        <i
+                                            class="fas fa-phone-alt"
+                                            style={{
+                                                padding: "0 5px 0 0",
+                                            }}
+                                        ></i>
+                                        02347-276438
+                                    </a>
+                                </ul>
+                            </nav>
+                        </div>
+                        {/* </header> */}
+                    </div>
+                    <div className="nav-header">
+                        <h6 className="text-dark text-center py-1">
+                            <marquee>GSTIN Number: 27AAAAM0585H1ZM</marquee>
+                        </h6>
+                    </div>
+                    {/* </div> */}
 
-              <nav id="navbar" className="navbar">
-                <ul>
-                  <li>
-                    <NavLink
-                      to="/about"
-                      className="nav-link scrollto font-myFont"
-                      href="#about"
-                    >
-                      About Us
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/personalbanking"
-                      className="nav-link scrollto font-myFont"
-                      href="#personalBanking"
-                    >
-                      Personal Banking
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/service"
-                      className="nav-link scrollto font-myFont"
-                      href="#services"
-                    >
-                      Services
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/branch"
-                      className="nav-link scrollto font-myFont"
-                      href="#services"
-                    >
-                      Branches
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/plan"
-                      className="nav-link scrollto font-myFont "
-                      href="#portfolio"
-                    >
-                      Plan
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/faq"
-                      className="nav-link scrollto font-myFont"
-                      href="#team"
-                    >
-                      FAQ
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/notice"
-                      className="nav-link scrollto font-myFont"
-                      href="#team"
-                    >
-                      Notice
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/contact"
-                      className="nav-link scrollto font-myFont"
-                      href="#contact"
-                    >
-                      Contact
-                    </NavLink>
-                  </li>
-
-                  {/* <button class="">
-                    <a href="/" className="text-info">
-                      <i
-                        class=""
-                        style={{ "font-size": "10px", padding: "0 5px 0 0" }}
-                      ></i>
-                      GSTIN Number-28DFEGY6598VGKP
-                    </a>
-                  </button> */}
-
-                  <button class="nav-button btn btn-warning">
-                    <a href="tel:+918974562241" className="text-black">
-                      <i
-                        class="fas fa-phone-alt"
-                        style={{ "font-size": "20px", padding: "0 5px 0 0" }}
-                      ></i>
-                      02347-276438
-                    </a>
-                  </button>
-                </ul>
-              </nav>
-            </div>
-            {/* </header> */}
-          </div>
-          <div className="nav-header">
-            <button class="">
-              <h6 className="text-dark" style={{ "font-size": "12px", paddingLeft: "1025px"}}>
-                
-                GSTIN Number: 27AAAAM0585H1ZM
-              </h6>
-            </button>
-          </div>
-          {/* </div> */}
-
-          <Disclosure.Panel className="lg:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-blue-500 text-center">
-              <Disclosure.Button>
-                <div className="flex">
-                  <ul className="flex-col">
-                    <li className="my_li font-myFont mb-2">
-                      <NavLink to="/about">About Us</NavLink>
-                    </li>
-                    <li className="my_li font-myFont mb-2">
-                      <NavLink to="/service">Service</NavLink>
-                    </li>
-                    <li className="my_li font-myFont mb-2">
-                      <NavLink to="/branch">Branches</NavLink>
-                    </li>
-                    <li className="my_li font-myFont mb-2">
-                      <NavLink to="/plan">Plan</NavLink>
-                    </li>
-                    <li className="my_li font-myFont mb-2">
-                      <NavLink to="/faq">FAQ</NavLink>
-                    </li>
-                    <li className="mx-3 my_li font-myFont mb-2">
-                      <NavLink to="/notice">Notice</NavLink>
-                    </li>
-                    <li className="my_li font-myFont mb-2">
-                      <NavLink to="/contact">Contact Us</NavLink>
-                    </li>
-                    <li className="my_li font-myFont mb-2">
-                      <NavLink to="/">GSTIN Number-28DFEGY6598VGKP</NavLink>
-                    </li>
-                  </ul>
-                </div>
-              </Disclosure.Button>
-            </div>
-          </Disclosure.Panel>
-
-
-        </>
-
-      )}
-    </Disclosure>
-
-  );
+                    <Disclosure.Panel className="lg:hidden">
+                        <div className="px-2 pt-2 pb-3 space-y-1 bg-blue-500 text-center">
+                            <Disclosure.Button>
+                                <div className="flex">
+                                    <ul className="flex-col">
+                                        <li className="my_li font-myFont mb-2">
+                                            <NavLink to="/about">
+                                                About Us
+                                            </NavLink>
+                                        </li>
+                                        <li className="my_li font-myFont mb-2">
+                                            <NavLink to="/service">
+                                                Service
+                                            </NavLink>
+                                        </li>
+                                        <li className="my_li font-myFont mb-2">
+                                            <NavLink to="/branch">
+                                                Branches
+                                            </NavLink>
+                                        </li>
+                                        <li className="my_li font-myFont mb-2">
+                                            <NavLink to="/plan">Plan</NavLink>
+                                        </li>
+                                        <li className="my_li font-myFont mb-2">
+                                            <NavLink to="/faq">FAQ</NavLink>
+                                        </li>
+                                        <li className="mx-3 my_li font-myFont mb-2">
+                                            <NavLink to="/notice">
+                                                Notice
+                                            </NavLink>
+                                        </li>
+                                        <li className="my_li font-myFont mb-2">
+                                            <NavLink to="/contact">
+                                                Contact Us
+                                            </NavLink>
+                                        </li>
+                                        <li className="my_li font-myFont mb-2">
+                                            <NavLink to="/">
+                                                GSTIN Number-28DFEGY6598VGKP
+                                            </NavLink>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </Disclosure.Button>
+                        </div>
+                    </Disclosure.Panel>
+                </>
+            )}
+        </Disclosure>
+    );
 }

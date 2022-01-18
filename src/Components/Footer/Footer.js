@@ -7,11 +7,14 @@ const Footer = () => {
                 <div class="container mx-auto px-4">
                     <div class="flex flex-wrap text-left lg:text-left">
                         <div class="w-full lg:w-6/12 px-4">
-                            <h3 className="text-3xl text-blue-600 font-myFont font-bold py-1">
+                            <h3
+                                className="text-3xl text-blue-600 font-myFont font-bold py-1"
+                                style={{ color: "#ffcc80" }}
+                            >
                                 Manmandir Bank
                             </h3>
                             <h4 class="text-3xl  text-white font-myFont py-1">
-                                    Let's keep in touch!
+                                Let's keep in touch!
                             </h4>
                             <h5 class="text-lg mt-0 mb-2 text-white font-myFont py-1">
                                 Find us on any of these platforms, we respond
@@ -46,7 +49,7 @@ const Footer = () => {
                                                 class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="/"
                                             >
-                                                Free Products
+                                                Documents
                                             </a>
                                         </li>
                                     </ul>
@@ -93,7 +96,7 @@ const Footer = () => {
                                                 href="/"
                                             >
                                                 <i className="fab fa-facebook-f"></i>{" "}
-                                                 Facebook
+                                                Facebook
                                             </a>
                                         </li>
                                         <li>
@@ -102,7 +105,7 @@ const Footer = () => {
                                                 href="/"
                                             >
                                                 <i className="fab fa-twitter"></i>{" "}
-                                                 Twitter
+                                                Twitter
                                             </a>
                                         </li>
                                         <li>
@@ -111,7 +114,7 @@ const Footer = () => {
                                                 href="/"
                                             >
                                                 <i className="fab fa-instagram"></i>{" "}
-                                                 Instagram
+                                                Instagram
                                             </a>
                                         </li>
                                         <li>
@@ -119,8 +122,8 @@ const Footer = () => {
                                                 class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="/"
                                             >
-                                                <i className="fab fa-youtube"></i>
-                                                  YouTube
+                                                <i className="fab fa-youtube"></i>{" "}
+                                                YouTube
                                             </a>
                                         </li>
                                     </ul>
@@ -132,21 +135,11 @@ const Footer = () => {
                     <div class="flex flex-wrap items-center md:justify-between justify-center">
                         <div class="w-full md:w-4/12 mx-auto text-center">
                             <div class="text-sm text-blue-100 hover:text-blue-400 font-semibold py-10 ">
-                                Copyright ©{" "}
-                                <span id="get-current-year">2021</span>
-                                <a
-                                    href="/"
-                                    class="text-blue-100 hover:text-blue-900"
-                                    target="_blank"
-                                />{" "}
-                                5TechG | 
-                                <a
-                                    href="https://www.creative-tim.com?ref=njs-profile"
-                                    class="text-blue-100 hover:text-blue-400"
-                                >
-                                    {" "}
-                                    by Creative Teams
-                                    <hr className="bg-gray-100" />
+                                © <span id="get-current-year">2021 </span>
+                                Manmandir Co-op Bank Ltd. | Designed & developed
+                                by{" "}
+                                <a href="http://5techg.com" target="_blank">
+                                    5TechG Lab
                                 </a>
                             </div>
                         </div>
