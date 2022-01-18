@@ -139,8 +139,8 @@ const Notice = () => {
                             no matter how attractive it may be. Also for
                             verification of account, complete information of
                             your account, information on AT card, cvv number o.
-                            T. P. No such phone call is ever made by Dinmandirko
-                            Ban Vita to any branch or head office Vita. E-mail /
+                            T. P. No such phone call is ever made by Manmandir Co
+                            Bank Vita to any branch or head office Vita. E-mail /
                             s showing the lure of money. M. Don't be fooled by l
                             / calls.
                         </li>
@@ -148,8 +148,8 @@ const Notice = () => {
                 </div>
                 <div className="py-10 my-10">
                     <h1 className="container text-xl text-left text-danger font-myFont">
-                        <marquee behavior="scroll" direction="left" scrollamount="12">Note: Free advice and information on how to keep your
-                            bank account safe is provided at all our offices.</marquee>
+                        Note: Free advice and information on how to keep your
+                            bank account safe is provided at all our offices.
                     </h1>
                 </div>
 
@@ -165,12 +165,12 @@ const Notice = () => {
                                 </p>
                                 <h1 className="my_h1 px-2">
 
-                                    <a
+                                    <button
                                         href="tel:02347-276438"
-                                        className="p-1 pl-5 pr-5 text-lg bg-transparent border-1 border-blue-700 rounded-lg"
+                                        className="p-1 pl-5 pr-5 text-sm bg-transparent border-1 border-blue-700 rounded-lg text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900"
                                     >
                                         02347-276438
-                                    </a>
+                                    </button>
                                 </h1>
                             </div>
                         </div>
@@ -183,12 +183,12 @@ const Notice = () => {
                                 </p>
                                 <h1 className="my_h1 px-2">
 
-                                    <a
+                                    <button
                                         href="tel:+917021638815"
-                                        className="p-1 pl-5 pr-5 text-lg bg-transparent border-1 border-blue-700 rounded-lg"
+                                        className="p-1 pl-5 pr-5 text-sm bg-transparent border-1 border-blue-700 rounded-lg text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900"
                                     >
                                         +91 7021638815
-                                    </a>
+                                    </button>
                                 </h1>
                             </div>
                         </div>
@@ -200,12 +200,12 @@ const Notice = () => {
                                 </p>
                                 <h1 className="my_h1 px-2">
 
-                                    <a
+                                    <button
                                         href="tel:+918275913992"
-                                        className="p-1 pl-5 pr-5 text-lg bg-transparent border-1 border-blue-700 rounded-lg"
+                                        className="p-1 pl-5 pr-5 text-sm bg-transparent border-1 border-blue-700 rounded-lg text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900"
                                     >
                                         +91 8275913992
-                                    </a>
+                                    </button>
                                 </h1>
                             </div>
                         </div>
@@ -217,12 +217,12 @@ const Notice = () => {
                                 </p>
                                 <h1 className="my_h1 px-2">
                                     {" "}
-                                    <a
+                                    <button
                                         href="tel:+919175522752"
-                                        className="p-1 pl-5 pr-5 text-lg bg-transparent border-1 border-blue-700 rounded-lg"
+                                        className="p-1 pl-5 pr-5 text-sm bg-transparent border-1 border-blue-700 rounded-lg text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900"
                                     >
                                         +91 9175522752
-                                    </a>
+                                    </button>
                                 </h1>
                             </div>
                         </div>
