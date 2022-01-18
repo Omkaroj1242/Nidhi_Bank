@@ -52,11 +52,11 @@ const About = () => {
             </div>
 
             <div className="History bg-gray-100">
-                <h1 className="md:text-4xl text-3xl text-blue-900 font-myFont text-center py-8 font-bold">
+                <h1 className="md:text-4xl text-3xl text-blue-900 font-myFont text-center pt-5 font-bold">
                     History
                 </h1>
 
-                <div className="max-w-screen-xl p-2  mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
+                <div className="max-w-screen-xl p-2  mx-auto px-4 sm:px-6 lg:px-8 relative py-2 lg:mt-20">
                     <div className="relative">
                         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                             <div className="lg:col-start-2 lg:max-w-2xl ml-auto">
@@ -195,11 +195,11 @@ const About = () => {
 
             <div>
                 <div className="mb-8">
-                    <div className="bg-gray-200 py-2 my-8 px-4">
+                    <div className="bg-gray-100 py-2 my-8 px-4">
                         <p className="md:text-4xl text-3xl text-blue-900 font-myFont text-center py-8 font-bold">
                             Existing Board Of Directors
                         </p>
-                        {/* 2 Cards In A Row */}
+                        {/* 4 Cards In A Row */}
                         <section id="pricing" className="pricing section-bg">
                             <div className="row mb-10">
                                 <div
@@ -283,7 +283,7 @@ const About = () => {
                                 <div className="row mb-2"></div>
                             </div>
 
-                            {/* 4 Cards in a row */}
+                            {/* 6 Cards in a row */}
 
                             <div className="row mb-10 md:px-14 px-2">
                                 <div
@@ -409,7 +409,7 @@ const About = () => {
                                 </div>
                             </div>
 
-                            {/* 4 Cards in a row */}
+                            {/* 6 Cards in a row */}
                             <div className="row mb-10 md:px-14 px-2">
                                 <div
                                     className="col-lg-2 col-md-2"

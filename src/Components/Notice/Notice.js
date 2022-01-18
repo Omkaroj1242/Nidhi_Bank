@@ -10,7 +10,7 @@ const Notice = () => {
                     style={{ paddingTop: "35px" }}
                 >
                     <div>
-                        
+
                         <div className="container mx-auto flex justify-center items-center pt-4">
                             <p className="text-center sm:xl md:text-3xl text-xl text-black font-myFont">
                                 "Leading the way to the common good"
@@ -32,36 +32,36 @@ const Notice = () => {
                         </p>
                     </div>
                     <ul className="mx-auto">
-                            <Link to="/">
-                                <li className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block" style={{ display: "inline", paddingRight: "160px"}}>
-                                    www.manmandirbank.com
-                                </li>
-                            </Link>
-                            <Link to="/">
-                                <li className="link text-right text-blue-700 hover:text-blue-400 font-myFont md:block" style={{ display: "inline", paddingRight: "160px"}}>
-                                    manmandirbankvita@yahoo.com
-                                </li>
-                            </Link>
-                            <Link to="/">
-                                <li className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block" style={{ display: "inline"}}>
-                                    mmcv@manmandirbank.com
-                                </li>
-                            </Link>
-                        </ul>
+                        <Link to="/">
+                            <li className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block" style={{ display: "inline-flex", paddingRight: "160px", }}>
+                                www.manmandirbank.com
+                            </li>
+                        </Link>
+                        <Link to="/">
+                            <li className="link text-right text-blue-700 hover:text-blue-400 font-myFont md:block" style={{ display: "inline-flex", paddingRight: "160px" }}>
+                                manmandirbankvita@yahoo.com
+                            </li>
+                        </Link>
+                        <Link to="/">
+                            <li className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block" style={{ display: "inline-flex" }}>
+                                mmcv@manmandirbank.com
+                            </li>
+                        </Link>
+                    </ul>
                 </div>
             </div>
             <div>
-                <div className="text-center  bg-gray-100">
-                    <h1 className="md:text-4xl text-3xl text-blue-900 font-myFont text-center pt-4 font-bold">
-                        Cyber ​​Security - IT Department
+                {/* Instruction Div */}
+                <div className="container mx-auto">
+                    <h1 className="md:text-4xl text-3xl text-blue-900 font-myFont text-center font-bold pt-4">
+                    Cyber Security - IT Department
                     </h1>
+                    <hr style={{ width: "60%", margin: "auto"}}/>
                     {/* <hr className="bg-blue-900" /> */}
-                    <h1 className="font-myFont text-grey-200 hover:text-blue-400 text-3xl text-left py-4" style={{ paddingLeft: "60px"}}>
+                    <h1 className="font-myFont text-grey-200 hover:text-blue-400 text-3xl text-left py-3" style={{ paddingLeft: "15px"}}>
                         Notice To Account Holder Customers
                     </h1>
-                </div>
-                {/* Instruction Div */}
-                <div className="container mx-auto bg-gray-100">
+
                     <ul style={{ listStyle: "disc" }}>
                         <li className="text-red-600 text-xl font-bold">
                             {" "}
@@ -148,8 +148,8 @@ const Notice = () => {
                 </div>
                 <div className="py-10 my-10">
                     <h1 className="container text-xl text-left text-danger font-myFont">
-                        Note: Free advice and information on how to keep your
-                        bank account safe is provided at all our offices.
+                        <marquee behavior="scroll" direction="left" scrollamount="12">Note: Free advice and information on how to keep your
+                            bank account safe is provided at all our offices.</marquee>
                     </h1>
                 </div>
 
@@ -164,7 +164,7 @@ const Notice = () => {
                                     Phone No.
                                 </p>
                                 <h1 className="my_h1 px-2">
-                                    
+
                                     <a
                                         href="tel:02347-276438"
                                         className="p-1 pl-5 pr-5 text-lg bg-transparent border-1 border-blue-700 rounded-lg"
@@ -175,41 +175,41 @@ const Notice = () => {
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6 pb-3">
                             <div class="info-box space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                                 <h3>Nilesh Barsingh</h3>
                                 <p className="text-xl font-myFont">
                                     (Cyber ​​Security Officer)
                                 </p>
                                 <h1 className="my_h1 px-2">
-                                    
+
                                     <a
                                         href="tel:+917021638815"
-                                        className="ml-2 p-1 pl-5 pr-5 text-lg bg-transparent border-1 border-blue-700 rounded-lg"
+                                        className="p-1 pl-5 pr-5 text-lg bg-transparent border-1 border-blue-700 rounded-lg"
                                     >
-                                        7021638815
+                                        +91 7021638815
                                     </a>
                                 </h1>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6 pb-3">
                             <div class="info-box space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                                 <h3>Vikram Nikam</h3>
                                 <p className="text-xl font-myFont">
                                     (Chief IT Officer)
                                 </p>
                                 <h1 className="my_h1 px-2">
-                                    
+
                                     <a
                                         href="tel:+918275913992"
-                                        className="ml-2 p-1 pl-5 pr-5 text-lg bg-transparent border-1 border-blue-700 rounded-lg"
+                                        className="p-1 pl-5 pr-5 text-lg bg-transparent border-1 border-blue-700 rounded-lg"
                                     >
-                                        8275913992
+                                        +91 8275913992
                                     </a>
                                 </h1>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6 pb-3">
                             <div class="info-box space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                                 <h3> Ganesh Patil</h3>
                                 <p className="text-xl font-myFont">
@@ -219,9 +219,9 @@ const Notice = () => {
                                     {" "}
                                     <a
                                         href="tel:+919175522752"
-                                        className="ml-2 p-1 pl-5 pr-5 text-lg bg-transparent border-1 border-blue-700 rounded-lg"
+                                        className="p-1 pl-5 pr-5 text-lg bg-transparent border-1 border-blue-700 rounded-lg"
                                     >
-                                        9175522752
+                                        +91 9175522752
                                     </a>
                                 </h1>
                             </div>
