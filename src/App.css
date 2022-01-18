@@ -551,7 +551,7 @@ a:hover {
 .contact .info-box {
     color: #444444;
     text-align: center;
-    box-shadow: 0 0 30px rgba(83, 87, 92, 0.6);
+    /* box-shadow: 0 0 30px rgba(98, 102, 107, 0.6); */
     padding: 20px 0 30px 0;
     background: #fff;
 }
