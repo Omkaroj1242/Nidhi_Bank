@@ -7,7 +7,7 @@ const KycNorms = () => {
             <section style={{ paddingTop: "53px" }}>
                 <img
                     className="flex justify-center items-center mx-auto pt-5 my_bg img-fluid"
-                    src="/Images/poster1.jpg"
+                    src="/Images/poster5.jpeg"
                     style={{ height: "350px", width: "100%" }}
                     alt="First slide"
                 />

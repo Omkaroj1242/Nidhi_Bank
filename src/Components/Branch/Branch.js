@@ -16,7 +16,7 @@ const Branch = () => {
                         <div>
                             <img
                                 className="flex justify-center items-center mx-auto  img-fluid"
-                                src="/Images/Map.jpg"
+                                src="/Images/map.jpg"
                                 alt="slide"
                             />
                         </div>
