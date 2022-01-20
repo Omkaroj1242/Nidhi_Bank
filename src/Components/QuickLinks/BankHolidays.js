@@ -33,119 +33,96 @@ const BankHolidays = () => {
                                 </tr>
                                     <tr>
                                         <td class="tblifsc text-center">1</td>
-                                        <td class="tblifsc text-center">26-Jan-21</td>
+                                        <td class="tblifsc text-center">26-Jan-2022</td>
                                         <td class="tblifsc1">Republic Day</td>
                                     </tr>
 
                                     <tr>
                                         <td class="tblifsc text-center">2</td>
-                                        <td class="tblifsc text-center">19-feb-2021</td>
-                                        <td class="tblifsc1">Chhatrapati Shivaji Maharaj Jayanti</td>
+                                        <td class="tblifsc text-center">1-Mar-2022</td>
+                                        <td class="tblifsc1">Mahashivratri </td>
                                     </tr>
                                     <tr>
                                         <td class="tblifsc text-center">3</td>
-                                        <td class="tblifsc text-center">11-mar-2021</td>
-                                        <td class="tblifsc1">Mahashivratri</td>
+                                        <td class="tblifsc text-center">18-Mar-2022</td>
+                                        <td class="tblifsc1">Holi (Second Day)</td>
                                     </tr>
                                     <tr>
                                         <td class="tblifsc text-center">4</td>
-                                        <td class="tblifsc text-center">29-mar-2021</td>
-                                        <td class="tblifsc1">Holi (Second Day)</td>
+                                        <td class="tblifsc text-center">14-Apr-2022</td>
+                                        <td class="tblifsc1">Mahavir Jayanti</td>
                                     </tr>
 
                                     <tr>
                                         <td class="tblifsc text-center">5</td>
-                                        <td class="tblifsc text-center">02-apr-2021</td>
-                                        <td class="tblifsc1">Good Friday</td>
+                                        <td class="tblifsc text-center">14-Apr-2022</td>
+                                        <td class="tblifsc1">Dr.Babasaheb Ambedkar Jayanti </td>
                                     </tr>
 
                                     <tr>
                                         <td class="tblifsc text-center">6</td>
-                                        <td class="tblifsc text-center">13-apr-2021</td>
-                                        <td class="tblifsc1">GudhiPadwa</td>
+                                        <td class="tblifsc text-center">15-Apr-2022</td>
+                                        <td class="tblifsc1">Good Friday</td>
                                     </tr>
 
                                     <tr>
                                         <td class="tblifsc text-center">7</td>
-                                        <td class="tblifsc text-center">14-Apr-2021</td>
-                                        <td class="tblifsc1">Dr. Babasaheb Ambedkar Jayanti</td>
+                                        <td class="tblifsc text-center">3-May-2022</td>
+                                        <td class="tblifsc1">Ramzan-Id(Id-Ul-Fitr) (Shawal-1)</td>
                                     </tr>
 
                                     <tr>
                                         <td class="tblifsc text-center">8</td>
-                                        <td class="tblifsc text-center">21-apr-2021</td>
-                                        <td class="tblifsc1">Ram Navmi</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="tblifsc text-center">9</td>
-                                        <td class="tblifsc text-center">13-may-2021</td>
-                                        <td class="tblifsc1">Ramzam Id</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="tblifsc text-center">10</td>
-                                        <td class="tblifsc text-center">26-May-2021</td>
+                                        <td class="tblifsc text-center">16-May-2022</td>
                                         <td class="tblifsc1">Buddha Pournima</td>
                                     </tr>
 
                                     <tr>
+                                        <td class="tblifsc text-center">9</td>
+                                        <td class="tblifsc text-center">9-Aug-2022</td>
+                                        <td class="tblifsc1">Moharum</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="tblifsc text-center">10</td>
+                                        <td class="tblifsc text-center">15-Aug-2022</td>
+                                        <td class="tblifsc1"> Independence Day </td>
+                                    </tr>
+
+                                    <tr>
                                         <td class="tblifsc text-center">11</td>
-                                        <td class="tblifsc text-center">21-Jul-2021</td>
-                                        <td class="tblifsc1">Bakri Id</td>
+                                        <td class="tblifsc text-center">16-Aug-2022</td>
+                                        <td class="tblifsc1">Parsi New Year (Shahenshahi) </td>
                                     </tr>
 
                                     <tr>
                                         <td class="tblifsc text-center">12</td>
-                                        <td class="tblifsc text-center">16-aug-2021</td>
-                                        <td class="tblifsc1">Parsi New Year</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="tblifsc text-center">13</td>
-                                        <td class="tblifsc text-center">19-aug-2021</td>
-                                        <td class="tblifsc1">Moharam</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="tblifsc text-center">14</td>
-                                        <td class="tblifsc text-center">10-Sep-2021</td>
+                                        <td class="tblifsc text-center">31-Aug-2022</td>
                                         <td class="tblifsc1">Ganesh Chaturthi</td>
                                     </tr>
 
                                     <tr>
-                                        <td class="tblifsc text-center">15</td>
-                                        <td class="tblifsc text-center">15-Oct-2021</td>
-                                        <td class="tblifsc1">Dasara</td>
+                                        <td class="tblifsc text-center">13</td>
+                                        <td class="tblifsc text-center">5-Oct-2022</td>
+                                        <td class="tblifsc1">Dasara </td>
                                     </tr>
 
+                                    <tr>
+                                        <td class="tblifsc text-center">14</td>
+                                        <td class="tblifsc text-center">24-Oct-2022</td>
+                                        <td class="tblifsc1">Diwali Amavasya (LaxmiPuJan)</td>
+                                    </tr>
 
+                                    <tr>
+                                        <td class="tblifsc text-center">15</td>
+                                        <td class="tblifsc text-center">26-Oct-2022</td>
+                                        <td class="tblifsc1">Diwali (Bali Pratipada</td>
+                                    </tr>
 
                                     <tr>
                                         <td class="tblifsc text-center">16</td>
-                                        <td class="tblifsc text-center">19-Oct-2021</td>
-                                        <td class="tblifsc1">Ied-e-milad</td>
-                                    </tr>
-
-
-
-
-                                    <tr>
-                                        <td class="tblifsc text-center">17</td>
-                                        <td class="tblifsc text-center">04-Nov-2021</td>
-                                        <td class="tblifsc1">Diwali Amavasya (Laxmipooja)</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="tblifsc text-center">18</td>
-                                        <td class="tblifsc text-center">5-Nov-2021</td>
-                                        <td class="tblifsc1">Diwali-(Balipratipada)</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="tblifsc text-center">19</td>
-                                        <td class="tblifsc text-center">19-Nov-2021</td>
-                                        <td class="tblifsc1">Gurunanak Jayanti</td>
+                                        <td class="tblifsc text-center">8-Nov-2022</td>
+                                        <td class="tblifsc1">Guru Nanak Jayanti</td>
                                     </tr>
 
                                     <tr>
@@ -153,29 +130,47 @@ const BankHolidays = () => {
                                     </tr>
                                     <tr>
                                         <td class="tblifsc text-center">1</td>
-                                        <td class="tblifsc text-center">15-Apr-2021</td>
-                                        <td align="right" class="tblifsc"><div align="left">Mahavir Jayanti</div></td>
+                                        <td class="tblifsc text-center">19-Feb-2022</td>
+                                        <td align="right" class="tblifsc"><div align="left"> Chhatrapati Shivaji Maharaj Jayanti </div></td>
                                     </tr>
                                     <tr>
                                         <td class="tblifsc text-center">2</td>
-                                        <td class="tblifsc text-center">01-May-2021</td>
-                                        <td align="right" class="tblifsc"><div align="left">Maharashtra Day</div></td>
+                                        <td class="tblifsc text-center">2-Apr-2022</td>
+                                        <td align="right" class="tblifsc"><div align="left">Gudhi Padwa</div></td>
                                     </tr>
                                     <tr>
                                         <td class="tblifsc text-center">3</td>
-                                        <td class="tblifsc text-center">15-Aug-2021</td>
-                                        <td class="tblifsc"><div align="left">Independence Day</div></td>
+                                        <td class="tblifsc text-center">10-Apr-2022</td>
+                                        <td class="tblifsc"><div align="left">Ram Navami</div></td>
                                     </tr>
 
                                     <tr>
                                         <td class="tblifsc text-center">4</td>
-                                        <td class="tblifsc text-center">2-Oct-2021</td>
-                                        <td class="tblifsc"><div align="left">Mahatma Gandhi Jayanti</div></td>
+                                        <td class="tblifsc text-center">1-May-2022</td>
+                                        <td class="tblifsc"><div align="left">Maharashtra Din</div></td>
                                     </tr>
 
                                     <tr>
                                         <td class="tblifsc text-center">5</td>
-                                        <td class="tblifsc text-center">25-Dec-2021</td>
+                                        <td class="tblifsc text-center">10-July-2022</td>
+                                        <td class="tblifsc"><div align="left">Bakri ID (Id-Uz-Zuha)</div></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="tblifsc text-center">6</td>
+                                        <td class="tblifsc text-center">2-Oct-2022</td>
+                                        <td class="tblifsc"><div align="left"> Mahatma Gandhi Jayanti </div></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="tblifsc text-center">7</td>
+                                        <td class="tblifsc text-center">9-Oct-2022</td>
+                                        <td class="tblifsc"><div align="left">Id-E-Milad </div></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="tblifsc text-center">8</td>
+                                        <td class="tblifsc text-center">25-Dec-2022</td>
                                         <td class="tblifsc"><div align="left">Christmas</div></td>
                                     </tr>
 
@@ -184,7 +179,7 @@ const BankHolidays = () => {
                                     </tr>
                                     <tr>
                                         <td class="tblifsc text-center">1</td>
-                                        <td class="tblifsc text-center">1-Apr-2021</td>
+                                        <td class="tblifsc text-center">1-Apr-2022</td>
                                         <td align="right" class="tblifsc"><div align="left">Year End Closing</div></td>
                                     </tr>
 

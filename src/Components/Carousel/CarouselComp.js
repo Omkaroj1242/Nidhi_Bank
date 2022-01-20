@@ -23,7 +23,7 @@ const CarouselComp = () => {
                 <Carousel.Item>
                     <img
                         className="flex justify-center items-center img-fluid"
-                        src="/Images/poster1.jpg"
+                        src="/Images/poster1.jpeg"
                         alt="First slide"
                     />
                 </Carousel.Item>

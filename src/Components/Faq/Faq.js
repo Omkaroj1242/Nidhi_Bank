@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import { NavLink } from "react-router-dom";
 
 const Faq = () => {
   return (
@@ -99,7 +100,7 @@ const Faq = () => {
               <p>Banks create a customer profile based on details about the customer like social/financial status, nature of business activity, information about his clients' business and their location, the purpose and reason for opening the account, the expected origin of the funds to be used within the relationship and details of occupation/employment, sources of wealth or income, expected monthly remittance, expected monthly withdrawals etc. When the transactions in the account are observed not consistent with the profile, bank may ask for any additional details / documents as required. This is just to confirm that the account is not being used for any Money Laundering/Terrorist/Criminal activities.</p>
 
               <p className="font-bold">Q.3. What is the detailed list of required documents under KYC?</p>
-              <p>To get the detailed list of the documents that the bank can ask, Click Here.</p>
+              <p>To get the detailed list of the documents that the bank can ask, <NavLink to="/KycNorms" className="font-myFont" href="#quicklinks">Click here</NavLink></p>
 
               <p className="font-bold">Q.4. Can my wife who is not having any address proof in her name, open an account with the bank?</p>
               <p>Yes. In such cases where the utility bills required for address verification are not in the name of the person who wants to open an account ( close relatives, e.g. wife, son, daughter and daughter and parents etc. who live with their husband, father/mother and son, as the case may be) , an identity document and a utility bill of the relative with whom the prospective customer is living along with a declaration from the relative that the said person (prospective customer) wanting to open an account is a relative and is staying with him/her is acceptable. As supplementary evidence bank may ask for a letter received through post for further confirmation.</p>

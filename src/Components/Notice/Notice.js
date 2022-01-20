@@ -129,18 +129,10 @@ const Notice = () => {
                             branch or head office bricks immediately.
                         </li>
                         <li className="max-w-4xl text-left py-2 mx-4">
-                            You need an e-mail / s.M. Have you received an SMS /
-                            Phone call, have you won the lottery or are you now
-                            offered a cheaper fund for your business or you will
-                            receive a lot of money from abroad and it will be
-                            given to you after giving your bank account and ATM
-                            card information cvv number. Beliving this is a lie
-                            no matter how attractive it may be. Also for
-                            verification of account, complete information of
-                            your account, information on ATM card, cvv number, O.
-                            T. P. No such phone call is ever made by Manmandir Co
-                            Bank Vita to any branch or head office Vita. E-mail /
-                            s showing the lure of money. M. Don't be fooled by l
+                            <b>Do not share your account information, information on ATM card, cvv number, OTP. 
+                            No such phone call is ever made by any branch of Manmandir Co
+                            Bank Vita.</b> E-mail /
+                            sms showing the lure of money. Don't be fooled by sms / email
                             / calls.
                         </li>
                     </ol>
