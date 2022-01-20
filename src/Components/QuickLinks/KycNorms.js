@@ -27,7 +27,7 @@ const KycNorms = () => {
                             src="/Images/kyc1.jpg"
                             alt="First slide"
 
-                            style={{ height: "1200px"}}
+                            style={{ height: "1250px"}}
                         />
 
                         <img

@@ -7,7 +7,7 @@ const BankHolidays = () => {
             <section style={{ paddingTop: "53px"}}>
                 <img
                     className="flex justify-text-center items-text-center mx-auto pt-5 my_bg img-fluid"
-                    src="/Images/poster2.jpg"
+                    src="/Images/poster2.jpeg"
                     style={{ height: "300px", width: "100%" }}
                     alt="First slide"
                 />

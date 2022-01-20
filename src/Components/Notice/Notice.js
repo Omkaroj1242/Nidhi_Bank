@@ -37,8 +37,8 @@ const Notice = () => {
                     <div className="">
                         <p className="text-black text-center text-lg pb-4 px-4">
                             Head office: In front of ST stand, Vita - 415 311,
-                            Taluka Khanapur, District Sangli, Phone: 02347 -
-                            276438/273271/273561
+                            Taluka-Khanapur, District-Sangli, Phone: 02347 -
+                            276438,273271,273561.
                         </p>
                     </div>
                     <ul className="mx-auto">
