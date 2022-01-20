@@ -26,6 +26,8 @@ const KycNorms = () => {
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
                             src="/Images/kyc1.jpg"
                             alt="First slide"
+
+                            style={{ height: "1200px"}}
                         />
 
                         <img

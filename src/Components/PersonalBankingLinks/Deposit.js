@@ -217,38 +217,47 @@ const Deposit = () => {
 
                         <Accordion defaultActiveKey="5" className="mx-auto pt-4">
                             <Accordion.Item eventKey="0">
-                                <Accordion.Header className="font-myFont">MANMANDIR RECURRING DEPOSIT SCHEME(Lakhpati Yojana) changes not complted</Accordion.Header>
+                                <Accordion.Header className="font-myFont">MANMANDIR RECURRING DEPOSIT SCHEME(Lakhpati Yojana)</Accordion.Header>
                                 <Accordion.Body>
                                     <table width="100%" class="features-table table-bordered">
                                         <tbody>
-                                            <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Period of Deposit</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">5 Years</div></td>
+                                        <tr>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Monthly Amount of Deposit</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Maturity Value</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Minimum Amount of Deposit</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">Rs.69900/-</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.691/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.50,036/-</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Maturity Value</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">Rs.100115/-</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.1,382/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.1,00,072/-</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Benefits</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">Compounding Interest</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.2,073/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.1,50,108/-</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Interest Payment</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">Quarterly Compounding,Interest payable on maturity</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.2,764/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left"><p>Rs.2,00,144/-</p></div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Pledging of Deposit</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">Allowed</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.4,146/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.3,00,216/-</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Premature Withdrawal</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">Allowed</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.5,528/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.4,00,289/-</div></td>
                                             </tr>
+                                            <tr>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.6,910/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.5,00,361/-</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.13,820/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.10,00,721/-</div></td>
+                                            </tr>
+                                            
                                         </tbody>
                                     </table>
 
@@ -258,37 +267,49 @@ const Deposit = () => {
 
                         <Accordion defaultActiveKey="6" className="mx-auto pt-4">
                             <Accordion.Item eventKey="0">
-                                <Accordion.Header className="font-myFont">80 C DEPOSIT</Accordion.Header>
+                                <Accordion.Header className="font-myFont">MANMANDIR FIX DEPOSIT SCHEME(5 Years)</Accordion.Header>
                                 <Accordion.Body>
                                     <table width="100%" class="features-table table-bordered">
                                         <tbody>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Period of Deposit</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">Minimum 5 Years and Maximum 10 years</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Amount of Deposit</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Maturity Value</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Minimum Amount of Deposit</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">Rs.100/-</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.6,982/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.10,000/-</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Maximum Amount of Deposit</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">Rs.150000/-</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.10,473/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.15,000/-</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Rate Of Interest</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">7.50%</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.13,964</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.20,000/-</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Benefits</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left"><p>1. Tax Benefit u/s 80 C of Income Tax act</p><p>2. Monthly Interest Payout OR Compounding Interest Facility</p></div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.17,455/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left"><p>Rs.25,000/-</p></div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Pledging of Deposit</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">Not Allowed</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.34,910/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.50,000/-</div></td>
                                             </tr>
                                             <tr>
-                                                <td width="60%" class="tblifsc pl-2 font-bold">Premature Withdrawal</td>
-                                                <td width="40%" class="tblifsc pl-2"><div align="left">Not Allowed</div></td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.52,365/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.75,000/-</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.69,820/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.1,00,000/-</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.1,39,640/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.2,00,001/-</div></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="50%" class="tblifsc pl-2 font-bold">Rs.3,49,099/-</td>
+                                                <td width="50%" class="tblifsc pl-2 font-bold"><div align="left">Rs.5,00,001/-</div></td>
                                             </tr>
                                         </tbody>
                                     </table>

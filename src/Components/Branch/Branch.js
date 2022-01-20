@@ -32,9 +32,8 @@ const Branch = () => {
                                         </h1>
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
-                                            Vita taluka Khanapur, district
-                                            Sangli, in front of ST stand. PIN
-                                            Code: 415 311
+                                            In front of ST stand,Vita, <br />Tal- Khanapur, Dist- Sangli.<br />
+                                            PIN Code: 415 311
                                         </p>
                                         <hr />
                                         <p>
@@ -48,6 +47,10 @@ const Branch = () => {
                                         <button class="ml-2 p-1 pl-5 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
                                             +91 7774097930
                                         </button>
+                                        <button class="p-1 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
+                                            +91 8767852015
+                                        </button>
+
                                     </div>
 
                                     <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
