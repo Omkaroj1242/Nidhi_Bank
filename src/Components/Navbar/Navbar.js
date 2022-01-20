@@ -35,9 +35,9 @@ export default function Example() {
                                 style={{
                                     height: "70px",
                                     width: "70px",
-                                    padding: "0 0 0 0",
+                                    padding: "2",
                                 }}
-                                className="pt-1"
+                                className="p-3"
                             />
 
                             <NavLink

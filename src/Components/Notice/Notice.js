@@ -5,22 +5,33 @@ const Notice = () => {
     return (
         <>
             <div class="padding">
-                <div
-                    className="container"
-                    style={{ paddingTop: "35px" }}
-                >
-                    <div>
-                        <div className="container mx-auto flex justify-center items-center pt-4">
-                            <p className="text-center sm:xl md:text-3xl text-xl text-black font-myFont">
-                                "Leading all the common people to prosperity"
-                            </p>
+                <div className="container" style={{ paddingTop: "35px" }}>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img
+                                src="Images/manmandir1.png"
+                                alt=""
+                                className="img-fluid p-0 m-0"
+                            />
                         </div>
-                    </div>
-                    <div className="container mx-auto flex justify-center items-center">
-                        {/* <img src="/Images/bank1.jpeg" alt="" style={{ height: "55px", width: "70px" }}/> */}
-                        <h1 className="text-center text-2xl sm:xl md:text-4xl text-black font-myFont">
-                            The Manmandir Co-Operative Bank Limited Vita.
-                        </h1>
+                        <div class="col-md-10">
+                            {" "}
+                            <div>
+                                <div className="container mx-auto flex justify-center items-center pt-4">
+                                    <p className="text-center sm:xl md:text-3xl text-xl text-black font-myFont">
+                                        "Leading all the common people to
+                                        prosperity"
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="container mx-auto flex justify-center items-center">
+                                {/* <img src="/Images/bank1.jpeg" alt="" style={{ height: "55px", width: "70px" }}/> */}
+                                <h1 className="text-center text-2xl sm:xl md:text-4xl text-black font-myFont">
+                                    The Manmandir Co-Operative Bank Limited
+                                    Vita.
+                                </h1>
+                            </div>
+                        </div>
                     </div>
                     <hr className="bg-black" />
                     <div className="">
@@ -32,17 +43,32 @@ const Notice = () => {
                     </div>
                     <ul className="mx-auto">
                         <Link to="/">
-                            <li className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block" style={{ display: "inline-flex", paddingRight: "160px", }}>
+                            <li
+                                className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block"
+                                style={{
+                                    display: "inline-flex",
+                                    paddingRight: "160px",
+                                }}
+                            >
                                 www.manmandirbank.com
                             </li>
                         </Link>
                         <Link to="/">
-                            <li className="link text-right text-blue-700 hover:text-blue-400 font-myFont md:block" style={{ display: "inline-flex", paddingRight: "160px" }}>
+                            <li
+                                className="link text-right text-blue-700 hover:text-blue-400 font-myFont md:block"
+                                style={{
+                                    display: "inline-flex",
+                                    paddingRight: "160px",
+                                }}
+                            >
                                 manmandirbankvita@yahoo.com
                             </li>
                         </Link>
                         <Link to="/">
-                            <li className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block" style={{ display: "inline-flex" }}>
+                            <li
+                                className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block"
+                                style={{ display: "inline-flex" }}
+                            >
                                 mmcv@manmandirbank.com
                             </li>
                         </Link>
@@ -53,11 +79,14 @@ const Notice = () => {
                 {/* Instruction Div */}
                 <div className="container mx-auto">
                     <h1 className="md:text-4xl text-3xl text-blue-900 font-myFont text-center font-bold pt-4">
-                    Cyber Security - IT Department
+                        Cyber Security - IT Department
                     </h1>
-                    <hr style={{ width: "60%", margin: "auto"}}/>
+                    <hr style={{ width: "60%", margin: "auto" }} />
                     {/* <hr className="bg-blue-900" /> */}
-                    <h1 className="font-myFont text-grey-200 hover:text-blue-400 text-3xl text-left py-3" style={{ paddingLeft: "15px"}}>
+                    <h1
+                        className="font-myFont text-grey-200 hover:text-blue-400 text-3xl text-left py-3"
+                        style={{ paddingLeft: "15px" }}
+                    >
                         Notice To Account Holder Customers
                     </h1>
 
@@ -129,18 +158,21 @@ const Notice = () => {
                             branch or head office bricks immediately.
                         </li>
                         <li className="max-w-4xl text-left py-2 mx-4">
-                            <b>Do not share your account information, information on ATM card, cvv number, OTP. 
-                            No such phone call is ever made by any branch of Manmandir Co
-                            Bank Vita.</b> E-mail /
-                            sms showing the lure of money. Don't be fooled by sms / email
-                            / calls.
+                            <b>
+                                Do not share your account information,
+                                information on ATM card, cvv number, OTP. No
+                                such phone call is ever made by any branch of
+                                Manmandir Co Bank Vita.
+                            </b>{" "}
+                            E-mail / sms showing the lure of money. Don't be
+                            fooled by sms / email / calls.
                         </li>
                     </ol>
                 </div>
                 <div className="py-10 my-10">
                     <h1 className="container text-xl text-left text-danger font-myFont">
                         Note: Free advice and information on how to keep your
-                            bank account safe is provided at all our offices.
+                        bank account safe is provided at all our offices.
                     </h1>
                 </div>
 
@@ -151,11 +183,8 @@ const Notice = () => {
                         <div class="col-lg-4 col-md-6 pb-3 px-5">
                             <div class="info-box space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                                 <h3>Head Office</h3>
-                                <p className="text-xl font-myFont">
-                                    Phone No.
-                                </p>
+                                <p className="text-xl font-myFont">Phone No.</p>
                                 <h1 className="my_h1 px-2">
-
                                     <button
                                         href="tel:02347-276438"
                                         className="p-1 pl-5 pr-5 text-sm bg-transparent border-1 border-blue-700 rounded-lg text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900"
@@ -173,7 +202,6 @@ const Notice = () => {
                                     (Cyber ​​Security Officer)
                                 </p>
                                 <h1 className="my_h1 px-2">
-
                                     <button
                                         href="tel:+917021638815"
                                         className="p-1 pl-5 pr-5 text-sm bg-transparent border-1 border-blue-700 rounded-lg text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900"
@@ -190,7 +218,6 @@ const Notice = () => {
                                     (Chief IT Officer)
                                 </p>
                                 <h1 className="my_h1 px-2">
-
                                     <button
                                         href="tel:+918275913992"
                                         className="p-1 pl-5 pr-5 text-sm bg-transparent border-1 border-blue-700 rounded-lg text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900"
