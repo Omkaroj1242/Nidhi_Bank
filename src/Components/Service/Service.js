@@ -67,7 +67,7 @@ const Blog = () => {
                                         - ABPS(Aadhar Card Linking)
                                     </NavLink>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <NavLink
                                         to="/executor-trustee"
                                         className="nav-link scrollto font-myFont"
@@ -80,7 +80,7 @@ const Blog = () => {
                                     >
                                         - Executor &amp; Trustee
                                     </NavLink>
-                                </li>
+                                </li> */}
                                 <li>
                                     <NavLink
                                         to="/anybranch"
@@ -95,7 +95,7 @@ const Blog = () => {
                                         - Any Branch Banking
                                     </NavLink>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <NavLink
                                         to="/utilitybill"
                                         className="nav-link scrollto font-myFont"
@@ -108,7 +108,7 @@ const Blog = () => {
                                     >
                                         - Utility Bill Payments
                                     </NavLink>
-                                </li>
+                                </li> */}
                             </ul>
                         </nav>
                     </div>

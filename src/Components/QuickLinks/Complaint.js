@@ -59,11 +59,11 @@ const Complaint = () => {
                                         <option value="2">Aatpadi</option>
                                         <option value="3">Jat</option>
                                         <option value="4">Sangli</option>
-                                        <option value="5">TaasGoan</option>
+                                        <option value="5">Tasgoan</option>
                                         <option value="6">Mayani</option>
                                         <option value="7">Mahud</option>
-                                        <option value="8">Sangh</option>
-                                        <option value="9">Kavathemahankala</option>
+                                        <option value="8">Sankh</option>
+                                        <option value="9">Kavathemahankal</option>
                                     </select>
                                 </div>
                                 <div class="col-md-8 mb-3">

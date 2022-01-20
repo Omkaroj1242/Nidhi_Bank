@@ -31,10 +31,9 @@ const Contact = () => {
                                     style={{ "font-size": "36px" }}
                                 ></i>
                                 <div>
-                                    <h4>Location:</h4>
+                                    <h4>Address:</h4>
                                     <p>
-                                        In front of ST stand, Vita - 415 311,
-                                        Taluka Khanapur, District Sangli.
+                                    Op. S.T. Stand, Radhakrushna Complex, Vita, Tal-Khanapur, Dist- Sangli, 415 311
                                     </p>
                                 </div>
                             </div>
@@ -46,7 +45,7 @@ const Contact = () => {
                                 ></i>
                                 <div>
                                     <h4>Email:</h4>
-                                    <p>manmandirbankvita@yahoo.com</p>
+                                    <p>mmcb@manmandirbankvita.com</p>
                                 </div>
                             </div>
 
@@ -56,8 +55,8 @@ const Contact = () => {
                                     style={{ "font-size": "36px" }}
                                 ></i>
                                 <div>
-                                    <h4>Call:</h4>
-                                    <p>+91 8974562241</p>
+                                    <h4>Contact No:</h4>
+                                    <p>02347-276438, 273561</p>
                                 </div>
                             </div>
                         </div>

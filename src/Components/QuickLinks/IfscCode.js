@@ -32,7 +32,7 @@ const IfscCode = () => {
                                 <tr>
                                     <td class="tblifsc font-bold">Address </td>
                                     <td class="tblifsc">:</td>
-                                    <td class="tblifsc"><div align="left">In front of ST stand, Vita, taluka-Khanapur, District-Sangli, 415 311</div>
+                                    <td class="tblifsc"><div align="left">Op. S.T. Stand, Radhakrushna Complex, Vita, Tal-Khanapur, Dist- Sangli, 415 311</div>
                                     </td>
                                 </tr>
                                 <tr>

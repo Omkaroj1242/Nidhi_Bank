@@ -10,10 +10,9 @@ const Notice = () => {
                     style={{ paddingTop: "35px" }}
                 >
                     <div>
-
                         <div className="container mx-auto flex justify-center items-center pt-4">
                             <p className="text-center sm:xl md:text-3xl text-xl text-black font-myFont">
-                                "Leading the way to the common good"
+                                "Leading all the common people to prosperity"
                             </p>
                         </div>
                     </div>
@@ -28,7 +27,7 @@ const Notice = () => {
                         <p className="text-black text-center text-lg pb-4 px-4">
                             Head office: In front of ST stand, Vita - 415 311,
                             Taluka Khanapur, District Sangli, Phone: 02347 -
-                            276438,273271.
+                            276438/273271/273561
                         </p>
                     </div>
                     <ul className="mx-auto">
@@ -130,15 +129,15 @@ const Notice = () => {
                             branch or head office bricks immediately.
                         </li>
                         <li className="max-w-4xl text-left py-2 mx-4">
-                            You need an e-mail / s. M. Have you received an S /
+                            You need an e-mail / s.M. Have you received an SMS /
                             Phone call, have you won the lottery or are you now
                             offered a cheaper fund for your business or you will
                             receive a lot of money from abroad and it will be
                             given to you after giving your bank account and ATM
-                            card information cvv number. Believing this is a lie
+                            card information cvv number. Beliving this is a lie
                             no matter how attractive it may be. Also for
                             verification of account, complete information of
-                            your account, information on AT card, cvv number o.
+                            your account, information on ATM card, cvv number, O.
                             T. P. No such phone call is ever made by Manmandir Co
                             Bank Vita to any branch or head office Vita. E-mail /
                             s showing the lure of money. M. Don't be fooled by l
@@ -157,7 +156,7 @@ const Notice = () => {
 
                 <section id="contact" class="contact section-bg mx-4">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 pb-3">
+                        <div class="col-lg-4 col-md-6 pb-3 px-5">
                             <div class="info-box space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                                 <h3>Head Office</h3>
                                 <p className="text-xl font-myFont">
@@ -175,7 +174,7 @@ const Notice = () => {
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 pb-3">
+                        <div class="col-lg-4 col-md-6 pb-3 px-5">
                             <div class="info-box space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                                 <h3>Nilesh Barsingh</h3>
                                 <p className="text-xl font-myFont">
@@ -192,7 +191,7 @@ const Notice = () => {
                                 </h1>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 pb-3">
+                        <div class="col-lg-4 col-md-6 pb-3 px-5">
                             <div class="info-box space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                                 <h3>Vikram Nikam</h3>
                                 <p className="text-xl font-myFont">
@@ -209,7 +208,7 @@ const Notice = () => {
                                 </h1>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 pb-3">
+                        {/* <div class="col-lg-3 col-md-6 pb-3">
                             <div class="info-box space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                                 <h3> Ganesh Patil</h3>
                                 <p className="text-xl font-myFont">
@@ -225,7 +224,7 @@ const Notice = () => {
                                     </button>
                                 </h1>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
             </div>

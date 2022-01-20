@@ -201,9 +201,32 @@ const About = () => {
                         </p>
                         {/* 4 Cards In A Row */}
                         <section id="pricing" className="pricing section-bg">
+
+                            <div className="row">
+                            <div
+                                    className="col-lg-12 col-md-6"
+                                    data-aos="fade-up"
+                                    data-aos-delay="100"
+                                >
+                                    <img
+                                        src="/Images/Founder.jpg"
+                                        alt=""
+                                        className="mx-auto object-cover rounded-lg h-40 w-60 "
+                                    />
+                                    <div className="text-center">
+                                        <p className="text-sm text-black font-bold">
+                                            Hon.Shri. Ashokrao (Bhau) Gaikwad
+                                        </p>
+                                        <p className="text-sm text-blue-900 font-myFont">
+                                            Founder
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row mb-2"></div>
+                            </div>
                             <div className="row mb-10">
                                 <div
-                                    className="col-lg-3 col-md-3"
+                                    className="col-lg-4 col-md-4"
                                     data-aos="fade-up"
                                     data-aos-delay="100"
                                 >
@@ -223,7 +246,7 @@ const About = () => {
                                 </div>
 
                                 <div
-                                    className="col-lg-3 col-md-3"
+                                    className="col-lg-4 col-md-4"
                                     data-aos="fade-up"
                                     data-aos-delay="100"
                                 >
@@ -243,7 +266,7 @@ const About = () => {
                                 </div>
 
                                 <div
-                                    className="col-lg-3 col-md-3"
+                                    className="col-lg-4 col-md-4"
                                     data-aos="fade-up"
                                     data-aos-delay="100"
                                 >
@@ -261,25 +284,7 @@ const About = () => {
                                         </p>
                                     </div>
                                 </div>
-                                <div
-                                    className="col-lg-3 col-md-3"
-                                    data-aos="fade-up"
-                                    data-aos-delay="100"
-                                >
-                                    <img
-                                        src="/Images/Founder.jpg"
-                                        alt=""
-                                        className="mx-auto object-cover rounded-lg h-40 w-28 "
-                                    />
-                                    <div className="text-center">
-                                        <p className="text-sm text-black font-bold">
-                                            Shri. Ashok Gaikwad
-                                        </p>
-                                        <p className="text-sm text-blue-900 font-myFont">
-                                            Founder
-                                        </p>
-                                    </div>
-                                </div>
+                                
                                 <div className="row mb-2"></div>
                             </div>
 
@@ -380,7 +385,7 @@ const About = () => {
                                     />
                                     <div className="text-center">
                                         <p className="text-sm text-black font-bold">
-                                            Siddheshwar Basvneppa Sangh
+                                            Siddheshwar Basvneppa Sankh
                                         </p>
                                         <p className="text-sm text-blue-900 font-myFont">
                                             Director

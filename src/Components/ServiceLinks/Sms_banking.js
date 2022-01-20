@@ -34,7 +34,7 @@ const Sms_banking = () => {
                             <p className="font-bold">Request facility :</p>The
                             SMS Banking request facility enables you to check
                             your account balance. You have to send SMS to
-                            9403782800 with KEYWORD to get the required details.
+                            9975145066 with KEYWORD to get the required details.
                         </p>
 
                         <p className="px-4">
@@ -59,7 +59,7 @@ const Sms_banking = () => {
                             The SMS Banking – Miss Call Alert facility enables
                             you to check your all account balances through SMS.
                             Just give a missed call from your registered mobile
-                            number to 9403782800 and get the account balances
+                            number to 9975145066 and get the account balances
                             through SMS.
                         </p>
                     </div>

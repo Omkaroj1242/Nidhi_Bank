@@ -7,6 +7,7 @@ const Faq = () => {
       <div className="container mx-auto my-10 mb-10"  style={{ paddingTop: "35px"}}>
       <h1 className="text-center py-10 md:text-5xl text-3xl font-bold text-blue-900 font-myFont">Frequently Asked Questions...?</h1>
         <Accordion defaultActiveKey="0" className="w-11/12 mx-auto">
+         
           <Accordion.Item eventKey="0">
             <Accordion.Header className="font-myFont">RTGS<h6 className="pt-2 text-primary"> (Real Time Gross Settlement)</h6></Accordion.Header>
             <Accordion.Body>
@@ -21,7 +22,7 @@ const Faq = () => {
                 <p className="font-bold">Q5. What is the essential information that the remitting customer would have to furnish to a bank for the remittance to be effected?</p>
                 <p><b>Ans.</b>The remitting customer has to furnish the following information to a bank for initiating a RTGS remittance:<br/>1. Amount to be remitted<br/> 2. Remitting customer's account number which is to be debited<br/> 3. Name of the beneficiary bank and branch<br/> 4. The IFSC Number of the receiving branch<br/> 5. Name of the beneficiary customer<br/> 6. Account number of the beneficiary customer<br/> 7. Sender to receiver information, if any</p>
                 <p className="font-bold">Q6. How would one know the IFSC number of the receiving branch?</p>
-                <p><b>Ans.</b>The beneficiary customer can obtain the IFSC code from his bank branch. The IFSC code is also available on the cheque leaf. The list of IFSCs is also available on the RBI website ( https://rbidocs.rbi.org.in/rdocs/RTGS/DOCs/RTGEB0112.xls). This code number and bank branch details can be communicated by the beneficiary to the remitting customer.</p>
+                <p><b>Ans.</b>The beneficiary customer can obtain the IFSC code from his bank branch. The IFSC code is also available on the cheque leaf. This code number and bank branch details can be communicated by the beneficiary to the remitting customer.</p>
 
             </Accordion.Body>
           </Accordion.Item>
@@ -119,67 +120,6 @@ const Faq = () => {
           </Accordion.Item>
 
           <Accordion.Item eventKey="4">
-            <Accordion.Header className="font-myFont">Basic Savings Account<h6 className="pt-2 text-primary">(BSBDA)</h6></Accordion.Header>
-            <Accordion.Body>
-              <p className="font-bold">Q.1. What is the definition of "Basic Savings Bank Deposit Account" (BSBDA)?</p>
-              <p>All the existing 'No-frills' accounts opened pursuant to guidelines issued vide circular UBD.BPD.Cir.No.19/13.01.000/2005-06 dated November 24, 2005 and converted into BSBDA in compliance with the guidelines issued in circular UBD.BPD.Cir.No.5/13.01.000/2012-13 dated August 17, 2012 as well as fresh accounts opened under the said circular should be treated as BSBDA.</p>
-              
-              <p className="font-bold">Q.2. Whether the guidelines issued on 'no-frills' account with 'nil' or very low minimum balances will continue even after the introduction of 'Basic Savings Bank Deposit Account'?</p>
-              <p>No. In supersession of instructions contained in circular UBD.BPD.Cir.No.19/13.01.000/2005-06 dated November 24, 2005 on No Frill accounts, banks have now been advised to offer a 'Basic Savings Bank Deposit Account' to all their customers vide UBD.BPD.Cir.No.5/13.01.000/2012-13 dated August 17, 2012 , which will offer minimum common facilities as stated therein. Banks are required to convert the existing 'no-frills' accounts' into 'Basic Savings Bank Deposit Accounts'.</p>
-
-              <p className="font-bold">Q.3. Can an Individual have any number of 'Basic Savings Bank Deposit Account' in one bank?</p>
-              <p>No. An individual is eligible to have only one 'Basic Savings Bank Deposit Account' in one bank.</p>
-
-              <p className="font-bold">Q.4. Whether a 'Basic Savings Bank Deposit Account' holder can have any other savings bank account in that bank ?</p>
-              <p>Holders of 'Basic Savings Bank Deposit Account' will not be eligible for opening any other savings bank account in that bank. If a customer has any other existing savings bank account in that bank, he / she will be required to close it within 30 days from the date of opening a 'Basic Savings Bank Deposit Account'.</p>
-
-              <p className="font-bold">Q.5. Can an individual have other deposit accounts where one holds 'Basic Savings Bank Deposit Account'?</p>
-              <p>Yes. One can have Term/Fixed Deposit, Recurring Deposit etc., accounts in the bank where one holds 'Basic Savings Bank Deposit Account'.</p>
-
-              <p className="font-bold">Q.6. Whether the 'Basic Savings Bank Deposit Account' can be opened by only certain types of individuals like poor and weaker sections of the population?</p>
-              <p>No. The 'Basic Savings Bank Deposit Account' should be considered as a normal banking service available to all customers, through branches.</p>
-
-              <p className="font-bold">Q.7. Whether there are any restrictions like age, income, amount etc criteria for opening BSBDA by banks for individuals?</p>
-              <p>No. Banks are advised not to impose restrictions like age and income criteria of the individual for opening BSBDA.</p>
-
-              <p className="font-bold">Q.8. What are KYC norms applicable to BSBDA accounts? Are there any relaxations in KYC norms for BSBDAs?</p>
-              <p>The 'Basic Savings Bank Deposit Account' would be subject to provisions of PML Act and Rules and RBI instructions on Know Your Customer (KYC) / Anti-Money Laundering (AML) for opening of bank accounts issued from time to time. BSBDA can also be opened with simplified KYC norms. However, if BSBDA is opened on the basis of Simplified KYC, the accounts would additionally be treated as "BSBDA-Small Account".</p>
-
-              <p className="font-bold">Q.9. Can I have a 'Small Account' in ABC Bank as per the Government of India Notification. Can I have additionally a 'Basic Savings Bank Deposit Account'?</p>
-              <p>No, the BSBDA customer cannot have any other savings bank account in the same bank. If 'Basic Savings Bank Deposit Account' is opened on the basis of simplified KYC norms, the account would additionally be treated as a 'Small Account'</p>
-
-              <p className="font-bold">Q.10. What are the conditions stipulated for accounts which are additionally to be treated as 'BSBDA-Small Account'?</p>
-              <p>As notified in Govt of India notification dated December 16, 2010, BSBDA-Small Accounts would be subject to the following conditions:</p>
-              <p>i. Total credits in such accounts should not exceed one lakh rupees in a year. ii. Maximum balance in the account should not exceed fifty thousand rupees at any time iii. The total of debits by way of cash withdrawals and transfers will not exceed ten thousand rupees in a month iv. Remittances from abroad cannot be credited to Small Accounts without completing normal KYC formalities v. Small accounts are valid for a period of 12 months initially which may be extended by another 12 months if the person provides proof of having applied for an Officially Valid Document. vi. Small Accounts can only be opened at CBS linked branches of banks or at such branches where it is possible to manually monitor the fulfilment of the conditions.</p>
-
-              <p className="font-bold">Q.11. What kinds of services are available free in the 'Basic Savings Bank Deposit Account'?</p>
-              <p>The services available free in the 'Basic Savings Bank Deposit Account' will include deposit and withdrawal of cash; receipt / credit of money through electronic payment channels or by means of deposit / collection of cheques at bank branches as well as ATMs.</p>
-
-              <p className="font-bold">Q.12. of any initial minimum deposit Is there requirement while opening a BSBDA as per the circular dated August 17, 2012?There is no requirement for any initial deposit for opening a BSBDA.</p>
-              <p>There is no requirement for any initial deposit for opening a BSBDA.</p>
-
-              <p className="font-bold">Q.13. Whether banks are free to offer more facilities than those prescribed for 'Basic Savings Bank Deposit Account'?</p>
-              <p>Yes. However, the decision to allow services beyond the minimum prescribed has been left to the discretion of the banks who can either offer additional services free of charge or evolve requirements including pricing structure for additional value-added services on a reasonable and transparent basis, to be applied in a non-discriminatory manner with prior intimation to the customers. Banks are required to put in place a reasonable pricing structure for value added services or prescribe minimum balance requirements which should be displayed prominently and also informed to the customers at the time of account opening. Offering such additional facilities should be non - discretionary, non-discriminatory and transparent to all 'Basic Savings Bank Deposit Account' customers. However, such accounts enjoying additional facilities will not be treated as BSBDAs.</p>
-
-              <p className="font-bold">Q.14. If BSBDA customers have more than 4 withdrawals and request for cheque book at additional cost, will it cease to be a BSBDA?</p>
-              <p>Yes. Please refer to response to the Query No. 14. However, if the bank does not levy any additional charges and offers more facilities free than those prescribed under BDBDA a/cs without minimum balance then such a/cs can be classified as BSBDA.</p>
-
-              <p className="font-bold">Q.15. Whether Passbooks are also to be offered free to BSBDA holders?</p>
-              <p>Yes. BSBDA holders will be offered passbook facility free of charge.</p>
-
-              <p className="font-bold">Q.16. If a customer opens a BSBDA but does not close his existing Savings Bank Account within 30 days, are banks then free to close such savings bank accounts?</p>
-              <p>While opening the BSBDA customers' consent in writing be obtained that his existing non-BSBDA Savings Banks accounts will be closed after 30 days of opening BSBDA and banks are free to close such accounts after 30 days.</p>
-
-              <p className="font-bold">Q.17. In certain accounts to which disbursements under MGNREGA are made weekly, the number of withdrawals may be more than four in a month of five weeks. In such cases, can banks permit five withdrawals?</p>
-              <p>In BSBDA, banks are required to provide free of charge minimum four withdrawals, including through ATM and other mode. Beyond four withdrawals, it is left to discretion of the banks to either offer free or charge for additional withdrawal/s. However pricing structure may be put in place by banks on a reasonable, non-discretionary, non-discriminatory and transparent manner.</p>
-
-              <p className="font-bold">Q.18. Whether the normal saving bank account can be converted into BSBDA at the request of customer?</p>
-              <p>Yes. Such customers should give their consent in writing and they should be informed of the features and extent of services available in BSBDAs.</p>
-
-            </Accordion.Body>
-          </Accordion.Item>
-
-          <Accordion.Item eventKey="5">
             <Accordion.Header className="font-myFont">DICGC</Accordion.Header>
             <Accordion.Body>
                 <p className="font-bold">Q.1. Which banks are insured by the DICGC?</p>
@@ -218,14 +158,14 @@ const Faq = () => {
             </Accordion.Body>
           </Accordion.Item>
 
-          <Accordion.Item eventKey="6">
+          <Accordion.Item eventKey="5">
             <Accordion.Header className="font-myFont">ATM</Accordion.Header>
             <Accordion.Body>
                 Will be provided soon
             </Accordion.Body>
           </Accordion.Item>
 
-          <Accordion.Item eventKey="7">
+          <Accordion.Item eventKey="6">
             <Accordion.Header className="font-myFont">15G/15H</Accordion.Header>
             <Accordion.Body>
                 Will be provided soon

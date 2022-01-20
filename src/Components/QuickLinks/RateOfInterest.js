@@ -56,7 +56,7 @@ const RateOfInterest = () => {
                             <td>7.25 %</td>
                         </tr>
                         <tr>
-                            <th scope="row">Double the deposit</th>
+                            <th scope="row">Damduppat Deposit</th>
                             <td>9 Years 8 Months and 5 Days</td>
                         </tr>
                         <tr>
@@ -64,8 +64,8 @@ const RateOfInterest = () => {
                             <td>0.50% More on over term deposit</td>
                         </tr>
                         <tr>
-                            <th scope="row">91 Days to 180 Days</th>
-                            <td>6.50 %</td>
+                            <th scope="row">Saving Deposit</th>
+                            <td>3.00%</td>
                         </tr>
                     </tbody>
                 </table>

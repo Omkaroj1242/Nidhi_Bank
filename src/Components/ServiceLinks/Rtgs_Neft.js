@@ -28,7 +28,7 @@ const Rtgs_Neft = () => {
                             on "gross settlement" basis. The NEFT is a
                             nationwide payment system facilitating one-to-one
                             funds transfer. Bank offers NEFT/RTGS facility under
-                            the sub-membership of HDFC Bank.
+                            the sub-membership of ICICI BANK.
                         </p>
                         <p>
                             RTGS system is the fastest possible interbank money

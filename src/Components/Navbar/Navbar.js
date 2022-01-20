@@ -104,7 +104,7 @@ export default function Example() {
                                             Branches
                                         </NavLink>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <NavLink
                                             to="/plan"
                                             className="nav-link scrollto font-myFont "
@@ -112,7 +112,7 @@ export default function Example() {
                                         >
                                             Plan
                                         </NavLink>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <NavLink
                                             to="/faq"
