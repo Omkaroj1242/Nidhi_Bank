@@ -15,7 +15,7 @@ const Features = () => {
                         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                                 <img
-                                    src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
+                                    src="/Images/trail2.jpg"
                                     alt="image"
                                     class="w-full"
                                 />
@@ -62,7 +62,7 @@ const Features = () => {
                         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                                 <img
-                                    src={"Images/homeLoan.jpg"}
+                                    src={"Images/homeloan3.jpg"}
                                     alt="image"
                                     class="w-full"
                                 />
@@ -113,7 +113,7 @@ const Features = () => {
                         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                                 <img
-                                    src={"Images/carLoan.jpg"}
+                                    src={"Images/trail3.jpg"}
                                     alt="image"
                                     class="w-full"
                                 />
@@ -164,7 +164,7 @@ const Features = () => {
                         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                                 <img
-                                    src="Images/gold.png"
+                                    src="Images/trail4.jpg"
                                     alt="image"
                                     class="w-full"
                                 />
@@ -247,12 +247,6 @@ const Features = () => {
                                             Deposit Insurance Cover
                                         </a>
                                     </h4>
-                                    <hr />
-                                    <p>
-                                        Encompassing today's website design
-                                        technology to integrated and build
-                                        solutions relevant to your business.
-                                    </p>
                                 </div>
                             </div>
 
@@ -274,12 +268,7 @@ const Features = () => {
                                             Core Banking Facility
                                         </a>
                                     </h4>
-                                    <hr />
-                                    <p>
-                                        Encompassing today’s website design
-                                        technology to integrated and build
-                                        solutions relevant to your business.
-                                    </p>
+                                    
                                 </div>
                             </div>
 
@@ -301,12 +290,6 @@ const Features = () => {
                                             RTGF And NEFT Facility
                                         </a>
                                     </h4>
-                                    <hr />
-                                    <p>
-                                        Encompassing today’s website design
-                                        technology to integrated and build
-                                        solutions relevant to your business.
-                                    </p>
                                 </div>
                             </div>
 
@@ -324,16 +307,10 @@ const Features = () => {
                                     </div>
                                     <hr />
                                     <h4>
-                                        <a href="" className="font-bold">
+                                        <a href="" className="font-bold px-5">
                                             SMS Facility
                                         </a>
                                     </h4>
-                                    <hr />
-                                    <p>
-                                        Encompassing today’s website design
-                                        technology to integrated and build
-                                        solutions relevant to your business.
-                                    </p>
                                 </div>
                             </div>
 
@@ -351,17 +328,10 @@ const Features = () => {
                                     </div>
                                     <hr />
                                     <h4>
-                                        <a href="" className="font-bold">
-                                            CTS <br />
-                                            Clearing
+                                        <a href="" className="font-bold px-4 mr-5 ml-5">
+                                            CTS Clearing
                                         </a>
                                     </h4>
-                                    <hr />
-                                    <p>
-                                        Encompassing today’s website design
-                                        technology to integrated and build
-                                        solutions relevant to your business.
-                                    </p>
                                 </div>
                             </div>
 
@@ -383,12 +353,6 @@ const Features = () => {
                                             Bank's Own Data Center DR Site
                                         </a>
                                     </h4>
-                                    <hr />
-                                    <p>
-                                        Encompassing today’s website design
-                                        technology to integrated and build
-                                        solutions relevant to your business.
-                                    </p>
                                 </div>
                             </div>
                             <div
@@ -410,12 +374,6 @@ const Features = () => {
                                             Facility
                                         </a>
                                     </h4>
-                                    <hr />
-                                    <p>
-                                        Encompassing today’s website design
-                                        technology to integrated and build
-                                        solutions relevant to your business.
-                                    </p>
                                 </div>
                             </div>
                             <div
@@ -437,12 +395,6 @@ const Features = () => {
                                             the deposit
                                         </a>
                                     </h4>
-                                    <hr />
-                                    <p>
-                                        Encompassing today’s website design
-                                        technology to integrated and build
-                                        solutions relevant to your business.
-                                    </p>
                                 </div>
                             </div>
                             <div
@@ -464,12 +416,6 @@ const Features = () => {
                                             Deposits
                                         </a>
                                     </h4>
-                                    <hr />
-                                    <p>
-                                        Encompassing today’s website design
-                                        technology to integrated and build
-                                        solutions relevant to your business.
-                                    </p>
                                 </div>
                             </div>
                             <div
@@ -491,12 +437,6 @@ const Features = () => {
                                             loans
                                         </a>
                                     </h4>
-                                    <hr />
-                                    <p>
-                                        Encompassing today’s website design
-                                        technology to integrated and build
-                                        solutions relevant to your business.
-                                    </p>
                                 </div>
                             </div>
                             <div
@@ -517,12 +457,6 @@ const Features = () => {
                                             Locker facility in all branches
                                         </a>
                                     </h4>
-                                    <hr />
-                                    <p>
-                                        Encompassing today’s website design
-                                        technology to integrated and build
-                                        solutions relevant to your business.
-                                    </p>
                                 </div>
                             </div>
                             <div class="b-example-divider1"></div>

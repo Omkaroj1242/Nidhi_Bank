@@ -23,21 +23,21 @@ const About = () => {
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/poster1.jpg"
+                            src="/Images/poster1.jpeg"
                             alt="First slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/poster2.jpg"
+                            src="/Images/poster2.jpeg"
                             alt="Second slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/poster5.jpg"
+                            src="/Images/poster5.jpeg"
                             alt="Fifth slide"
                         />
                     </Carousel.Item>
@@ -211,7 +211,7 @@ const About = () => {
                                     <img
                                         src="/Images/Founder.jpg"
                                         alt=""
-                                        className="mx-auto object-cover rounded-lg h-40 w-60 "
+                                        className="mx-auto object-cover rounded-lg w-80 "
                                     />
                                     <div className="text-center">
                                         <p className="text-sm text-black font-bold">
