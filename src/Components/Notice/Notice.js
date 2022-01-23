@@ -5,9 +5,9 @@ const Notice = () => {
     return (
         <>
             <div class="padding">
-                <div className="container" style={{ paddingTop: "35px" }}>
-                    <div class="row">
-                        <div class="col-md-2">
+                <div className="container" style={{ paddingTop: "40px" }}>
+                    <div class="row border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+                        <div class="col-md-2 pt-2">
                             <img
                                 src="Images/manmandir1.png"
                                 alt=""
@@ -31,23 +31,21 @@ const Notice = () => {
                                     Vita.
                                 </h1>
                             </div>
-                        </div>
-                    </div>
-                    <hr className="bg-black" />
-                    <div className="">
-                        <p className="text-black text-center text-lg pb-4 px-4">
+                            <div className="">
+                        <p className="text-black text-center text-lg pt-4 px-4">
                             Head office: In front of ST stand, Vita - 415 311,
                             Taluka-Khanapur, District-Sangli, Phone: 02347 -
                             276438,273271,273561.
                         </p>
                     </div>
+                    <hr className="bg-black" />
                     <ul className="mx-auto">
                         <Link to="/">
                             <li
                                 className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block"
                                 style={{
                                     display: "inline-flex",
-                                    paddingRight: "160px",
+                                    paddingRight: "120px",
                                 }}
                             >
                                 www.manmandirbank.com
@@ -58,7 +56,7 @@ const Notice = () => {
                                 className="link text-right text-blue-700 hover:text-blue-400 font-myFont md:block"
                                 style={{
                                     display: "inline-flex",
-                                    paddingRight: "160px",
+                                    paddingRight: "120px",
                                 }}
                             >
                                 manmandirbankvita@yahoo.com
@@ -73,15 +71,17 @@ const Notice = () => {
                             </li>
                         </Link>
                     </ul>
+                        </div>
+                    </div>  
                 </div>
             </div>
             <div>
                 {/* Instruction Div */}
                 <div className="container mx-auto">
-                    <h1 className="md:text-4xl text-3xl text-blue-900 font-myFont text-center font-bold pt-4">
+                    <h1 className="md:text-4xl text-3xl text-blue-900 font-myFont text-center font-bold pt-5 pb-2">
                         Cyber Security - IT Department
                     </h1>
-                    <hr style={{ width: "60%", margin: "auto" }} />
+                    <hr style={{ width: "7%", margin: "auto", height: "5px", color: "black" }} />
                     {/* <hr className="bg-blue-900" /> */}
                     <h1
                         className="font-myFont text-grey-200 hover:text-blue-400 text-3xl text-left py-3"

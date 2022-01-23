@@ -42,12 +42,13 @@ export default function Example() {
 
                             <NavLink
                                 to="/"
-                                className="text-white font-myFont font-bold text-xl py-1 w-full"
+                                className="text-white font-myFont font-bold text-xl w-full"
                             >
                                 <h2
                                     style={{
                                         color: "#ffcc80",
-                                        paddingTop: "10px",
+                                        paddingTop: "15px",
+                                        paddingRight: "180px"
                                     }}
                                 >
                                     Manmandir

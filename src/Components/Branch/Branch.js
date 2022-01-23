@@ -2,10 +2,10 @@ import React from "react";
 
 const Branch = () => {
     return (
-        <div className="bg-gray-100">
+        <div>
             <div className="container mx-auto pt-8">
                 <h1
-                    className="md:text-4xl text-3xl text-blue-900 font-myFont text-center py-8 font-bold"
+                    className="md:text-4xl text-3xl text-blue-900 font-myFont text-center font-bold"
                     style={{ paddingTop: "90px" }}
                 >
                     Our Branches Across Cities
@@ -20,7 +20,7 @@ const Branch = () => {
                                 alt="slide"
                             />
                         </div>
-                        <div class="b-example-divider"> </div>
+                        {/* <div class="b-example-divider"> </div> */}
 
                         <section class="bg-white dark:bg-gray-900">
                             <div class="container px-6 py-10 mx-auto">
