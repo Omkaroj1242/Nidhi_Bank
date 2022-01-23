@@ -8,8 +8,8 @@ const Loans = () => {
             <section style={{ paddingTop: "53px" }}>
                 <img
                     className="flex justify-center items-center mx-auto pt-5 my_bg img-fluid "
-                    src="/Images/poster3.jpg"
-                    style={{ height: "300px", width: "100%" }}
+                    src="/Images/3.jpg"
+                    style={{ height: "400px", width: "100%" }}
                     alt="First slide"
                 />
             </section>
@@ -276,7 +276,7 @@ const Loans = () => {
                             </Accordion.Item>
                         </Accordion>
 
-                        <Accordion defaultActiveKey="6" className="mx-auto pt-4">
+                        <Accordion defaultActiveKey="6" className="mx-auto py-4">
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header className="font-myFont">CASH CREDIT LOAN</Accordion.Header>
                                 <Accordion.Body>

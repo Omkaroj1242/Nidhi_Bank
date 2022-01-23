@@ -7,8 +7,8 @@ const AnyBranch = () => {
             <section style={{ paddingTop: "53px"}}>
                 <img
                     className="flex justify-center items-center mx-auto pt-5 my_bg img-fluid"
-                    src="/Images/poster1.jpg"
-                    style={{ height: "300px", width: "100%" }}
+                    src="/Images/1.jpg"
+                    style={{ height: "400px", width: "100%" }}
                     alt="First slide"
                 />
             </section>
@@ -22,7 +22,8 @@ const AnyBranch = () => {
                     </div>
                     <div class="col-sm-9 col-md-6 col-lg-8">
                         <h2 className='pt-3'>Any Branch Banking</h2>
-                        <p>Bank provides the facility to operate deposit and loan accounts through any branch of the bank. This facility offers you the convenience and ease of doing cash transactions, funds transfer and other services from the nearest branch</p>
+                        <p>Bank provides the facility to operate deposit and loan accounts through any branch of the bank.
+                            This facility offers you the convenience and ease of doing cash transactions, funds transfer and other services from the nearest branch</p>
                     </div>
                 </div>
              </div>

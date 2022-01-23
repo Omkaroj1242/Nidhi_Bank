@@ -9,42 +9,42 @@ const About = () => {
                     <Carousel.Item className="w-full">
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/poster3.jpg"
+                            src="/Images/3.jpg"
                             alt="Third slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/poster4.jpg"
+                            src="/Images/4.jpg"
                             alt="Fourth slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/poster1.jpeg"
+                            src="/Images/1.jpg"
                             alt="First slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/poster2.jpeg"
+                            src="/Images/2.jpg"
                             alt="Second slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/poster5.jpeg"
+                            src="/Images/5.jpg"
                             alt="Fifth slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/poster6.jpg"
+                            src="/Images/6.jpg"
                             alt="Sixth slide"
                         />
                     </Carousel.Item>
