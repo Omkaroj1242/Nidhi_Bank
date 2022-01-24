@@ -10,7 +10,7 @@ const Hero = () => {
       <CarouselComp />
       <Features />
       {/* <Branch /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
    
     </>
   );

@@ -24,7 +24,7 @@ const Testimonials = () => {
                         <div class="flex items-center justify-center">
                             <div class="flex ml-2 items-center justify-center text-black">
                                 <span class="font-semibold mr-2 text-blue-900 text-lg">
-                                    - Jean Miguel
+                                    - Akshay Mohite
                                 </span>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const Testimonials = () => {
                         <div class="flex items-center justify-center mt-4">
                             <div class="flex ml-2 items-center justify-center text-black">
                                 <span class="font-semibold mr-2 text-blue-900 text-lg">
-                                    - Jean Miguel
+                                    - Sagar Patil
                                 </span>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const Testimonials = () => {
                         <div class="flex items-center justify-center mt-8">
                             <div class="flex ml-2 items-center justify-center text-black">
                                 <span class="font-semibold mr-2 text-blue-900 text-lg">
-                                    - Jean Miguel
+                                    - Vishal Jadhav
                                 </span>
                             </div>
                         </div>

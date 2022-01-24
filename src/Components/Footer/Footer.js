@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -25,63 +26,112 @@ const Footer = () => {
                             <div class="flex flex-wrap items-top mb-6">
                                 <div class="w-1/2 lg:w-4/12 px-4 ml-auto">
                                     <span class="block uppercase text-white text-sm font-semibold pb-6">
-                                        Useful Links
+                                        Services
                                     </span>
                                     <ul class="list-unstyled">
                                         <li>
-                                            <a
-                                                class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                                href="/about"
-                                            >
-                                                About Us
-                                            </a>
+                                        <NavLink
+                                        to="/service"
+                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                        
+                                        href="#services"
+                                    >
+                                         RTGS/NEFT
+                                    </NavLink>
                                         </li>
                                         <li>
-                                            <a
-                                                class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                                href="/"
-                                            >
-                                                Blog
-                                            </a>
+                                        <NavLink
+                                        to="/locker"
+                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                        
+                                        href="#services"
+                                    >
+                                         Locker
+                                    </NavLink>
                                         </li>
                                         <li>
-                                            <a
-                                                class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                                href="/"
-                                            >
-                                                Documents
-                                            </a>
+                                        <NavLink
+                                        to="/sms"
+                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                        
+                                        href="#services"
+                                    >
+                                         SMS Banking
+                                    </NavLink>
+                                        </li>
+                                        <li>
+                                        <NavLink
+                                        to="/abps"
+                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                        
+                                        href="#services"
+                                    >
+                                         ABPS
+                                    </NavLink>
+                                        </li>
+                                        <li>
+                                        <NavLink
+                                        to="/anybranch"
+                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                        
+                                        href="#services"
+                                    >
+                                         Any Branch Banking
+                                    </NavLink>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="w-1/2 lg:w-4/12 px-4">
                                     <span class="block uppercase text-white text-sm font-semibold pb-6">
-                                        Other Resources
+                                        Quick Links
                                     </span>
                                     <ul class="list-unstyled">
-                                        <li>
-                                            <a
-                                                class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                                href="/"
-                                            >
-                                                Terms &amp; Conditions
-                                            </a>
+                                    <li>
+                                        <NavLink
+                                        to="/ifsccode"
+                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                        
+                                        href="#quicklinks"
+                                    >
+                                         IFSC Code
+                                    </NavLink>
                                         </li>
                                         <li>
-                                            <a
-                                                class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                                href="/"
-                                            >
-                                                Privacy Policy
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                                href="/"
-                                            >
-                                                Contact Us
-                                            </a>
+                                        <NavLink
+                                        to="/rateofinterest"
+                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                        
+                                        href="#quicklinks"
+                                    >
+                                         Rate Of Interest
+                                    </NavLink>
+                                        </li><li>
+                                        <NavLink
+                                        to="/bankholidays"
+                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                        
+                                        href="#quicklinks"
+                                    >
+                                         Bank Holidays
+                                    </NavLink>
+                                        </li><li>
+                                        <NavLink
+                                        to="/kycnorms"
+                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                        
+                                        href="#quicklinks"
+                                    >
+                                         KYC Norms
+                                    </NavLink>
+                                        </li><li>
+                                        <NavLink
+                                        to="/complaint"
+                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                        
+                                        href="#quicklinks"
+                                    >
+                                         Complaint Regarding to Transaction
+                                    </NavLink>
                                         </li>
                                     </ul>
                                 </div>
@@ -94,6 +144,8 @@ const Footer = () => {
                                             <a
                                                 class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="/"
+                                                rel="noopener noreferrer"
+                                                target="_blank"
                                             >
                                                 <i className="fab fa-facebook-f"></i>{" "}
                                                 Facebook
@@ -120,7 +172,9 @@ const Footer = () => {
                                         <li>
                                             <a
                                                 class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                                href="/"
+                                                href="https://www.youtube.com"
+                                                rel="noopener noreferrer"
+                                                target="_blank"
                                             >
                                                 <i className="fab fa-youtube"></i>{" "}
                                                 YouTube

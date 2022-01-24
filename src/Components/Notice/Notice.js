@@ -32,59 +32,61 @@ const Notice = () => {
                                 </h1>
                             </div>
                             <div className="">
-                        <p className="text-black text-center text-lg pt-4 px-4">
-                            Head office: In front of ST stand, Vita - 415 311,
-                            Taluka-Khanapur, District-Sangli, Phone: 02347 -
-                            276438,273271,273561.
-                        </p>
-                    </div>
-                    <hr className="bg-black" />
-                    <ul className="mx-auto">
-                        <Link to="/">
-                            <li
-                                className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block"
-                                style={{
-                                    display: "inline-flex",
-                                    paddingRight: "120px",
-                                }}
-                            >
-                                www.manmandirbank.com
-                            </li>
-                        </Link>
-                        <Link to="/">
-                            <li
-                                className="link text-right text-blue-700 hover:text-blue-400 font-myFont md:block"
-                                style={{
-                                    display: "inline-flex",
-                                    paddingRight: "120px",
-                                }}
-                            >
-                                manmandirbankvita@yahoo.com
-                            </li>
-                        </Link>
-                        <Link to="/">
-                            <li
-                                className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block"
-                                style={{ display: "inline-flex" }}
-                            >
-                                mmcv@manmandirbank.com
-                            </li>
-                        </Link>
-                    </ul>
+                                <p className="text-black text-center text-lg pt-4 px-4">
+                                    Head office: In front of ST stand, Vita - 415 311,
+                                    Taluka-Khanapur, District-Sangli, Phone: 02347 -
+                                    276438,273271,273561.
+                                </p>
+                            </div>
+                            <hr className="bg-black" />
+                            <ul className="mx-auto">
+                                <Link to="/">
+                                    <li
+                                        className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block"
+                                        style={{
+                                            display: "inline-flex",
+                                            paddingRight: "120px",
+                                        }}
+                                    >
+                                        www.manmandirbank.com
+                                    </li>
+                                </Link>
+                                <Link to="/">
+                                    <li
+                                        className="link text-right text-blue-700 hover:text-blue-400 font-myFont md:block"
+                                        style={{
+                                            display: "inline-flex",
+                                            paddingRight: "120px",
+                                        }}
+                                    >
+                                        manmandirbankvita@yahoo.com
+                                    </li>
+                                </Link>
+                                <Link to="/">
+                                    <li
+                                        className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block"
+                                        style={{ display: "inline-flex" }}
+                                    >
+                                        mmcv@manmandirbank.com
+                                    </li>
+                                </Link>
+                            </ul>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </div>
-            <div>
+            <div className="notice">
                 {/* Instruction Div */}
-                <div className="container mx-auto">
-                    <h1 className="md:text-4xl text-3xl text-blue-900 font-myFont text-center font-bold pt-5 pb-2">
-                        Cyber Security - IT Department
-                    </h1>
-                    <hr style={{ width: "7%", margin: "auto", height: "5px", color: "black" }} />
-                    {/* <hr className="bg-blue-900" /> */}
-                    <h1
-                        className="font-myFont text-grey-200 hover:text-blue-400 text-3xl text-left py-3"
+                
+                    <div className="section-title">
+                        <h1 className="md:text-4xl text-3xl text-blue-900 font-myFont text-center font-bold pt-5 pb-2">
+                            CYBER SECURITY - IT DEPARTMENT
+                        </h1>
+                    </div>
+                    {/* <hr style={{ width: "7%", margin: "auto", height: "5px" }} /> */}
+                    
+                    <div className="container mx-auto">
+                    <h1 className="font-myFont text-grey-200 hover:text-blue-400 text-3xl text-left py-3"
                         style={{ paddingLeft: "15px" }}
                     >
                         Notice To Account Holder Customers
