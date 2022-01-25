@@ -7,7 +7,7 @@ const Notice = () => {
             <div class="padding">
                 <div className="container" style={{ paddingTop: "40px" }}>
                     <div class="row border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-                        <div class="col-md-2 pt-2">
+                        <div class="col-md-2 px-2 py-2">
                             <img
                                 src="Images/manmandir1.png"
                                 alt=""

@@ -7,7 +7,7 @@ const Complaint = () => {
             <section style={{ paddingTop: "53px"}}>
                 <img
                     className="flex justify-center items-center mx-auto pt-5 my_bg img-fluid"
-                    src="/Images/4.jpg"
+                    src="Images/4.jpg"
                     style={{ height: "400px", width: "100%" }}
                     alt="First slide"
                 />

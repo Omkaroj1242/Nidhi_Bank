@@ -7,7 +7,7 @@ const KycNorms = () => {
             <section style={{ paddingTop: "53px" }}>
                 <img
                     className="flex justify-center items-center mx-auto pt-5 my_bg img-fluid"
-                    src="/Images/5.jpg"
+                    src="Images/5.jpg"
                     style={{ height: "400px", width: "100%" }}
                     alt="First slide"
                 />
@@ -24,7 +24,7 @@ const KycNorms = () => {
                         {/* <h2 className='pt-3'>KYC Norms</h2> */}
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/kyc1.jpg"
+                            src="Images/kyc1.jpg"
                             alt="First slide"
 
                             style={{ height: "1250px"}}
@@ -32,13 +32,17 @@ const KycNorms = () => {
 
                         <img
                             className="flex justify-center items-center mx-auto py-3 my_bg img-fluid"
-                            src="/Images/kyc2.jpg"
-                            alt="First slide"
+                            src="Images/kyc2.jpg"
+                            alt="Second slide"
+
+                            style={{ height: "800px"}}
                         />
                         <img
                             className="flex justify-center items-center mx-auto py-3 my_bg img-fluid"
-                            src="/Images/kyc4.jpg"
-                            alt="First slide"
+                            src="Images/kyc4.jpg"
+                            alt="Third slide"
+
+                            style={{ height: "800px"}}
                         />
                     </div>
                 </div>

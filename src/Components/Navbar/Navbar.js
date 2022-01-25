@@ -44,15 +44,7 @@ export default function Example() {
                                 to="/"
                                 className="text-white font-myFont font-bold text-xl w-full"
                             >
-                                <h2
-                                    style={{
-                                        color: "#ffcc80",
-                                        paddingTop: "15px",
-                                        paddingRight: "180px"
-                                    }}
-                                >
-                                    Manmandir
-                                </h2>
+                                <h2 className="mr-5 pr-5 pt-3" style={{ color: "#ffcc80"}}> Manmandir </h2>
                             </NavLink>
 
                             {/* </h1> */}

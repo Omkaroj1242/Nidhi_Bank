@@ -9,42 +9,42 @@ const About = () => {
                     <Carousel.Item className="w-full">
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/3.jpg"
+                            src="Images/3.jpg"
                             alt="Third slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/4.jpg"
+                            src="Images/4.jpg"
                             alt="Fourth slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/1.jpg"
+                            src="Images/1.jpg"
                             alt="First slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/2.jpg"
+                            src="Images/2.jpg"
                             alt="Second slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/5.jpg"
+                            src="Images/5.jpg"
                             alt="Fifth slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="flex justify-center items-center mx-auto my_bg img-fluid"
-                            src="/Images/6.jpg"
+                            src="Images/6.jpg"
                             alt="Sixth slide"
                         />
                     </Carousel.Item>
@@ -162,13 +162,13 @@ const About = () => {
                                         <img
                                             class="rounded-lg shadow-lg w-32 md:w-56"
                                             width="200"
-                                            src="/Images/trail3.jpg"
+                                            src="Images/trail3.jpg"
                                             alt="1"
                                         />
                                         <img
                                             class="rounded-lg shadow-lg w-40 md:w-64"
                                             width="260"
-                                            src="/Images/trail2.jpg"
+                                            src="Images/trail2.jpg"
                                             alt="2"
                                         />
                                     </div>
@@ -176,13 +176,13 @@ const About = () => {
                                         <img
                                             class="rounded-lg shadow-lg w-24 md:w-40"
                                             width="170"
-                                            src="/Images/trail.jpg"
+                                            src="Images/trail.jpg"
                                             alt="3"
                                         />
                                         <img
                                             class="rounded-lg shadow-lg w-32 md:w-56"
                                             width="200"
-                                            src="/Images/trail4.jpg"
+                                            src="Images/trail4.jpg"
                                             alt="4"
                                         />
                                     </div>
@@ -202,14 +202,14 @@ const About = () => {
                         {/* 4 Cards In A Row */}
                         <section id="pricing" className="pricing section-bg">
 
-                            <div className="row">
-                            <div
-                                    className="col-lg-12 col-md-6"
+                            <div className="row ">
+                                <div
+                                    className="col-lg-12"
                                     data-aos="fade-up"
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/Founder.jpg"
+                                        src="Images/Founder.JPG"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg w-80 "
                                     />
@@ -217,12 +217,12 @@ const About = () => {
                                         <p className="text-sm text-black font-bold">
                                             Hon.Shri. Ashokrao (Bhau) Gaikwad
                                         </p>
-                                        <p className="text-sm text-blue-900 font-myFont">
+                                        <p className="text-sm text-blue-900 font-myFont pb-4">
                                             Founder
                                         </p>
                                     </div>
                                 </div>
-                                <div className="row mb-2"></div>
+                                {/* <div className="row mb-3"></div> */}
                             </div>
                             <div className="row mb-10">
                                 <div
@@ -231,7 +231,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member1.jpg"
+                                        src="Images/member1.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -251,7 +251,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member2.jpg"
+                                        src="Images/member2.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -271,7 +271,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member15.jpg"
+                                        src="Images/member15.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -284,7 +284,7 @@ const About = () => {
                                         </p>
                                     </div>
                                 </div>
-                                
+
                                 <div className="row mb-2"></div>
                             </div>
 
@@ -297,7 +297,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member3.jpg"
+                                        src="Images/member3.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -317,7 +317,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member4.jpg"
+                                        src="Images/member4.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -338,7 +338,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member5.jpg"
+                                        src="Images/member5.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -359,7 +359,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member6.jpg"
+                                        src="Images/member6.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -379,7 +379,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member7.jpg"
+                                        src="Images/member7.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -399,7 +399,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member8.jpg"
+                                        src="Images/member8.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -422,7 +422,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member9.jpg"
+                                        src="Images/member9.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -442,7 +442,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member10.jpg"
+                                        src="Images/member10.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -462,7 +462,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member11.jpg"
+                                        src="Images/member11.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -481,7 +481,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member12.jpg"
+                                        src="Images/member12.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -501,7 +501,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member13.jpg"
+                                        src="Images/member13.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />
@@ -521,7 +521,7 @@ const About = () => {
                                     data-aos-delay="100"
                                 >
                                     <img
-                                        src="/Images/member14.jpg"
+                                        src="Images/member14.jpg"
                                         alt=""
                                         className="mx-auto object-cover rounded-lg h-40 w-28 "
                                     />

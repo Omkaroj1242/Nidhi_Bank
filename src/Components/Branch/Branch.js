@@ -16,7 +16,7 @@ const Branch = () => {
                         <div>
                             <img
                                 className="flex justify-center items-center mx-auto  img-fluid"
-                                src="/Images/map.jpg"
+                                src="Images/map.jpg"
                                 alt="slide"
                             />
                         </div>
@@ -47,7 +47,7 @@ const Branch = () => {
                                         <button class="ml-2 p-1 pl-5 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
                                             +91 7774097930
                                         </button>
-                                        <button class="p-1 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
+                                        <button class="ml-2 p-1 pl-5 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
                                             +91 8767852015
                                         </button>
 

@@ -15,7 +15,7 @@ const Features = () => {
                         <div class="w-full md:w-1/2 xl:w-1/4 px-4">
                             <div class="bg-white rounded-lg overflow-hidden mb-10">
                                 <img
-                                    src="/Images/trail2.jpg"
+                                    src="Images/trail2.jpg"
                                     alt="image"
                                     class="w-full"
                                 />
