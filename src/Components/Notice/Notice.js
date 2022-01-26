@@ -42,10 +42,9 @@ const Notice = () => {
                             <ul className="mx-auto">
                                 <Link to="/">
                                     <li
-                                        className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block"
+                                        className="link text-right justify-content-around text-blue-700 hover:text-blue-400 px-5 font-myFont md:block"
                                         style={{
-                                            display: "inline-flex",
-                                            paddingRight: "120px",
+                                            display: "inline-flex"
                                         }}
                                     >
                                         www.manmandirbank.com
@@ -53,10 +52,9 @@ const Notice = () => {
                                 </Link>
                                 <Link to="/">
                                     <li
-                                        className="link text-right text-blue-700 hover:text-blue-400 font-myFont md:block"
+                                        className="link text-right justify-content-around text-blue-700 hover:text-blue-400 px-5 font-myFont md:block"
                                         style={{
-                                            display: "inline-flex",
-                                            paddingRight: "120px",
+                                            display: "inline-flex"
                                         }}
                                     >
                                         manmandirbankvita@yahoo.com
@@ -64,7 +62,7 @@ const Notice = () => {
                                 </Link>
                                 <Link to="/">
                                     <li
-                                        className="link text-right text-blue-700 hover:text-blue-400 pr-4 font-myFont md:block"
+                                        className="link text-right justify-content-around text-blue-700 hover:text-blue-400 px-5 font-myFont md:block"
                                         style={{ display: "inline-flex" }}
                                     >
                                         mmcv@manmandirbank.com
@@ -83,7 +81,6 @@ const Notice = () => {
                             CYBER SECURITY - IT DEPARTMENT
                         </h1>
                     </div>
-                    {/* <hr style={{ width: "7%", margin: "auto", height: "5px" }} /> */}
                     
                     <div className="container mx-auto">
                     <h1 className="font-myFont text-grey-200 hover:text-blue-400 text-3xl text-left py-3"
