@@ -65,7 +65,7 @@ const Notice = () => {
                                         className="link text-right justify-content-around text-blue-700 hover:text-blue-400 px-5 font-myFont md:block"
                                         style={{ display: "inline-flex" }}
                                     >
-                                        mmcv@manmandirbank.com
+                                        mmcb@manmandirbank.com
                                     </li>
                                 </Link>
                             </ul>

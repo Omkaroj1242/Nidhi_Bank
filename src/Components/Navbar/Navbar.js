@@ -194,11 +194,6 @@ export default function Example() {
                                                 Contact Us
                                             </NavLink>
                                         </li>
-                                        <li className="my_li font-myFont mb-2">
-                                            <NavLink to="/">
-                                                GSTIN Number-28DFEGY6598VGKP
-                                            </NavLink>
-                                        </li>
                                     </ul>
                                 </div>
                             </Disclosure.Button>

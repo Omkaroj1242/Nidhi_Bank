@@ -51,7 +51,7 @@ const About = () => {
                 </Carousel>
             </div>
 
-            <div className="History bg-gray-100">
+            {/* <div className="History bg-gray-100">
                 <h1 className="md:text-4xl text-3xl text-blue-900 font-myFont text-center pt-5 font-bold">
                     History
                 </h1>
@@ -191,20 +191,17 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div>
                 <div className="mb-8">
                     <div className="bg-gray-100 py-2 my-8 px-4">
-                        <p className="md:text-4xl text-3xl text-blue-900 font-myFont text-center py-8 font-bold">
-                            Existing Board Of Directors
-                        </p>
-                        {/* 4 Cards In A Row */}
+                        
                         <section id="pricing" className="pricing section-bg">
-
+                            {/* 1 Cards In A Row */}
                             <div className="row ">
                                 <div
-                                    className="col-lg-12"
+                                    className="col-lg-12 pt-5"
                                     data-aos="fade-up"
                                     data-aos-delay="100"
                                 >
@@ -217,13 +214,20 @@ const About = () => {
                                         <p className="text-sm text-black font-bold">
                                             Hon.Shri. Ashokrao (Bhau) Gaikwad
                                         </p>
-                                        <p className="text-sm text-blue-900 font-myFont pb-4">
+                                        <p className="text-sm text-blue-900 font-myFont">
                                             Founder
                                         </p>
                                     </div>
                                 </div>
                                 {/* <div className="row mb-3"></div> */}
                             </div>
+
+                            <p className="md:text-4xl text-3xl text-blue-900 font-myFont text-center py-8 font-bold">
+                            Existing Board Of Directors
+                        </p>
+                        
+
+                            {/* 4 Cards In A Row */}
                             <div className="row mb-10">
                                 <div
                                     className="col-lg-4 col-md-4"

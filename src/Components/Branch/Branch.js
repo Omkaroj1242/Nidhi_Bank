@@ -38,10 +38,10 @@ const Branch = () => {
                                         <hr />
                                         <p>
                                             IFSC Code: ICIC00MMCBL <br />
-                                            MICR Code: 416812151
+                                            MICR Code: 415812476
                                         </p>
                                         <hr />
-                                        <button class="p-1 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
+                                        <button class="ml-2 p-1 pl-5 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
                                             (02347) 273271
                                         </button>
                                         <button class="ml-2 p-1 pl-5 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
@@ -171,7 +171,7 @@ const Branch = () => {
                                             (02161) 270311
                                         </button>
                                         <button class="ml-2 p-1 pl-5 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
-                                            +91 77774030948
+                                            +91 7774030948
                                         </button>
                                     </div>
                                     <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
@@ -205,7 +205,7 @@ const Branch = () => {
                                         </h1>
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
-                                            G. M. No. 1351, Jat Road, Sankh,<br />
+                                            Gra. Mi. No. 1351, Jat Road, Sankh,<br />
                                             Tal- Jat, Dist- Sangli<br /> PIN Code: 416 412.
                                         </p>
                                         <hr />

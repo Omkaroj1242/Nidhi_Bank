@@ -66,10 +66,7 @@ const Loans = () => {
                                                 <td width="50%" class="tblifsc pl-2 font-bold">Minimum Documents / Requirements</td>
                                                 <td width="50%" class="tblifsc pl-2"><div align="left">KYC, Business Licenses, Income Tax Returns, Financial Statements, Stock Statements etc</div></td>
                                             </tr>
-                                            <tr>
-                                                <td width="50%" class="tblifsc pl-2 font-bold">Rate of Interest</td>
-                                                <td width="50%" class="tblifsc pl-2"><div align="left">11.50%</div></td>
-                                            </tr>
+
                                         </tbody>
                                     </table>
 

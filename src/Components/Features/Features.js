@@ -287,7 +287,7 @@ const Features = () => {
                                     <hr />
                                     <h4>
                                         <a href="" className="font-bold">
-                                            RTGF And NEFT Facility
+                                            RTGS And NEFT Facility
                                         </a>
                                     </h4>
                                 </div>
@@ -412,7 +412,7 @@ const Features = () => {
                                     <hr />
                                     <h4>
                                         <a href="" className="font-bold">
-                                            .5% extra interest on Senior Citizen
+                                            0.50% extra interest on Senior Citizen
                                             Deposits
                                         </a>
                                     </h4>
