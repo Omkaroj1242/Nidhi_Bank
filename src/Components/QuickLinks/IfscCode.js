@@ -38,7 +38,7 @@ const IfscCode = () => {
                                 <tr>
                                     <td class="tblifsc font-bold">IFSC CODE</td>
                                     <td class="tblifsc">:</td>
-                                    <td class="tblifsc"><div align="left">ICIC00MMCBL</div>
+                                    <td class="tblifsc"><div align="left">ICIC00MMCBL (5<sup>th</sup> and 6<sup>th</sup> character is zero)</div>
                                     </td>
                                 </tr>
                                 <tr>
