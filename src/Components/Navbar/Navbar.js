@@ -44,7 +44,7 @@ export default function Example() {
                                 to="/"
                                 className="text-white font-myFont font-bold text-xl w-full"
                             >
-                                <h2 className="mr-5 pr-5 pt-3" style={{ color: "#ffcc80"}}> Manmandir </h2>
+                                <h2 className="mr-5 pr-5 pt-4 text-dark"> Manmandir </h2>
                             </NavLink>
 
                             {/* </h1> */}
@@ -146,6 +146,12 @@ export default function Example() {
                                         ></i>
                                         02347-276438
                                     </a>
+
+
+                                    <a className="text-black font-myFont" href="/">
+                                        GSTIN Number: 27AAAAM0585H1ZM
+                                    </a>
+
                                 </ul>
                             </nav>
                         </div>
@@ -153,7 +159,8 @@ export default function Example() {
                     </div>
                     <div className="nav-header">
                         <h6 className="text-dark text-center py-1">
-                            <marquee>GSTIN Number: 27AAAAM0585H1ZM</marquee>
+                            The Manmandir Co-Operative Bank Limited- "Leading all the common people to prosperity."
+                            {/* GSTIN Number: 27AAAAM0585H1ZM */}
                         </h6>
                     </div>
                     {/* </div> */}

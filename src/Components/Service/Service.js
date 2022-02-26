@@ -8,7 +8,7 @@ const Blog = () => {
                 <div class="row  pt-4">
                     <div class="col-sm-3 col-md-3 col-lg-12">
                         <nav class="col-sm-3 col-md-3 col-lg-12">
-                            <h5 className="bg-warning pl-4 py-2">Services</h5>
+                            <h5 className="bg-dark text-light pl-4 py-2">Services</h5>
                             <ul className="bg-gray-200">
                                 <li>
                                     <NavLink

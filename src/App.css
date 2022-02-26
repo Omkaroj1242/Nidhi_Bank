@@ -233,6 +233,11 @@ a:hover {
 .nav-header {
     background: linear-gradient(to bottom right, #ffcc66 0%, #ffcccc 100%);
 }
+@media (max-width: 768px){
+    .nav-header h6{
+        font-size: 75%;
+    }
+}
 
 .nav-button {
     background: linear-gradient(to bottom right, #ffcc66 0%, #ffcccc 100%);
