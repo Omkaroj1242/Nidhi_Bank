@@ -27,28 +27,19 @@ export default function Example() {
                             </Disclosure.Button>
                         </div>
 
-                        <div className="flex">
+                        <div className="flex navbr">
                             {/* <h1 className="logo flex h-8"> */}
-                            <img
-                                src="Images/manmandir1.png"
-                                alt=""
+                            <img src="Images/manmandir1.png" alt=""
                                 style={{
-                                    height: "70px",
-                                    width: "70px",
-                                    padding: "2",
+                                    height: "65px",
+                                    width: "70px"
                                 }}
                                 className="p-3"
                             />
 
-                            <NavLink
-                                to="/"
-                                className="text-white font-myFont font-bold text-xl w-full"
-                            >
-                                <h2 className="mr-5 pr-5 pt-4 text-dark"> Manmandir </h2>
+                            <NavLink to="/" className="font-bold">
+                                <h1 className="mr-5 pr-3 pt-2 text-dark"> Manmandir </h1>
                             </NavLink>
-
-                            {/* </h1> */}
-                            {/* </div> */}
 
                             <nav id="navbar" className="navbar">
                                 <ul>
@@ -159,7 +150,7 @@ export default function Example() {
                     </div>
                     <div className="nav-header">
                         <h6 className="text-dark text-center py-1">
-                            The Manmandir Co-Operative Bank Limited- "Leading all the common people to prosperity."
+                            <b>The Manmandir Co-Operative Bank Limited-</b> "Leading all the common people to prosperity."
                             {/* GSTIN Number: 27AAAAM0585H1ZM */}
                         </h6>
                     </div>

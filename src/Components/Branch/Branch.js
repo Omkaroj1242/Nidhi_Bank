@@ -4,20 +4,23 @@ const Branch = () => {
     return (
         <div>
             <div className="container mx-auto pt-8">
-                <h1
+                {/* <h1
                     className="md:text-4xl text-3xl text-blue-900 font-myFont text-center font-bold"
                     style={{ paddingTop: "90px" }}
                 >
                     Our Branches Across Cities
-                </h1>
+                </h1> */}   
 
                 <section id="pricing" class="pricing section-bg ">
                     <div class="container mx-auto pt-4" data-aos="fade-up">
                         <div>
                             <img
                                 className="flex justify-center items-center mx-auto  img-fluid"
-                                src="Images/map.jpg"
+                                src="Images/mapfinal.jpg"
                                 alt="slide"
+                                style={{
+                                    paddingTop: "90px"
+                                }}
                             />
                         </div>
                         {/* <div class="b-example-divider"> </div> */}
@@ -56,11 +59,11 @@ const Branch = () => {
                                     <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                                         <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
                                             <i class="fas fa-map-marker text-warning"></i>{" "}
-                                            &nbsp;&nbsp; Aatpadi
+                                            &nbsp;&nbsp; Atpadi
                                         </h1>
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
-                                            Main road,Aatpadi,<br /> Tal-Aatpadi, Dist-
+                                            Main road,Atpadi,<br /> Tal-Atpadi, Dist-
                                             Sangli, <br />
                                             PIN Code: 415 401.
                                         </p>
@@ -75,6 +78,30 @@ const Branch = () => {
                                         </button>
                                         <button class="ml-2 p-1 pl-5 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
                                             +91 7774097915
+                                        </button>
+                                    </div>
+
+                                    <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+                                        <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+                                            <i class="fas fa-map-marker text-warning"></i>{" "}
+                                            &nbsp;&nbsp; Sangli
+                                        </h1>
+
+                                        <p class="text-gray-500 dark:text-gray-300 mb-1">
+                                            Saraf Katta, Sangli <br />
+                                            PIN Code: 416 416.
+                                        </p>
+                                        <hr />
+                                        <p>
+                                            IFSC Code: ICIC00MMCBL <br />
+                                            MICR Code: 416812151
+                                        </p>
+                                        <hr />
+                                        <button class="p-1 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
+                                            (0233) 2328130
+                                        </button>
+                                        <button class="ml-2 p-1 pl-5 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
+                                            +91 7774097912
                                         </button>
                                     </div>
 
@@ -99,29 +126,6 @@ const Branch = () => {
                                         </button>
                                         <button class="ml-2 p-1 pl-5 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
                                             +91 7774097913
-                                        </button>
-                                    </div>
-                                    <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-                                        <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                                            <i class="fas fa-map-marker text-warning"></i>{" "}
-                                            &nbsp;&nbsp; Sangli
-                                        </h1>
-
-                                        <p class="text-gray-500 dark:text-gray-300 mb-1">
-                                            Saraf Katta, Sangli <br />
-                                            PIN Code: 416 416.
-                                        </p>
-                                        <hr />
-                                        <p>
-                                            IFSC Code: ICIC00MMCBL <br />
-                                            MICR Code: 416812151
-                                        </p>
-                                        <hr />
-                                        <button class="p-1 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
-                                            (0233) 2328130
-                                        </button>
-                                        <button class="ml-2 p-1 pl-5 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
-                                            +91 7774097912
                                         </button>
                                     </div>
 
@@ -177,12 +181,12 @@ const Branch = () => {
                                     <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                                         <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
                                             <i class="fas fa-map-marker text-warning"></i>{" "}
-                                            &nbsp;&nbsp; Mahud 
+                                            &nbsp;&nbsp; Mahud(Bk)
                                         </h1>
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
                                             2101, Yamuna Niwas, Navi Peth,
-                                            Pandharpur-Malharpeth Road, Mahud,<br />
+                                            Pandharpur-Malharpeth Road, Mahud(Bk),<br />
                                             Dist- Solapur.<br /> PIN Code: 413 306.
                                         </p>
                                         <hr />

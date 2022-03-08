@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 
 const Faq = () => {
   return (
-    <div className="bg-gray-100">
-      <div className="container mx-auto my-10 mb-10"  style={{ paddingTop: "35px"}}>
+    <div className="bg-gray-100 pb-2">
+      <div className="container mx-auto my-10"  style={{ paddingTop: "35px"}}>
       <h1 className="text-center py-10 md:text-5xl text-3xl font-bold text-blue-900 font-myFont">Frequently Asked Questions...?</h1>
         <Accordion defaultActiveKey="0" className="w-11/12 mx-auto">
          
