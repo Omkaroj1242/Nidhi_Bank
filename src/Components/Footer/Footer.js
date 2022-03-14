@@ -30,54 +30,49 @@ const Footer = () => {
                                     </span>
                                     <ul class="list-unstyled">
                                         <li>
-                                        <NavLink
-                                        to="/service"
-                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                        
-                                        href="#services"
-                                    >
-                                         RTGS/NEFT
-                                    </NavLink>
+                                            <NavLink
+                                                to="/service"
+                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                href="#services"
+                                            >
+                                                RTGS/NEFT
+                                            </NavLink>
                                         </li>
                                         <li>
-                                        <NavLink
-                                        to="/locker"
-                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                        
-                                        href="#services"
-                                    >
-                                         Locker
-                                    </NavLink>
+                                            <NavLink
+                                                to="/locker"
+                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                href="#services"
+                                            >
+                                                Locker
+                                            </NavLink>
                                         </li>
                                         <li>
-                                        <NavLink
-                                        to="/sms"
-                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                        
-                                        href="#services"
-                                    >
-                                         SMS Banking
-                                    </NavLink>
+                                            <NavLink
+                                                to="/sms"
+                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                href="#services"
+                                            >
+                                                SMS Banking
+                                            </NavLink>
                                         </li>
                                         <li>
-                                        <NavLink
-                                        to="/abps"
-                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                        
-                                        href="#services"
-                                    >
-                                         ABPS
-                                    </NavLink>
+                                            <NavLink
+                                                to="/abps"
+                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                href="#services"
+                                            >
+                                                APBS
+                                            </NavLink>
                                         </li>
                                         <li>
-                                        <NavLink
-                                        to="/anybranch"
-                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                        
-                                        href="#services"
-                                    >
-                                         Any Branch Banking
-                                    </NavLink>
+                                            <NavLink
+                                                to="/anybranch"
+                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                href="#services"
+                                            >
+                                                Any Branch Banking
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </div>
@@ -86,52 +81,51 @@ const Footer = () => {
                                         Quick Links
                                     </span>
                                     <ul class="list-unstyled">
-                                    <li>
-                                        <NavLink
-                                        to="/ifsccode"
-                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                        
-                                        href="#quicklinks"
-                                    >
-                                         IFSC Code
-                                    </NavLink>
+                                        <li>
+                                            <NavLink
+                                                to="/ifsccode"
+                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                href="#quicklinks"
+                                            >
+                                                IFSC Code
+                                            </NavLink>
                                         </li>
                                         <li>
-                                        <NavLink
-                                        to="/rateofinterest"
-                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                        
-                                        href="#quicklinks"
-                                    >
-                                         Rate Of Interest
-                                    </NavLink>
-                                        </li><li>
-                                        <NavLink
-                                        to="/bankholidays"
-                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                        
-                                        href="#quicklinks"
-                                    >
-                                         Bank Holidays
-                                    </NavLink>
-                                        </li><li>
-                                        <NavLink
-                                        to="/kycnorms"
-                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                        
-                                        href="#quicklinks"
-                                    >
-                                         KYC Norms
-                                    </NavLink>
-                                        </li><li>
-                                        <NavLink
-                                        to="/complaint"
-                                        className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
-                                        
-                                        href="#quicklinks"
-                                    >
-                                         Complaint Regarding to Transaction
-                                    </NavLink>
+                                            <NavLink
+                                                to="/rateofinterest"
+                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                href="#quicklinks"
+                                            >
+                                                Rate Of Interest
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink
+                                                to="/bankholidays"
+                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                href="#quicklinks"
+                                            >
+                                                Bank Holidays
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink
+                                                to="/kycnorms"
+                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                href="#quicklinks"
+                                            >
+                                                KYC Norms
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink
+                                                to="/complaint"
+                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                href="#quicklinks"
+                                            >
+                                                Complaint Regarding to
+                                                Transaction
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </div>

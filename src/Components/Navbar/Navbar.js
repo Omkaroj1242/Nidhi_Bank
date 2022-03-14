@@ -29,16 +29,21 @@ export default function Example() {
 
                         <div className="flex navbr">
                             {/* <h1 className="logo flex h-8"> */}
-                            <img src="Images/manmandir1.png" alt=""
+                            <img
+                                src="Images/manmandir1.png"
+                                alt=""
                                 style={{
-                                    height: "65px",
-                                    width: "70px"
+                                    height: "45px",
+                                    width: "45px",
                                 }}
-                                className="p-3"
+                                className="m-2"
                             />
 
                             <NavLink to="/" className="font-bold">
-                                <h1 className="mr-5 pr-3 pt-2 text-dark"> Manmandir </h1>
+                                <h1 className="mr-5 pr-3 pt-2 text-dark">
+                                    {" "}
+                                    Manmandir{" "}
+                                </h1>
                             </NavLink>
 
                             <nav id="navbar" className="navbar">
@@ -138,11 +143,12 @@ export default function Example() {
                                         02347-276438
                                     </a>
 
-
-                                    <a className="text-black font-myFont" href="/">
+                                    <a
+                                        className="text-black font-myFont"
+                                        href="/"
+                                    >
                                         GSTIN Number: 27AAAAM0585H1ZM
                                     </a>
-
                                 </ul>
                             </nav>
                         </div>
@@ -150,7 +156,8 @@ export default function Example() {
                     </div>
                     <div className="nav-header">
                         <h6 className="text-dark text-center py-1">
-                            <b>The Manmandir Co-Operative Bank Limited-</b> "Leading all the common people to prosperity."
+                            <b>The Manmandir Co-Operative Bank Limited-</b>{" "}
+                            "Leading all the common people to prosperity."
                             {/* GSTIN Number: 27AAAAM0585H1ZM */}
                         </h6>
                     </div>
