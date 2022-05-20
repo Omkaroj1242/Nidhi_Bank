@@ -9,7 +9,7 @@ const Branch = () => {
                     style={{ paddingTop: "90px" }}
                 >
                     Our Branches Across Cities
-                </h1> */}   
+                </h1> */}
 
                 <section id="pricing" class="pricing section-bg ">
                     <div class="container mx-auto pt-4" data-aos="fade-up">
@@ -19,7 +19,7 @@ const Branch = () => {
                                 src="Images/mapfinal.jpg"
                                 alt="slide"
                                 style={{
-                                    paddingTop: "90px"
+                                    paddingTop: "90px",
                                 }}
                             />
                         </div>
@@ -35,7 +35,9 @@ const Branch = () => {
                                         </h1>
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
-                                            In front of ST stand,Vita, <br />Tal- Khanapur, Dist- Sangli.<br />
+                                            In front of ST stand,Vita, <br />
+                                            Tal- Khanapur, Dist- Sangli.
+                                            <br />
                                             PIN Code: 415 311
                                         </p>
                                         <hr />
@@ -53,7 +55,6 @@ const Branch = () => {
                                         <button class="ml-2 p-1 pl-5 pr-5 bg-transparent border-1 border-blue-700 text-blue-700 text-sm rounded-lg hover:bg-blue-900  focus:border-4 focus:border-blue-900">
                                             +91 8767852015
                                         </button>
-
                                     </div>
 
                                     <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
@@ -63,8 +64,9 @@ const Branch = () => {
                                         </h1>
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
-                                            Main road,Atpadi,<br /> Tal-Atpadi, Dist-
-                                            Sangli, <br />
+                                            Main road,Atpadi,
+                                            <br /> Tal-Atpadi, Dist- Sangli,{" "}
+                                            <br />
                                             PIN Code: 415 401.
                                         </p>
                                         <hr />
@@ -89,6 +91,8 @@ const Branch = () => {
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
                                             Saraf Katta, Sangli <br />
+                                            Tal- Miraj, Dist- Sangli
+                                            <br />
                                             PIN Code: 416 416.
                                         </p>
                                         <hr />
@@ -112,8 +116,9 @@ const Branch = () => {
                                         </h1>
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
-                                            Mangalwar Peth, Jat, <br /> Tal- Jat,
-                                            Dist- Sangli <br />PIN Code: 416 404
+                                            Mangalwar Peth, Jat, <br /> Tal-
+                                            Jat, Dist- Sangli <br />
+                                            PIN Code: 416 404
                                         </p>
                                         <hr />
                                         <p>
@@ -136,8 +141,11 @@ const Branch = () => {
                                         </h1>
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
-                                            Om Shiv Sagar Complex, <br />Joshi Galli,
-                                            Tasgaon,<br /> Dist- Sangli. <br />PIN Code: 416 312.
+                                            Om Shiv Sagar Complex, <br />
+                                            Joshi Galli, Tasgaon,
+                                            <br />
+                                            Tal- Tasgaon, Dist- Sangli. <br />
+                                            PIN Code: 416 312.
                                         </p>
                                         <hr />
                                         <p>
@@ -160,8 +168,8 @@ const Branch = () => {
                                         </h1>
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
-                                            Vita Road, Mayani, <br />Tal- Khatav,
-                                            Dist- Satara
+                                            Vita Road, Mayani, <br />
+                                            Tal- Khatav, Dist- Satara
                                             <br />
                                             PIN Code: 415 102
                                         </p>
@@ -186,8 +194,11 @@ const Branch = () => {
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
                                             2101, Yamuna Niwas, Navi Peth,
-                                            Pandharpur-Malharpeth Road, Mahud(Bk),<br />
-                                            Dist- Solapur.<br /> PIN Code: 413 306.
+                                            Pandharpur-Malharpeth Road,
+                                            Mahud(Bk),
+                                            <br />
+                                            Tal- Sangola, Dist- Solapur.
+                                            <br /> PIN Code: 413 306.
                                         </p>
                                         <hr />
                                         <p>
@@ -209,8 +220,10 @@ const Branch = () => {
                                         </h1>
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
-                                            Gra. Mi. No. 1351, Jat Road, Sankh,<br />
-                                            Tal- Jat, Dist- Sangli<br /> PIN Code: 416 412.
+                                            Gra. Mi. No. 1351, Jat Road, Sankh,
+                                            <br />
+                                            Tal- Jat, Dist- Sangli
+                                            <br /> PIN Code: 416 412.
                                         </p>
                                         <hr />
                                         <p>
@@ -232,9 +245,11 @@ const Branch = () => {
                                         </h1>
 
                                         <p class="text-gray-500 dark:text-gray-300 mb-1">
-                                            552, Bazar-peth, Kavathe Mahankal,<br />
-                                            Tal- Kavathe Mahankal, Dist-
-                                            Sangli<br />PIN Code: 416 405.
+                                            552, Bazar-peth, Kavathe Mahankal,
+                                            <br />
+                                            Tal- Kavathe Mahankal, Dist- Sangli
+                                            <br />
+                                            PIN Code: 416 405.
                                         </p>
                                         <hr />
                                         <p>
