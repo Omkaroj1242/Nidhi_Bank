@@ -2,13 +2,15 @@
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { NavLink } from "react-router-dom";
+import { NavDropdown } from "react-bootstrap";
+// import About from "../About/About";
 
 export default function Example() {
     return (
-        <Disclosure as="nav" className=" bg-white fixed-top">
+        <Disclosure as="nav" className="header bg-white fixed-top">
             {({ open }) => (
                 <>
-                    <div className="container relative flex  justify-between h-16 mx-1">
+                    <div className="relative flex  justify-between h-25 mx-2">
                         <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
                             {/* Mobile menu button*/}
                             <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -27,25 +29,36 @@ export default function Example() {
                             </Disclosure.Button>
                         </div>
 
-                        <div className="flex navbr">
+                        <div className="flex navbr pt-2">
                             {/* <h1 className="logo flex h-8"> */}
                             <img
-                                src="Images/manmandir1.png"
+                                src="Images/logo1.png"
                                 alt=""
                                 style={{
-                                    height: "45px",
-                                    width: "45px",
+                                    height: "65px",
+                                    // width: "100",
                                 }}
-                                className="m-2"
+                                className=""
+                            />
+                            <img
+                                src="Images/logo11.png"
+                                alt=""
+                                style={{
+                                    height: "70px",
+                                    // width: "100",
+                                }}
+                                className=""
                             />
 
-                            <NavLink to="/" className="font-bold">
+                            {/* <NavLink to="/" className="font-bold">
                                 <h1 className="mr-5 pr-3 pt-2 text-dark">
                                     {" "}
-                                    Manmandir{" "}
+                                    Shrisatya{" "}
                                 </h1>
-                            </NavLink>
+                            </NavLink> */}
+                        </div>
 
+                        <div className="flex pr-5">
                             <nav id="navbar" className="navbar">
                                 <ul>
                                     <li>
@@ -65,8 +78,14 @@ export default function Example() {
                                         >
                                             About Us
                                         </NavLink>
+                                        {/* <NavDropdown className="nav-link scrollto font-myFont" title="About Us" id="basic-nav-dropdown">
+                                            <NavDropdown.Item href="#/about">About Us</NavDropdown.Item>
+                                            <NavDropdown.Item to="">
+                                                Our Vision and Mission
+                                            </NavDropdown.Item>
+                                        </NavDropdown> */}
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <NavLink
                                             to="/personalbanking"
                                             className="nav-link scrollto font-myFont"
@@ -74,7 +93,7 @@ export default function Example() {
                                         >
                                             Personal Banking
                                         </NavLink>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <NavLink
                                             to="/service"
@@ -84,7 +103,7 @@ export default function Example() {
                                             Services
                                         </NavLink>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <NavLink
                                             to="/branch"
                                             className="nav-link scrollto font-myFont"
@@ -92,7 +111,7 @@ export default function Example() {
                                         >
                                             Branches
                                         </NavLink>
-                                    </li>
+                                    </li> */}
                                     {/* <li>
                                         <NavLink
                                             to="/plan"
@@ -130,9 +149,9 @@ export default function Example() {
                                         </NavLink>
                                     </li>
 
-                                    <a
+                                    {/* <a
                                         href="tel:02347276438"
-                                        className="text-black nav-button btn btn-sm btn-warning ml-5"
+                                        className="text-white nav-button btn btn-sm btn-warning ml-5"
                                     >
                                         <i
                                             class="fas fa-phone-alt"
@@ -141,26 +160,44 @@ export default function Example() {
                                             }}
                                         ></i>
                                         02347-276438
-                                    </a>
+                                    </a> */}
+                                    {/* <i
+                                            class="fas fa-facebook-alt"
+                                            style={{
+                                                padding: "10px",
+                                            }}
+                                        ></i> */}
+                                    <div className="flex navbar px-5">
+                                        <a style={{ fontSize: 20}} href="facebook.com" target="_blank">
+                                            <i style={{ color: "#4267B2", fontSize: 30 }} class="fa-brands fa-facebook fa-2xl"></i>
+                                        </a>
+                                        <a href="instagram.com" target="_blank">
+                                            <i style={{ color: "#fb3958", fontSize: 30 }} class="fa-brands fa-instagram fa-2xl"></i>
+                                        </a>
+                                        <a href="twitter.com" target="_blank">
+                                            <i style={{ color: "#1DA1F2", fontSize: 30 }} class="fa-brands fa-twitter fa-2xl"></i>
+                                        </a>
+                                    </div>
 
-                                    <a
+
+                                    {/* <a
                                         className="text-black font-myFont"
                                         href="/"
                                     >
                                         GSTIN Number: 27AAAAM0585H1ZM
-                                    </a>
+                                    </a> */}
                                 </ul>
                             </nav>
                         </div>
                         {/* </header> */}
                     </div>
-                    <div className="nav-header">
-                        <h6 className="text-dark text-center py-1">
-                            <b>The Manmandir Co-Operative Bank Limited-</b>{" "}
+                    {/* <div className="nav-header">
+                        <h6 className="text-center py-1">
+                            <b>Shrisatya Multipurpose Nidhi Limited-</b>{" "}
                             "Leading all the common people to prosperity."
-                            {/* GSTIN Number: 27AAAAM0585H1ZM */}
+                            GSTIN Number: 27AAAAM0585H1ZM
                         </h6>
-                    </div>
+                    </div> */}
                     {/* </div> */}
 
                     <Disclosure.Panel className="lg:hidden">
@@ -178,14 +215,14 @@ export default function Example() {
                                                 Service
                                             </NavLink>
                                         </li>
-                                        <li className="my_li font-myFont mb-2">
+                                        {/* <li className="my_li font-myFont mb-2">
                                             <NavLink to="/branch">
                                                 Branches
                                             </NavLink>
-                                        </li>
-                                        <li className="my_li font-myFont mb-2">
+                                        </li> */}
+                                        {/* <li className="my_li font-myFont mb-2">
                                             <NavLink to="/plan">Plan</NavLink>
-                                        </li>
+                                        </li> */}
                                         <li className="my_li font-myFont mb-2">
                                             <NavLink to="/faq">FAQ</NavLink>
                                         </li>

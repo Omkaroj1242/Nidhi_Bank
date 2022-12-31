@@ -4,25 +4,31 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
     return (
         <div>
-            <footer class="relative bg-gray-100 pt-8 pb-6 bg-gray-700">
+            {/* <div>
+                <img style={{ width: "100%"}} src="Images/shrisatya8.jpeg"/>
+            </div> */}
+            <footer style={{"backgroundColor": "rgba(30, 58, 138)", paddingTop: 100}} class="relative bg-gray-100 pb-6">
                 <div class="container mx-auto px-4">
                     <div class="flex flex-wrap text-left lg:text-left">
-                        <div class="w-full lg:w-6/12 px-4">
+                        <div className="w-full lg:w-3/12 px-4">
+                            <img style={{height: "200px"}} src="Images/logo1.png"></img>
+                        </div>
+                        <div class="w-full lg:w-4/12">
                             <h3
                                 className="text-3xl text-blue-600 font-myFont font-bold py-1"
-                                style={{ color: "#ffcc80" }}
+                                style={{ color: "#C21010" }}
                             >
-                                Manmandir Bank
+                                SHRISATYA MULTIPURPOSE NIDHI LID.
                             </h3>
                             <h4 class="text-3xl  text-white font-myFont py-1">
-                                Let's keep in touch!
+                            व्यवहार विश्वासाचा, व्यवहार मित्राचा
                             </h4>
-                            <h5 class="text-lg mt-0 mb-2 text-white font-myFont py-1">
+                            {/* <h5 class="text-lg mt-0 mb-2 text-white font-myFont py-1">
                                 Find us on any of these platforms, we respond
                                 1-2 business days.
-                            </h5>
+                            </h5> */}
                         </div>
-                        <div class="w-full lg:w-6/12 px-4">
+                        <div class="w-full lg:w-5/12 px-4">
                             <div class="flex flex-wrap items-top mb-6">
                                 <div class="w-1/2 lg:w-4/12 px-4 ml-auto">
                                     <span class="block uppercase text-white text-sm font-semibold pb-6">
@@ -182,9 +188,9 @@ const Footer = () => {
                     <hr className="bg-gray-100" />
                     <div class="flex flex-wrap items-center md:justify-between justify-center">
                         <div class="w-full md:w-4/12 mx-auto text-center">
-                            <div class="text-sm text-blue-100 hover:text-blue-400 font-semibold py-10 ">
-                                © <span id="get-current-year">2021 </span>
-                                Manmandir Co-op Bank Ltd. | Designed & developed
+                            <div class="text-sm text-blue-100 hover:text-blue-400 font-semibold">
+                                © <span id="get-current-year">2022 </span>
+                                Shrisatya Multipurpose Nidhi Ltd. | Designed & developed
                                 by{" "}
                                 <a href="http://5techg.com" target="_blank">
                                     5TechG Lab

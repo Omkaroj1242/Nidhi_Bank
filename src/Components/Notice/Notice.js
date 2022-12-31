@@ -9,7 +9,7 @@ const Notice = () => {
                     <div class="row border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                         <div class="col-md-2 px-2 py-2">
                             <img
-                                src="Images/manmandir1.png"
+                                src="Images/logo1.png"
                                 alt=""
                                 className="img-fluid p-0 m-0"
                             />
@@ -27,15 +27,13 @@ const Notice = () => {
                             <div className="container mx-auto flex justify-center items-center">
                                 {/* <img src="/Images/bank1.jpeg" alt="" style={{ height: "55px", width: "70px" }}/> */}
                                 <h1 className="text-center text-2xl sm:xl md:text-4xl text-black font-myFont">
-                                    The Manmandir Co-Operative Bank Limited
-                                    Vita.
+                                    Shrisatya Multipurpose Nidhi Limited
                                 </h1>
                             </div>
                             <div className="">
                                 <p className="text-black text-center text-lg pt-4 px-4">
-                                    Head office: In front of ST stand, Vita - 415 311,
-                                    Taluka-Khanapur, District-Sangli, Phone: 02347 -
-                                    276438,273271,273561.
+                                   Floor No. 02, Laxmi Keshav Complex, Kalewadi - Empire Estate Road,
+                                   Pimpri Chinchwad, Pune - 411017 (Maharashtra) India
                                 </p>
                             </div>
                             <hr className="bg-black" />
@@ -47,7 +45,7 @@ const Notice = () => {
                                             display: "inline-flex"
                                         }}
                                     >
-                                        www.manmandirbank.com
+                                        www.Shrisatya.com
                                     </li>
                                 </Link>
                                 <Link to="/">
@@ -57,17 +55,17 @@ const Notice = () => {
                                             display: "inline-flex"
                                         }}
                                     >
-                                        manmandirbankvita@yahoo.com
+                                        contact@shrisatya.com
                                     </li>
                                 </Link>
-                                <Link to="/">
+                                {/* <Link to="/">
                                     <li
                                         className="link text-right justify-content-around text-blue-700 hover:text-blue-400 px-5 font-myFont md:block"
                                         style={{ display: "inline-flex" }}
                                     >
                                         mmcb@manmandirbank.com
                                     </li>
-                                </Link>
+                                </Link> */}
                             </ul>
                         </div>
                     </div>

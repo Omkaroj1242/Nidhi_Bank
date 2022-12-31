@@ -4,12 +4,12 @@ import Service from "../Service/Service";
 
 const Rtgs_Neft = () => {
     return (
-        <div class="mb-5">
+        <div class="">
             <section style={{ paddingTop: "53px" }}>
                 <img
-                    className="flex justify-center items-center mx-auto pt-5 my_bg img-fluid"
-                    src="Images/5.jpg"
-                    style={{ height: "400px", width: "100%" }}
+                    className="flex justify-center items-center mx-auto pt-4 my_bg img-fluid"
+                    src="Images/shrisatya9.jpg"
+                    style={{ height: "500px", width: "100%" }}
                     alt="First slide"
                 />
             </section>
@@ -70,6 +70,7 @@ const Rtgs_Neft = () => {
                 </div>
             </div>
         </div>
+        
     );
 };
 

@@ -3,11 +3,13 @@ import React from "react";
 const Contact = () => {
     return (
         <section id="contact" class="contact  bg-gray-100">
-            <div className="mx-12">
-                <div class="section-title text-center">
+            <div>
+                <img style={{marginTop: 80, width: "100%"}} src="Images/shrisatya6.jpeg"/>
+            </div>
+            <div class="section-title text-center">
                     <h2
-                        className="md:text-4xl text-3xl text-blue-900 font-myFont text-center py-8 font-bold"
-                        style={{ paddingTop: "120px" }}
+                        className="md:text-4xl text-3xl text-blue-900 font-myFont text-center py-10 font-bold"
+                        // style={{ paddingTop: "120px" }}
                     >
                         Contact Us
                     </h2>
@@ -22,106 +24,117 @@ const Contact = () => {
                     ></iframe>
                 </div>
 
-                <div class="row mt-5 bg-gray-200">
-                    <div class="col-lg-4">
-                        <div class="info mt-5">
-                            <div class="address flex mb-4">
-                                <i
-                                    className="fas fa-map-marker-alt mx-4"
-                                    style={{ "font-size": "36px" }}
-                                ></i>
-                                <div>
-                                    <h4>Address:</h4>
-                                    <p>
-                                    Op. S.T. Stand, Radhakrushna Complex, Vita, Tal-Khanapur, Dist- Sangli, 415 311
-                                    </p>
-                                </div>
-                            </div>
+            <div className="">
 
-                            <div class="email flex mb-4">
-                                <i
-                                    class="fas fa-envelope mx-4"
-                                    style={{ "font-size": "36px" }}
-                                ></i>
-                                <div>
-                                    <h4>Email:</h4>
-                                    <p>mmcb@manmandirbankvita.com</p>
+                <div className="px-5" style={{"background-color": "", "width": "100%"}}>
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-12">
+                            <div class="info mt-5">
+                                <div  style={{marginTop: "20%"}} class="address flex mb-4">
+                                    <i
+                                        className="fas fa-map-marker-alt mx-4"
+                                        style={{ "font-size": "36px" }}
+                                    ></i>
+                                    <div>
+                                        <h4>Address:</h4>
+                                        <p>
+                                            Floor No. 02, Laxmi Keshav Complex, <br/>
+                                            Kalewadi - Empire Estate Road, Pimpri Chinchwad,<br/>
+                                            Pune - 411017 (Maharashtra) India
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="phone flex mb-4">
-                                <i
-                                    class="fas fa-phone-alt mx-4"
-                                    style={{ "font-size": "36px" }}
-                                ></i>
-                                <div>
-                                    <h4>Contact No:</h4>
-                                    <p>02347-276438, 273561</p>
+                                <div class="email flex mb-4">
+                                    <i
+                                        class="fas fa-envelope mx-4"
+                                        style={{ "font-size": "36px" }}
+                                    ></i>
+                                    <div>
+                                        <h4>Email:</h4>
+                                        <p style={{width: "100%"}}>contact@shrisatya.com</p>
+                                    </div>
+                                </div>
+
+                                <div class="phone flex mb-4">
+                                    <i
+                                        class="fas fa-phone-alt mx-4"
+                                        style={{ "font-size": "36px" }}
+                                    ></i>
+                                    <div>
+                                        <h4>Contact No:</h4>
+                                        <p>+91 72180 55055, +91 72183 55355</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-8 mt-5 mt-lg-0 bg-gray-200">
-                        <form
-                            action="forms/contact.php"
-                            method="post"
-                            role="form"
-                            class="php-email-form"
-                        >
-                            <div class="row">
-                                <h1 className="text-3xl text-black font-myFont py-3">
-                                    Appointment Form
-                                </h1>
-                                <div class="col-md-6 form-group">
+                        <div class="col-lg-7 col-md-7 col-sm-12 mt-5 mt-lg-0 py-5">
+                            <form
+                                action="forms/contact.php"
+                                method="post"
+                                role="form"
+                                class="php-email-form"
+                            >
+                                <div class="row">
+                                    <h2 className="md:text-3xl text-2xl text-blue-900 text-center font-myFont py-8 font-bold">
+                                        Contact Form
+                                    </h2>
+                                    <div class="col-md-6 form-group">
+                                        <input
+                                            style={{"border-radius": "12px", height: 50}}
+                                            type="text"
+                                            name="name"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Your Name"
+                                            required
+                                        />
+                                    </div>
+                                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                                        <input
+                                        style={{"border-radius": "12px", height: 50}}
+                                            type="email"
+                                            class="form-control"
+                                            name="email"
+                                            id="email"
+                                            placeholder="Your Email"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3">
                                     <input
+                                    style={{"border-radius": "12px", height: 50}}
                                         type="text"
-                                        name="name"
                                         class="form-control"
-                                        id="name"
-                                        placeholder="Your Name"
+                                        name="subject"
+                                        id="subject"
+                                        placeholder="Subject"
                                         required
                                     />
                                 </div>
-                                <div class="col-md-6 form-group mt-3 mt-md-0">
-                                    <input
-                                        type="email"
+                                <div class="form-group mt-3">
+                                    <textarea
+                                    style={{"border-radius": "12px", height: 200}}
                                         class="form-control"
-                                        name="email"
-                                        id="email"
-                                        placeholder="Your Email"
+                                        name="message"
+                                        rows="5"
+                                        placeholder="Type your message here"
                                         required
-                                    />
+                                    ></textarea>
                                 </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    name="subject"
-                                    id="subject"
-                                    placeholder="Subject"
-                                    required
-                                />
-                            </div>
-                            <div class="form-group mt-3">
-                                <textarea
-                                    class="form-control"
-                                    name="message"
-                                    rows="5"
-                                    placeholder="Message"
-                                    required
-                                ></textarea>
-                            </div>
-                            <div class="text-center">
-                                <button
-                                    type="submit"
-                                    className="btn btn-primary my-4"
-                                >
-                                    Send Message
-                                </button>
-                            </div>
-                        </form>
+                                <div class="text-center">
+                                    <button
+                                    style={{"border-radius": "12px", width: "100%", height: 50, backgroundColor: "rgba(30, 58, 138)"}}
+                                        type="submit"
+                                        className="btn btn-primary my-4"
+                                    >
+                                        Send Message
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
